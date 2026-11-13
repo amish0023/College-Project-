@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — Adaptive Study Plan{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+    <div>
+        <h1 class="h2 fw-bold text-dark mb-1">Adaptive Weekly Study Plan</h1>
+        <p class="text-secondary small mb-0">Dynamic schedule tailored to your weak topics, available hours ({{ pref.hours_per_week }}h/wk), and preferred days.</p>
+    </div>
+    <form action="{{ url_for('generate_study_plan') }}" method="POST" class="m-0">
+        <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+        <button type="submit" class="btn btn-primary rounded-pill px-4 fw-semibold shadow-sm">
+            <i class="bi bi-arrow-repeat me-1"></i>Regenerate Plan from Evidence
+        </button>
+    </form>
+</div>
+
+<!-- Section 1: Today's Tasks -->
+<div class="card card-modern p-4 mb-4">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+        <h5 class="fw-bold text-dark mb-0"><i class="bi bi-calendar-event-fill text-primary me-2"></i>TODAY'S SCHEDULE</h5>
+        <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1">{{ today_tasks|length }} Sessions</span>
+    </div>
+
+    {% for task in today_tasks %}
+    <div class="task-row {% if task.status == 'COMPLETED' %}completed{% endif %}">
+        <div class="d-flex align-items-center gap-3">
+            <form action="{{ url_for('complete_todo', task_id=task.id) }}" method="POST" class="m-0">
+                <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+                <button type="submit" class="btn btn-link p-0 text-secondary" title="Complete task">
+                    <i class="bi {% if task.status == 'COMPLETED' %}bi-check-circle-fill text-success{% else %}bi-circle{% endif %} fs-4"></i>
+                </button>
+            </form>
+            <div>
+                <div class="fw-bold text-dark">{{ task.title }}</div>
+                <small class="text-secondary">{{ task.description }} &bull; <i class="bi bi-clock me-1"></i>{{ task.duration }} mins</small>
+            </div>
+        </div>
+        <span class="badge {% if task.priority == 'HIGH' %}badge-priority-high{% elif task.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+            {{ task.priority }}
+        </span>
+    </div>
+    {% else %}
+    <p class="text-muted mb-0 small">No sessions scheduled for today. Great time to catch up on lecture notes or manual review.</p>
+    {% endfor %}
+</div>
+
+<!-- Section 2: This Week's Tasks -->
+<div class="card card-modern p-4 mb-4">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+        <h5 class="fw-bold text-dark mb-0"><i class="bi bi-calendar-week-fill text-info me-2"></i>THIS WEEK</h5>
+        <span class="badge bg-info-subtle text-info rounded-pill px-3 py-1">{{ this_week_tasks|length }} Sessions</span>
+    </div>
+
+    {% for task in this_week_tasks %}
+    <div class="task-row {% if task.status == 'COMPLETED' %}completed{% endif %}">
+        <div class="d-flex align-items-center gap-3">
+            <form action="{{ url_for('complete_todo', task_id=task.id) }}" method="POST" class="m-0">
+                <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+                <button type="submit" class="btn btn-link p-0 text-secondary">
+                    <i class="bi {% if task.status == 'COMPLETED' %}bi-check-circle-fill text-success{% else %}bi-circle{% endif %} fs-4"></i>
+                </button>
+            </form>
+            <div>
+                <div class="fw-bold text-dark">{{ task.title }}</div>
+                <small class="text-secondary">{{ task.description }} &bull; <span class="fw-semibold text-primary">Due {{ task.due_date }}</span> &bull; {{ task.duration }} mins</small>
+            </div>
+        </div>
+        <span class="badge {% if task.priority == 'HIGH' %}badge-priority-high{% elif task.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+            {{ task.priority }}
+        </span>
+    </div>
+    {% else %}
+    <p class="text-muted mb-0 small">No additional sessions queued for this week.</p>
+    {% endfor %}
+</div>
+
+<!-- Section 3: Upcoming Tasks -->
+<div class="card card-modern p-4">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+        <h5 class="fw-bold text-dark mb-0"><i class="bi bi-calendar2-range-fill text-secondary me-2"></i>UPCOMING FOCUS</h5>
+        <span class="badge bg-light text-secondary border rounded-pill px-3 py-1">{{ upcoming_tasks|length }} Sessions</span>
+    </div>
+
+    {% for task in upcoming_tasks %}
+    <div class="task-row {% if task.status == 'COMPLETED' %}completed{% endif %}">
+        <div class="d-flex align-items-center gap-3">
+            <form action="{{ url_for('complete_todo', task_id=task.id) }}" method="POST" class="m-0">
+                <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+                <button type="submit" class="btn btn-link p-0 text-secondary">
+                    <i class="bi bi-circle fs-4"></i>
+                </button>
+            </form>
+            <div>
+                <div class="fw-bold text-dark">{{ task.title }}</div>
+                <small class="text-secondary">{{ task.description }} &bull; Due {{ task.due_date }} &bull; {{ task.duration }} mins</small>
+            </div>
+        </div>
+        <span class="badge {% if task.priority == 'HIGH' %}badge-priority-high{% elif task.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+            {{ task.priority }}
+        </span>
+    </div>
+    {% else %}
+    <p class="text-muted mb-0 small">No upcoming sessions. Click "Regenerate Plan" to schedule future weeks.</p>
+    {% endfor %}
+</div>
+{% endblock %}

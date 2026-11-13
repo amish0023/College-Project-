@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — Performance Analytics{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h1 class="h2 fw-bold text-dark mb-1">Student Performance Analytics</h1>
+    <p class="text-secondary small mb-0">Multi-factor learning evidence, ML mastery assessments, and historical attempt trajectories.</p>
+</div>
+
+<!-- High-Level Overview Metrics -->
+<div class="row g-3 mb-4">
+    <div class="col-6 col-md-3">
+        <div class="card-modern">
+            <span class="metric-label">Average Score</span>
+            <div class="metric-value text-primary">{{ overall.avg_score or 0.0 }}%</div>
+            <small class="text-muted">Assessment average</small>
+        </div>
+    </div>
+    <div class="col-6 col-md-3">
+        <div class="card-modern">
+            <span class="metric-label">Average Accuracy</span>
+            <div class="metric-value text-info">{{ overall.avg_accuracy or 0.0 }}%</div>
+            <small class="text-muted">Precision rate</small>
+        </div>
+    </div>
+    <div class="col-6 col-md-3">
+        <div class="card-modern">
+            <span class="metric-label">Total Attempts</span>
+            <div class="metric-value text-warning">{{ overall.total_attempts or 0 }}</div>
+            <small class="text-muted">Quizzes submitted</small>
+        </div>
+    </div>
+    <div class="col-6 col-md-3">
+        <div class="card-modern">
+            <span class="metric-label">Active Study Time</span>
+            <div class="metric-value text-success">{{ overall.total_study_hours or 0.0 }}h</div>
+            <small class="text-muted">Recorded assessment hours</small>
+        </div>
+    </div>
+</div>
+
+<!-- Topic Mastery & Performance Table -->
+<div class="card card-modern shadow-sm border-0 p-4 mb-4">
+    <h5 class="fw-bold text-dark mb-3"><i class="bi bi-cpu-fill text-primary me-2"></i>Topic Mastery & Explainable Analytics</h5>
+    
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Subject</th>
+                    <th>Topic</th>
+                    <th>ML Mastery</th>
+                    <th>Priority Score</th>
+                    <th>Accuracy</th>
+                    <th>Attempts</th>
+                    <th>Study Time</th>
+                    <th>Improvement</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in rows %}
+                <tr>
+                    <td class="fw-semibold text-dark">{{ r.subject_name }}</td>
+                    <td>{{ r.topic_name }}</td>
+                    <td>
+                        <span class="badge {% if r.mastery == 'STRONG' %}badge-mastery-strong{% elif r.mastery == 'MODERATE' %}badge-mastery-mod{% else %}badge-mastery-weak{% endif %}">
+                            {{ r.mastery }}
+                        </span>
+                    </td>
+                    <td>
+                        <span class="badge {% if r.priority == 'HIGH' %}badge-priority-high{% elif r.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+                            {{ r.priority_score }} ({{ r.priority }})
+                        </span>
+                    </td>
+                    <td class="fw-bold text-primary">{{ r.accuracy }}%</td>
+                    <td>{{ r.attempts }}</td>
+                    <td>{{ r.time_spent }} mins</td>
+                    <td>
+                        {% if r.improvement > 0 %}
+                            <span class="text-success fw-bold">+{{ r.improvement }}%</span>
+                        {% elif r.improvement < 0 %}
+                            <span class="text-danger fw-bold">{{ r.improvement }}%</span>
+                        {% else %}
+                            <span class="text-muted">0.0%</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="8" class="text-center text-muted py-4">No topic performance records logged yet. Complete an assessment to initialize records.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Historical Attempts Table (Section 25: Never Overwrite History) -->
+<div class="card card-modern shadow-sm border-0 p-4">
+    <h5 class="fw-bold text-dark mb-3"><i class="bi bi-clock-history text-secondary me-2"></i>Assessment History (Persistent Log)</h5>
+    
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Attempt Date</th>
+                    <th>Subject & Assessment</th>
+                    <th>Score</th>
+                    <th>Accuracy</th>
+                    <th>Correct</th>
+                    <th>Duration</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for att in attempts %}
+                <tr>
+                    <td class="small text-muted">{{ att.submitted_at }}</td>
+                    <td>
+                        <div class="fw-bold text-dark">{{ att.assignment_title }}</div>
+                        <small class="text-muted">{{ att.subject_name }} &bull; {{ att.module_name }}</small>
+                    </td>
+                    <td class="fw-bold text-primary">{{ att.score }}%</td>
+                    <td class="fw-semibold text-info">{{ att.accuracy }}%</td>
+                    <td>{{ att.correct_answers }} / {{ att.correct_answers + att.incorrect_answers }}</td>
+                    <td>{{ att.time_spent_minutes }} mins</td>
+                    <td>
+                        <a href="{{ url_for('assignment_result', attempt_id=att.id) }}" class="btn btn-outline-primary btn-sm rounded-pill px-3">
+                            Review
+                        </a>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="7" class="text-center text-muted py-4">No historical attempts recorded yet.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

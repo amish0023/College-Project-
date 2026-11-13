@@ -1,0 +1,1601 @@
+student_id,subject,topic,quiz_score,accuracy,attempts,time_spent,previous_score,assignment_score,study_hours,difficulty,lecture_completion,improvement,mastery
+1004,Computer Networks,OSI Model,24.26,33.57,4,52.02,32.77,30.2,3.49,3,40.25,-2.57,0
+1194,Data Structures,Linked Lists,75.52,63.98,2,17.74,85.26,70.92,4.25,2,91.01,-14.34,1
+1187,Machine Learning,Decision Trees,22.89,0.0,4,41.75,32.82,32.29,2.49,3,57.33,-0.52,0
+1286,Artificial Intelligence,Search Algorithms,11.45,11.74,3,61.83,17.03,20.13,2.93,3,62.16,3.1,0
+1382,Operating Systems,Deadlocks,32.33,27.45,4,30.83,57.4,30.96,3.25,1,46.75,-26.44,0
+1349,Operating Systems,Deadlocks,51.18,37.76,1,33.23,58.28,53.59,4.87,1,66.99,-4.68,0
+1233,Computer Networks,Routing Protocols,42.74,30.83,3,44.82,52.43,40.14,5.46,3,65.01,-12.29,0
+1399,Database Management Systems,Indexing,4.62,0.0,2,36.58,20.32,0.32,2.63,1,37.28,-20.0,0
+1282,Data Structures,Graphs,63.72,62.39,1,21.35,81.95,64.47,6.41,2,79.61,-17.47,1
+1174,Computer Networks,TCP/IP,60.07,55.01,4,54.9,13.71,56.86,3.77,3,55.67,43.15,0
+1221,Machine Learning,Model Evaluation,30.32,23.26,4,44.84,18.19,32.62,2.97,1,15.0,14.43,0
+1237,Data Structures,Sorting,50.77,50.81,4,52.44,23.6,56.66,4.19,3,56.17,33.07,0
+1206,Computer Networks,OSI Model,45.57,45.9,4,27.5,28.44,47.67,3.01,1,42.82,19.23,0
+1300,Artificial Intelligence,Game Playing,21.19,33.37,1,38.84,18.64,26.71,1.87,1,30.33,8.07,0
+1299,Computer Networks,OSI Model,57.74,51.53,1,27.86,51.65,67.01,3.3,1,64.64,15.36,1
+1289,Machine Learning,Decision Trees,71.3,69.14,1,45.17,49.29,78.28,5.24,2,63.22,28.98,1
+1060,Artificial Intelligence,Knowledge Representation,35.7,33.55,1,39.97,54.44,24.61,5.24,3,93.21,-29.83,0
+1142,Database Management Systems,SQL Queries,60.75,54.67,1,29.93,71.56,62.59,6.74,1,85.03,-8.97,1
+1076,Database Management Systems,Transactions,53.01,65.47,1,45.41,23.31,53.78,4.52,3,46.47,30.47,0
+1122,Data Structures,Graphs,36.1,29.88,4,41.32,46.63,44.21,4.22,1,47.48,-2.42,0
+1020,Data Structures,Stack,35.53,41.81,2,40.57,44.02,37.11,4.68,3,87.84,-6.91,0
+1348,Database Management Systems,Normalization,63.15,62.6,2,20.66,66.36,67.38,6.75,1,73.95,1.02,1
+1341,Computer Networks,Network Security,18.85,31.41,2,37.19,35.37,34.53,2.44,1,21.82,-0.84,0
+1281,Artificial Intelligence,Knowledge Representation,52.58,63.77,2,42.29,61.44,51.27,3.65,3,65.4,-10.17,0
+1121,Operating Systems,Virtual Memory,42.53,34.24,3,53.28,49.01,45.76,5.79,3,49.47,-3.26,0
+1003,Data Structures,Searching,59.95,58.4,2,34.76,84.4,56.16,7.16,2,98.46,-28.24,1
+1314,Database Management Systems,Normalization,42.27,57.8,3,50.12,50.76,33.88,6.73,3,56.32,-16.88,0
+1321,Operating Systems,CPU Scheduling,50.36,50.53,2,43.44,79.44,40.87,3.9,3,67.36,-38.56,0
+1106,Machine Learning,Neural Networks,17.5,20.59,3,58.43,34.48,20.89,1.96,3,50.53,-13.59,0
+1309,Computer Networks,Transport Layer,83.05,83.39,2,19.77,99.27,73.29,5.82,2,87.6,-25.98,1
+1237,Operating Systems,CPU Scheduling,22.32,18.61,1,34.15,27.46,16.9,3.65,2,93.83,-10.55,0
+1180,Machine Learning,Model Evaluation,15.63,15.59,1,40.35,44.28,20.11,3.52,2,48.37,-24.17,0
+1368,Data Structures,Stack,69.62,67.43,1,14.19,89.13,68.42,3.18,1,96.91,-20.71,1
+1351,Artificial Intelligence,Game Playing,59.51,46.89,1,44.2,78.49,55.33,6.6,2,53.48,-23.16,0
+1376,Machine Learning,Supervised Learning,42.8,47.27,2,46.74,61.32,39.59,4.65,3,70.04,-21.73,0
+1385,Operating Systems,Virtual Memory,26.13,23.49,1,38.2,55.99,32.18,5.4,2,42.26,-23.82,0
+1124,Machine Learning,Decision Trees,39.59,53.49,1,32.28,80.36,40.13,3.81,2,71.6,-40.23,0
+1284,Artificial Intelligence,Game Playing,39.24,41.42,3,35.78,50.61,50.3,3.2,2,58.07,-0.31,0
+1142,Artificial Intelligence,Game Playing,33.73,26.88,2,23.86,50.47,35.07,4.45,2,48.32,-15.4,0
+1150,Data Structures,Queue,68.15,78.0,2,38.78,62.21,70.81,4.98,2,92.53,8.6,1
+1156,Database Management Systems,ER Model,65.94,58.67,1,40.73,56.22,75.5,6.19,2,86.44,19.28,1
+1313,Computer Networks,Network Security,17.43,23.07,4,32.9,28.98,16.69,4.52,1,62.01,-12.29,0
+1352,Database Management Systems,Normalization,50.46,53.75,2,46.71,73.58,51.35,5.17,3,81.2,-22.24,0
+1305,Database Management Systems,Transactions,18.24,30.8,1,47.76,7.45,14.13,3.73,1,23.98,6.68,0
+1118,Artificial Intelligence,Knowledge Representation,50.03,47.9,2,33.65,78.03,41.76,5.25,3,69.12,-36.27,0
+1210,Database Management Systems,Transactions,35.94,40.37,2,51.18,47.72,45.17,4.88,3,71.74,-2.55,0
+1212,Operating Systems,Process Management,47.61,56.78,1,32.43,41.23,57.02,2.62,2,57.15,15.78,0
+1312,Operating Systems,Process Management,24.19,20.28,4,50.93,21.11,38.21,4.9,1,19.72,17.11,0
+1283,Data Structures,Searching,78.05,75.32,2,19.66,62.93,78.33,6.23,1,71.79,15.4,1
+1153,Database Management Systems,ER Model,1.22,0.0,3,45.96,33.86,12.14,2.24,2,41.08,-21.72,0
+1398,Operating Systems,Virtual Memory,35.74,48.71,1,21.99,82.32,49.26,4.12,2,57.62,-33.06,0
+1052,Operating Systems,Virtual Memory,23.23,35.17,2,37.82,54.6,37.91,4.18,3,54.57,-16.69,0
+1389,Artificial Intelligence,Heuristics,25.55,35.98,4,21.72,49.13,20.65,5.42,1,15.0,-28.48,0
+1015,Artificial Intelligence,Knowledge Representation,31.55,40.78,1,21.82,45.57,38.48,4.66,1,50.4,-7.09,0
+1119,Database Management Systems,Normalization,21.78,26.27,2,46.94,41.99,19.23,1.59,3,23.94,-22.76,0
+1155,Artificial Intelligence,Heuristics,37.68,27.95,4,31.61,22.66,35.21,2.16,1,46.9,12.55,0
+1147,Computer Networks,Routing Protocols,50.41,52.48,1,50.25,58.78,51.81,5.25,3,42.87,-6.98,0
+1047,Artificial Intelligence,Heuristics,24.79,38.46,1,42.3,42.69,29.38,2.0,3,26.29,-13.31,0
+1387,Machine Learning,Neural Networks,11.24,12.89,1,28.22,60.18,13.12,2.89,1,44.84,-47.06,0
+1056,Data Structures,Trees,68.03,67.99,2,50.37,77.05,65.35,2.67,3,76.46,-11.7,1
+1050,Machine Learning,Decision Trees,58.65,54.99,1,48.15,64.27,57.88,4.02,3,89.43,-6.39,1
+1144,Artificial Intelligence,Game Playing,31.42,28.28,4,35.89,43.97,34.82,2.05,3,71.53,-9.15,0
+1328,Machine Learning,Supervised Learning,7.79,5.56,4,71.14,45.65,7.24,3.44,3,15.0,-38.41,0
+1067,Data Structures,Queue,91.68,89.53,1,38.05,80.52,96.66,9.03,3,87.1,16.14,2
+1399,Database Management Systems,ER Model,67.73,72.16,1,37.31,64.05,79.07,5.57,2,83.79,15.02,1
+1206,Computer Networks,OSI Model,13.2,4.42,1,54.87,53.81,14.31,4.65,3,41.19,-39.51,0
+1051,Data Structures,Graphs,19.12,11.64,3,42.92,44.38,19.73,2.04,3,54.62,-24.64,0
+1192,Operating Systems,Virtual Memory,68.8,58.39,3,20.28,33.92,76.57,5.4,1,71.48,42.64,1
+1148,Artificial Intelligence,Knowledge Representation,61.93,59.23,2,30.08,67.83,67.96,6.91,1,62.55,0.13,1
+1288,Artificial Intelligence,Game Playing,40.45,36.74,3,19.05,60.15,41.42,3.42,1,44.69,-18.73,0
+1016,Artificial Intelligence,Knowledge Representation,82.1,88.9,2,24.0,100.0,96.21,7.92,1,99.24,-3.79,2
+1026,Database Management Systems,SQL Queries,10.03,6.95,1,49.19,29.55,10.98,5.01,2,56.31,-18.57,0
+1307,Operating Systems,Virtual Memory,45.04,48.25,3,30.1,68.41,43.54,5.52,2,65.63,-24.87,0
+1022,Data Structures,Arrays,6.07,0.0,3,58.61,18.35,14.47,3.52,2,36.68,-3.88,0
+1046,Operating Systems,Virtual Memory,39.42,51.12,2,56.6,65.04,48.29,6.93,3,73.07,-16.75,0
+1398,Data Structures,Sorting,34.64,35.22,1,34.01,51.87,34.28,4.22,2,32.55,-17.59,0
+1297,Database Management Systems,ER Model,40.12,51.18,4,43.4,38.42,55.25,1.61,1,41.96,16.83,0
+1038,Computer Networks,Routing Protocols,50.67,39.59,3,42.27,40.61,54.32,3.46,3,61.45,13.71,0
+1078,Data Structures,Linked Lists,37.1,27.49,1,39.88,64.96,38.98,4.93,3,67.54,-25.98,0
+1324,Computer Networks,Network Security,61.5,59.82,3,44.34,64.75,69.52,4.31,3,81.83,4.78,1
+1340,Machine Learning,Neural Networks,67.68,64.93,2,45.78,48.9,77.4,5.17,3,100.0,28.5,1
+1393,Database Management Systems,Indexing,45.93,41.02,2,36.44,44.02,52.28,4.08,1,82.95,8.25,0
+1187,Data Structures,Arrays,68.62,74.33,1,53.66,90.81,76.55,5.33,3,64.59,-14.26,1
+1226,Artificial Intelligence,Game Playing,59.29,62.53,1,16.83,50.32,54.99,7.08,1,66.18,4.66,0
+1140,Database Management Systems,Normalization,33.33,20.71,1,44.61,63.88,32.7,4.13,3,72.38,-31.17,0
+1366,Operating Systems,Process Management,27.25,35.01,1,42.47,18.38,29.05,3.55,2,66.16,10.68,0
+1155,Operating Systems,CPU Scheduling,66.6,65.73,2,45.2,79.03,69.33,6.43,3,61.79,-9.69,1
+1181,Data Structures,Linked Lists,21.77,15.84,2,44.06,24.97,23.34,3.02,2,47.88,-1.63,0
+1009,Machine Learning,Supervised Learning,17.18,17.1,4,49.39,26.03,20.43,4.19,3,19.56,-5.6,0
+1094,Data Structures,Graphs,62.5,64.43,2,36.99,75.55,61.07,4.57,1,66.19,-14.47,1
+1025,Database Management Systems,ER Model,86.68,86.0,1,45.63,65.71,88.47,4.98,2,96.23,22.77,1
+1309,Operating Systems,Deadlocks,21.54,30.15,1,37.74,1.8,20.22,1.98,1,61.29,18.42,0
+1030,Operating Systems,Virtual Memory,72.87,77.12,3,50.7,38.57,62.08,2.93,1,55.43,23.51,1
+1186,Artificial Intelligence,Heuristics,40.88,41.3,1,35.84,44.37,41.32,4.98,1,24.21,-3.05,0
+1266,Machine Learning,Neural Networks,25.56,24.08,1,36.54,23.69,24.88,4.55,2,54.53,1.19,0
+1228,Operating Systems,CPU Scheduling,77.02,72.93,1,30.73,51.83,79.19,5.5,3,69.21,27.36,1
+1185,Machine Learning,Decision Trees,53.25,59.99,2,65.45,36.06,58.06,4.77,3,60.35,22.0,0
+1163,Computer Networks,OSI Model,84.44,82.54,4,34.84,18.19,79.25,3.17,1,67.24,61.06,1
+1364,Computer Networks,Network Security,25.12,24.83,3,23.73,42.23,30.66,4.77,1,60.48,-11.57,0
+1298,Data Structures,Trees,27.58,32.38,1,29.44,26.32,33.18,3.56,1,60.9,6.87,0
+1149,Computer Networks,OSI Model,31.13,24.92,1,45.21,42.81,35.04,1.22,1,71.01,-7.77,0
+1368,Operating Systems,Deadlocks,67.73,59.18,1,32.53,73.86,72.29,5.91,2,77.27,-1.57,1
+1082,Machine Learning,Supervised Learning,40.5,41.88,4,44.03,58.23,56.25,4.34,2,61.34,-1.98,0
+1111,Database Management Systems,Transactions,58.63,55.15,4,27.21,28.69,60.67,4.53,3,96.02,31.98,1
+1288,Artificial Intelligence,Game Playing,34.69,41.65,2,23.73,59.33,35.25,5.5,2,45.28,-24.07,0
+1074,Computer Networks,Routing Protocols,51.94,59.85,2,37.38,62.01,53.01,4.69,3,74.48,-9.0,0
+1154,Database Management Systems,SQL Queries,36.15,33.42,4,39.3,36.3,42.93,5.5,2,40.4,6.63,0
+1353,Computer Networks,Routing Protocols,40.59,30.29,3,41.01,60.92,27.7,2.71,2,63.4,-33.22,0
+1294,Computer Networks,Network Security,75.85,85.74,1,17.77,49.77,69.45,5.65,1,72.2,19.67,1
+1089,Operating Systems,Virtual Memory,1.37,0.0,4,45.34,27.63,2.47,3.0,3,33.08,-25.16,0
+1251,Artificial Intelligence,Knowledge Representation,31.7,38.33,3,40.3,51.5,49.6,3.62,3,20.77,-1.9,0
+1227,Artificial Intelligence,Game Playing,19.98,22.21,3,40.64,69.34,17.3,4.39,2,42.19,-52.05,0
+1368,Machine Learning,Neural Networks,75.2,77.78,1,23.37,86.01,80.75,6.63,1,97.82,-5.26,1
+1394,Database Management Systems,Transactions,53.38,48.1,2,38.15,96.33,55.94,6.93,3,82.48,-40.39,1
+1291,Data Structures,Stack,59.69,46.43,3,48.91,22.03,56.09,3.12,2,47.55,34.07,0
+1368,Artificial Intelligence,Game Playing,52.83,54.2,1,26.71,73.09,57.57,3.3,1,70.61,-15.52,1
+1128,Database Management Systems,Normalization,25.41,16.89,2,58.04,1.47,35.04,4.2,3,57.85,33.57,0
+1082,Machine Learning,Neural Networks,4.31,0.0,1,50.74,15.81,0.0,1.18,3,28.44,-15.81,0
+1112,Machine Learning,Neural Networks,36.75,37.95,4,44.98,91.45,44.54,4.74,3,72.87,-46.91,0
+1168,Computer Networks,Transport Layer,42.88,40.25,1,41.21,58.22,44.03,4.5,3,41.64,-14.18,0
+1382,Operating Systems,Process Management,43.94,39.94,1,31.35,71.07,43.53,3.08,2,79.58,-27.53,0
+1331,Computer Networks,OSI Model,42.5,41.33,2,34.79,57.48,48.17,0.5,1,69.55,-9.31,0
+1372,Data Structures,Arrays,29.05,32.64,2,47.24,52.82,31.9,3.67,2,34.71,-20.92,0
+1387,Computer Networks,OSI Model,59.49,72.02,2,26.34,52.47,64.46,5.95,2,100.0,11.99,1
+1254,Machine Learning,Neural Networks,29.63,24.86,2,36.6,42.95,30.97,2.55,1,44.71,-11.98,0
+1363,Computer Networks,Routing Protocols,12.65,3.08,4,53.9,13.72,21.69,3.45,3,23.01,7.97,0
+1310,Operating Systems,CPU Scheduling,44.07,29.67,1,33.27,73.65,47.59,6.16,2,72.9,-26.07,0
+1061,Artificial Intelligence,Heuristics,93.46,87.72,1,50.81,78.79,100.0,4.25,2,83.01,21.21,2
+1370,Database Management Systems,Indexing,38.69,37.11,4,46.55,40.11,40.17,2.34,2,65.53,0.06,0
+1292,Database Management Systems,Normalization,83.25,75.94,2,31.65,52.36,82.27,5.33,1,69.73,29.91,1
+1329,Machine Learning,Model Evaluation,62.45,74.85,2,54.15,49.0,69.1,5.92,3,59.22,20.1,1
+1211,Operating Systems,Deadlocks,65.55,58.72,2,34.2,58.63,62.95,5.74,1,100.0,4.32,1
+1208,Data Structures,Sorting,25.88,30.09,3,35.19,25.84,17.01,2.81,1,40.7,-8.83,0
+1331,Data Structures,Arrays,45.5,34.25,2,44.84,29.38,48.79,4.88,1,45.99,19.4,0
+1107,Database Management Systems,Indexing,55.54,49.59,1,33.11,95.51,49.06,5.98,2,67.74,-46.45,0
+1353,Data Structures,Trees,37.69,44.73,3,23.51,28.59,32.37,5.3,1,50.2,3.78,0
+1195,Machine Learning,Model Evaluation,76.58,76.15,2,48.83,66.66,69.77,5.7,2,84.55,3.11,1
+1158,Data Structures,Trees,35.39,39.88,3,38.38,1.82,42.3,2.62,1,51.79,40.48,0
+1212,Operating Systems,Virtual Memory,73.12,74.35,2,47.29,67.06,81.88,5.61,3,64.7,14.82,1
+1142,Database Management Systems,Indexing,26.08,30.44,4,55.09,32.1,31.97,3.45,3,36.75,-0.13,0
+1172,Database Management Systems,Transactions,65.12,65.82,2,49.87,63.26,57.99,5.94,3,68.34,-5.27,1
+1252,Machine Learning,Neural Networks,28.43,20.31,3,46.07,50.66,44.69,5.58,3,40.17,-5.97,0
+1355,Computer Networks,TCP/IP,23.4,21.54,2,34.75,30.59,23.35,2.24,3,52.6,-7.25,0
+1206,Database Management Systems,SQL Queries,24.79,17.9,4,46.01,18.61,29.5,2.41,1,37.35,10.89,0
+1221,Artificial Intelligence,Search Algorithms,71.56,80.68,2,29.56,60.57,90.1,7.04,1,89.66,29.53,1
+1054,Computer Networks,Network Security,28.27,17.6,2,47.63,29.77,36.79,4.1,3,51.36,7.02,0
+1364,Artificial Intelligence,Heuristics,67.34,76.19,2,36.0,82.6,62.97,4.86,2,69.76,-19.63,1
+1096,Database Management Systems,Normalization,25.1,6.33,2,55.25,30.08,21.54,1.3,3,50.77,-8.54,0
+1188,Database Management Systems,Transactions,78.4,84.7,1,27.5,84.1,77.34,6.59,3,88.06,-6.77,1
+1362,Computer Networks,Routing Protocols,52.64,58.25,4,36.17,45.23,58.31,3.1,3,47.46,13.09,0
+1276,Machine Learning,Supervised Learning,56.94,47.97,2,30.09,70.73,56.09,3.72,1,67.56,-14.63,0
+1254,Machine Learning,Model Evaluation,58.02,62.35,2,52.63,73.41,60.21,4.55,3,77.64,-13.2,1
+1254,Database Management Systems,ER Model,30.55,36.74,4,48.71,42.52,29.01,1.68,3,74.37,-13.52,0
+1231,Machine Learning,Supervised Learning,67.94,56.3,1,33.71,64.83,74.38,9.98,3,70.65,9.55,1
+1031,Data Structures,Queue,57.06,67.22,1,24.1,49.46,56.63,5.67,1,82.11,7.16,1
+1211,Artificial Intelligence,Knowledge Representation,28.69,11.59,1,46.58,19.43,29.53,5.78,2,33.55,10.09,0
+1356,Artificial Intelligence,Game Playing,57.03,51.44,1,40.93,82.14,68.52,3.55,2,87.92,-13.62,1
+1173,Operating Systems,Deadlocks,0.63,15.26,4,38.06,15.85,0.4,4.34,1,40.94,-15.44,0
+1353,Artificial Intelligence,Search Algorithms,30.96,32.0,1,28.58,48.91,37.02,4.65,1,67.77,-11.89,0
+1359,Machine Learning,Supervised Learning,75.4,69.47,1,35.73,75.23,69.94,6.5,3,84.51,-5.29,1
+1118,Database Management Systems,Transactions,82.03,81.04,2,11.93,88.17,80.32,5.51,1,94.12,-7.84,1
+1313,Machine Learning,Decision Trees,43.84,60.71,1,42.72,73.31,59.86,6.01,2,61.34,-13.45,1
+1072,Database Management Systems,Transactions,41.96,43.87,4,38.2,22.0,44.08,3.36,3,46.34,22.09,0
+1028,Artificial Intelligence,Knowledge Representation,50.31,54.16,2,46.32,79.4,49.44,3.4,3,75.09,-29.96,0
+1391,Database Management Systems,Transactions,100.0,96.71,2,39.89,65.39,100.0,4.45,3,66.54,34.61,2
+1328,Data Structures,Trees,79.79,82.12,2,18.99,80.19,74.88,6.24,1,99.24,-5.32,1
+1030,Computer Networks,TCP/IP,46.64,35.3,2,25.51,60.78,47.71,4.74,1,57.65,-13.07,0
+1268,Data Structures,Trees,30.48,39.66,1,53.07,61.47,38.9,7.51,3,42.28,-22.57,0
+1029,Artificial Intelligence,Knowledge Representation,80.82,83.48,1,46.34,48.39,82.52,3.61,3,91.85,34.13,1
+1077,Data Structures,Linked Lists,57.17,57.96,1,22.42,57.98,58.44,4.91,1,67.47,0.46,0
+1024,Artificial Intelligence,Game Playing,68.75,62.5,1,29.42,84.24,75.87,6.37,1,71.73,-8.37,1
+1376,Database Management Systems,SQL Queries,24.14,24.5,4,59.57,52.87,31.88,4.1,3,82.66,-20.99,0
+1073,Machine Learning,Supervised Learning,86.13,75.65,1,38.51,75.59,93.99,3.0,2,100.0,18.4,1
+1340,Machine Learning,Model Evaluation,72.21,82.11,1,39.5,79.37,82.48,5.36,3,99.43,3.11,1
+1209,Artificial Intelligence,Knowledge Representation,26.62,25.12,1,40.73,30.49,28.98,3.67,2,29.85,-1.51,0
+1076,Operating Systems,Deadlocks,35.1,30.93,1,40.18,43.99,45.93,5.01,1,50.42,1.94,0
+1072,Artificial Intelligence,Knowledge Representation,52.78,48.12,1,39.41,26.83,47.66,1.28,2,50.53,20.83,0
+1066,Artificial Intelligence,Search Algorithms,25.28,49.69,2,53.97,19.79,36.6,3.31,3,63.42,16.81,0
+1282,Operating Systems,Virtual Memory,15.58,24.16,2,45.0,46.62,22.5,1.84,1,15.85,-24.12,0
+1177,Artificial Intelligence,Heuristics,45.49,53.29,3,33.44,73.97,48.21,4.88,3,51.55,-25.76,0
+1378,Machine Learning,Supervised Learning,79.92,79.87,3,43.74,51.31,89.02,2.49,2,39.83,37.71,1
+1291,Operating Systems,Deadlocks,49.0,53.28,1,32.17,44.86,42.29,2.42,1,42.57,-2.57,0
+1091,Operating Systems,Deadlocks,69.95,75.54,1,26.53,70.05,71.73,5.74,1,70.71,1.68,1
+1375,Data Structures,Graphs,57.65,54.72,3,24.82,16.67,61.34,6.63,1,38.48,44.67,0
+1291,Machine Learning,Decision Trees,11.29,22.74,4,60.01,23.62,20.04,4.24,3,33.06,-3.58,0
+1046,Database Management Systems,Indexing,6.76,6.58,3,46.46,20.35,4.33,4.35,1,15.0,-16.01,0
+1253,Data Structures,Trees,56.6,60.42,4,29.49,62.21,64.53,7.09,1,66.11,2.32,1
+1088,Artificial Intelligence,Heuristics,36.86,38.44,3,37.57,8.53,39.12,3.12,1,38.63,30.59,0
+1050,Artificial Intelligence,Heuristics,19.75,22.97,3,63.44,16.43,25.16,2.12,3,41.95,8.74,0
+1204,Machine Learning,Model Evaluation,30.59,16.39,4,39.09,36.69,20.01,2.2,1,30.84,-16.67,0
+1357,Operating Systems,CPU Scheduling,51.01,53.1,2,37.38,53.18,48.82,4.3,2,81.37,-4.36,0
+1154,Computer Networks,TCP/IP,62.12,41.56,2,38.8,78.83,61.92,4.76,3,70.61,-16.91,0
+1217,Computer Networks,Network Security,25.94,23.2,2,52.04,20.83,31.38,2.88,3,43.65,10.56,0
+1267,Database Management Systems,Indexing,52.78,53.99,4,27.92,31.61,52.39,2.99,2,45.02,20.77,0
+1177,Computer Networks,Transport Layer,16.33,9.26,1,28.32,39.75,31.02,3.98,1,40.18,-8.73,0
+1244,Operating Systems,CPU Scheduling,35.53,51.83,2,43.96,43.18,40.57,4.45,3,39.25,-2.61,0
+1374,Machine Learning,Neural Networks,73.4,53.73,2,36.31,64.91,76.1,6.55,2,100.0,11.19,1
+1400,Operating Systems,Virtual Memory,38.07,33.39,2,41.96,81.91,39.73,3.88,3,59.62,-42.18,0
+1016,Database Management Systems,ER Model,83.15,87.25,2,28.55,87.38,80.62,5.89,1,96.62,-6.77,1
+1293,Operating Systems,Deadlocks,58.26,58.18,3,42.97,57.47,51.09,3.87,2,47.31,-6.38,0
+1141,Computer Networks,OSI Model,41.03,32.36,3,46.43,55.5,47.6,4.02,3,96.29,-7.9,0
+1145,Operating Systems,Deadlocks,41.74,40.9,3,37.0,36.34,43.37,3.97,3,42.09,7.03,0
+1308,Artificial Intelligence,Knowledge Representation,75.3,71.08,1,43.86,93.24,83.31,6.18,2,76.92,-9.93,1
+1274,Operating Systems,Virtual Memory,23.45,38.16,3,38.76,46.27,25.09,3.29,2,32.7,-21.19,0
+1115,Artificial Intelligence,Heuristics,62.86,77.38,2,30.8,70.96,65.17,4.71,2,81.07,-5.8,1
+1062,Machine Learning,Neural Networks,31.57,38.64,1,34.84,57.7,27.65,4.29,2,49.76,-30.05,0
+1390,Computer Networks,Transport Layer,59.39,50.29,1,25.89,78.79,58.85,5.69,1,57.79,-19.94,0
+1192,Data Structures,Stack,75.82,67.6,1,45.26,64.35,80.77,6.01,3,84.77,16.43,1
+1173,Machine Learning,Neural Networks,52.97,55.73,4,35.26,62.48,68.98,4.17,1,76.38,6.5,1
+1376,Operating Systems,Deadlocks,88.59,89.19,1,26.21,84.49,89.5,4.69,1,56.56,5.01,1
+1228,Data Structures,Sorting,62.17,69.95,1,41.87,51.57,59.58,3.93,3,45.56,8.0,0
+1262,Artificial Intelligence,Search Algorithms,46.3,35.22,2,26.43,42.12,47.24,5.38,2,60.29,5.12,0
+1046,Machine Learning,Decision Trees,54.27,56.56,3,55.66,34.57,59.93,4.03,2,52.69,25.36,0
+1090,Data Structures,Linked Lists,34.27,28.82,2,42.92,62.24,31.05,5.6,3,77.49,-31.2,0
+1376,Operating Systems,Process Management,85.17,85.43,2,20.35,51.47,83.94,6.58,1,100.0,32.47,1
+1031,Operating Systems,Deadlocks,26.65,11.95,2,48.43,38.63,34.55,5.15,2,51.9,-4.08,0
+1211,Operating Systems,CPU Scheduling,38.1,40.29,2,35.27,40.03,48.64,1.8,3,33.07,8.61,0
+1329,Database Management Systems,SQL Queries,26.16,35.89,2,39.55,15.95,33.14,3.75,3,50.87,17.19,0
+1026,Data Structures,Arrays,24.35,26.14,3,58.38,37.5,31.42,4.1,3,71.2,-6.07,0
+1010,Data Structures,Searching,46.63,52.04,1,48.73,62.66,43.51,4.45,2,100.0,-19.15,0
+1308,Computer Networks,Routing Protocols,32.97,34.96,4,34.41,47.16,40.01,3.52,3,44.12,-7.15,0
+1368,Machine Learning,Neural Networks,30.34,18.01,1,56.23,49.21,31.05,2.72,3,71.68,-18.16,0
+1338,Data Structures,Sorting,68.03,64.29,1,34.07,79.25,58.25,5.71,1,54.69,-21.0,1
+1311,Operating Systems,Virtual Memory,6.93,5.17,2,56.5,49.98,5.47,4.98,3,38.51,-44.51,0
+1324,Machine Learning,Model Evaluation,70.88,64.6,3,21.85,72.49,77.05,4.03,1,80.15,4.56,1
+1288,Artificial Intelligence,Heuristics,0.0,0.0,3,48.68,8.82,1.77,1.13,3,15.0,-7.05,0
+1075,Artificial Intelligence,Knowledge Representation,46.1,46.81,2,36.45,27.2,46.18,5.67,2,60.49,18.98,0
+1357,Data Structures,Graphs,86.08,85.02,2,34.25,97.88,76.1,7.77,2,79.83,-21.78,1
+1309,Data Structures,Trees,63.25,52.28,3,24.97,34.4,73.21,4.36,1,42.03,38.81,1
+1300,Artificial Intelligence,Search Algorithms,45.24,46.93,3,26.84,75.29,48.42,4.2,1,43.86,-26.87,0
+1267,Computer Networks,OSI Model,53.71,54.33,2,49.97,65.51,49.11,2.92,3,69.04,-16.4,0
+1333,Data Structures,Graphs,15.56,12.31,4,48.63,44.94,21.93,3.05,1,36.15,-23.01,0
+1395,Computer Networks,Network Security,7.31,23.37,3,36.08,11.61,14.88,3.83,1,53.12,3.27,0
+1323,Artificial Intelligence,Heuristics,42.35,52.27,1,35.89,14.95,57.38,3.6,2,61.82,42.43,0
+1286,Computer Networks,Transport Layer,59.14,57.53,1,41.16,62.55,60.8,7.25,3,77.67,-1.75,1
+1258,Machine Learning,Supervised Learning,11.67,4.67,1,42.98,20.62,7.21,2.61,2,50.24,-13.42,0
+1347,Operating Systems,Virtual Memory,38.92,43.61,3,29.02,35.66,40.7,4.27,2,51.85,5.04,0
+1372,Data Structures,Stack,56.02,48.09,1,26.5,70.22,62.69,6.27,1,60.19,-7.53,0
+1344,Database Management Systems,Normalization,49.53,57.4,4,32.67,31.14,49.7,3.3,1,41.27,18.55,0
+1316,Machine Learning,Neural Networks,10.45,9.78,2,34.47,15.63,14.67,3.79,1,29.56,-0.96,0
+1246,Machine Learning,Model Evaluation,80.63,93.54,1,30.67,75.05,72.05,5.18,1,92.91,-3.0,1
+1373,Database Management Systems,Indexing,37.72,44.06,2,27.83,74.69,45.47,3.11,1,56.22,-29.22,0
+1149,Computer Networks,TCP/IP,58.65,58.58,2,24.76,42.82,61.56,5.4,1,40.8,18.74,0
+1184,Data Structures,Queue,29.6,32.59,1,44.45,48.71,34.32,3.34,3,54.53,-14.38,0
+1325,Database Management Systems,ER Model,16.24,23.14,3,51.52,62.07,16.47,5.79,3,53.58,-45.6,0
+1265,Database Management Systems,Transactions,82.41,85.0,2,30.27,62.5,82.97,7.55,3,100.0,20.47,1
+1061,Computer Networks,OSI Model,50.66,60.21,2,49.76,44.97,52.01,3.3,3,76.41,7.04,0
+1069,Artificial Intelligence,Game Playing,72.37,73.22,1,41.84,68.34,73.26,6.32,2,92.43,4.92,1
+1311,Machine Learning,Decision Trees,47.04,46.44,3,35.92,49.37,47.36,5.28,3,83.34,-2.01,0
+1056,Database Management Systems,Indexing,21.36,14.24,1,52.03,23.07,10.89,4.39,3,40.44,-12.18,0
+1333,Database Management Systems,Transactions,0.0,0.0,1,60.84,0.0,9.34,3.86,3,15.0,9.34,0
+1393,Operating Systems,CPU Scheduling,9.71,0.0,1,38.97,32.22,6.47,3.48,2,25.87,-25.75,0
+1186,Operating Systems,Deadlocks,67.79,68.23,2,30.23,50.47,64.02,3.83,1,84.45,13.55,1
+1092,Computer Networks,Transport Layer,23.7,18.03,4,43.55,20.25,16.58,2.5,3,28.42,-3.68,0
+1174,Machine Learning,Model Evaluation,59.86,63.79,1,28.37,79.79,64.89,5.0,3,86.78,-14.9,1
+1206,Data Structures,Stack,63.19,68.4,1,25.76,83.55,66.85,4.17,2,92.45,-16.7,1
+1185,Database Management Systems,Transactions,59.8,55.72,2,51.31,48.35,65.37,2.71,2,86.14,17.02,1
+1299,Operating Systems,Virtual Memory,14.27,9.11,3,51.49,24.83,3.38,1.27,3,22.44,-21.45,0
+1276,Database Management Systems,Transactions,45.59,47.68,1,40.18,51.22,52.09,5.58,2,54.99,0.87,0
+1196,Computer Networks,Transport Layer,21.95,13.36,1,23.77,59.95,25.66,4.82,1,31.71,-34.29,0
+1244,Machine Learning,Model Evaluation,49.02,43.77,3,44.94,49.11,58.51,6.68,2,57.31,9.41,0
+1317,Artificial Intelligence,Heuristics,29.21,29.52,2,42.76,39.37,35.91,4.57,2,67.39,-3.45,0
+1262,Artificial Intelligence,Game Playing,86.04,81.99,2,47.52,68.43,84.44,1.77,3,100.0,16.01,1
+1236,Operating Systems,Virtual Memory,32.24,41.08,4,60.32,51.11,26.26,3.33,3,52.39,-24.85,0
+1206,Machine Learning,Decision Trees,81.39,79.5,2,47.38,89.25,85.94,5.48,3,83.71,-3.31,1
+1243,Database Management Systems,ER Model,61.63,54.5,1,47.62,61.71,66.06,3.11,3,57.58,4.36,0
+1185,Machine Learning,Neural Networks,38.64,41.43,1,54.24,37.7,41.63,2.72,3,55.17,3.93,0
+1397,Artificial Intelligence,Heuristics,34.09,40.45,3,43.24,31.8,45.38,5.52,3,64.02,13.59,0
+1163,Artificial Intelligence,Heuristics,49.64,54.84,1,35.68,42.56,40.84,5.68,1,53.37,-1.72,0
+1129,Operating Systems,Deadlocks,30.86,26.49,1,49.76,22.76,34.83,5.09,3,72.52,12.06,0
+1088,Data Structures,Linked Lists,72.47,69.16,2,46.73,62.16,75.74,4.71,2,69.47,13.59,1
+1289,Computer Networks,Routing Protocols,22.05,20.44,4,46.6,0.0,20.51,1.41,3,29.58,20.51,0
+1005,Operating Systems,CPU Scheduling,44.24,51.03,2,31.57,52.28,57.27,3.36,1,44.45,4.99,0
+1378,Operating Systems,Deadlocks,42.63,36.85,4,44.28,47.65,49.03,4.55,3,71.8,1.39,0
+1094,Artificial Intelligence,Heuristics,70.13,58.76,2,53.59,40.17,69.99,3.41,3,81.17,29.82,1
+1225,Artificial Intelligence,Game Playing,42.45,44.11,1,33.7,31.33,44.21,4.0,1,61.98,12.88,0
+1037,Machine Learning,Model Evaluation,61.33,70.27,1,33.53,60.81,65.74,7.71,2,87.41,4.93,1
+1166,Database Management Systems,ER Model,65.46,42.96,2,15.28,35.73,65.2,6.72,1,76.86,29.47,0
+1142,Data Structures,Trees,37.28,26.91,4,47.87,18.35,39.87,2.54,2,32.11,21.52,0
+1389,Computer Networks,Transport Layer,54.5,58.46,1,40.58,56.37,58.37,4.23,3,83.39,2.0,1
+1371,Data Structures,Stack,51.78,38.72,2,31.8,89.94,55.99,5.44,2,65.12,-33.96,0
+1152,Machine Learning,Model Evaluation,26.6,22.58,2,38.41,17.45,34.64,3.61,1,47.49,17.19,0
+1393,Computer Networks,Transport Layer,74.27,63.44,2,53.92,71.33,76.95,5.98,3,77.62,5.62,1
+1051,Data Structures,Linked Lists,54.76,59.4,1,46.62,60.03,55.32,6.26,3,91.9,-4.71,1
+1185,Computer Networks,Network Security,20.46,19.19,1,39.84,27.65,30.17,1.15,2,47.91,2.51,0
+1372,Artificial Intelligence,Search Algorithms,54.29,60.44,1,48.21,57.83,58.47,4.58,3,71.47,0.64,0
+1093,Computer Networks,TCP/IP,60.64,67.66,4,51.84,40.84,58.46,5.09,3,64.59,17.63,0
+1372,Computer Networks,Transport Layer,32.32,47.77,4,40.44,61.03,34.09,2.79,2,50.9,-26.94,0
+1154,Computer Networks,Routing Protocols,24.3,32.06,2,39.82,38.26,34.33,4.81,2,68.78,-3.94,0
+1293,Data Structures,Arrays,40.67,33.58,2,40.93,35.67,48.55,4.72,2,51.06,12.88,0
+1395,Operating Systems,CPU Scheduling,9.82,1.78,4,38.74,17.3,7.63,3.84,2,58.55,-9.66,0
+1164,Data Structures,Queue,26.03,39.86,4,55.61,36.59,28.78,4.6,3,60.22,-7.81,0
+1026,Data Structures,Sorting,60.09,64.65,3,34.35,35.2,62.86,5.8,2,63.43,27.66,1
+1221,Artificial Intelligence,Heuristics,61.06,52.82,1,29.33,49.38,67.84,5.68,1,77.22,18.46,1
+1120,Operating Systems,Deadlocks,54.66,43.3,2,40.4,80.99,59.37,4.39,2,81.67,-21.62,0
+1157,Data Structures,Arrays,15.14,25.2,1,29.2,57.29,8.98,4.76,1,28.51,-48.32,0
+1023,Database Management Systems,Indexing,29.81,12.38,2,33.97,46.76,28.79,3.53,3,72.66,-17.97,0
+1333,Machine Learning,Supervised Learning,49.01,44.14,3,38.51,55.19,54.09,4.42,2,54.4,-1.1,0
+1251,Machine Learning,Model Evaluation,23.18,23.14,2,47.13,44.74,26.3,4.96,3,47.5,-18.44,0
+1016,Artificial Intelligence,Knowledge Representation,52.48,52.02,3,40.63,93.31,56.6,2.76,1,57.94,-36.7,1
+1278,Artificial Intelligence,Game Playing,32.08,28.01,3,52.46,38.89,34.29,4.8,3,74.43,-4.6,0
+1081,Database Management Systems,Normalization,0.0,7.15,2,38.54,18.46,0.0,1.82,2,35.07,-18.46,0
+1068,Artificial Intelligence,Search Algorithms,38.93,43.51,3,32.46,42.53,52.56,4.83,2,73.44,10.02,0
+1241,Computer Networks,Network Security,27.14,30.35,4,44.08,23.6,29.54,4.97,1,52.1,5.93,0
+1316,Data Structures,Sorting,83.44,95.19,1,29.44,61.59,86.62,8.91,1,100.0,25.03,1
+1022,Operating Systems,Process Management,30.38,26.15,1,38.62,52.17,40.0,4.27,3,43.68,-12.17,0
+1238,Artificial Intelligence,Search Algorithms,73.31,87.44,1,25.86,94.3,69.2,5.02,1,82.96,-25.09,1
+1166,Artificial Intelligence,Heuristics,52.29,56.91,2,40.23,41.42,61.52,4.15,2,33.81,20.1,0
+1394,Data Structures,Linked Lists,59.59,65.99,2,13.31,25.84,59.23,3.12,1,49.8,33.39,0
+1068,Database Management Systems,Normalization,16.91,12.29,4,36.52,21.27,27.98,3.34,1,44.52,6.71,0
+1107,Operating Systems,CPU Scheduling,28.48,30.22,3,31.09,27.46,26.85,2.34,1,33.19,-0.61,0
+1305,Computer Networks,Routing Protocols,6.2,1.86,3,38.45,19.78,10.08,1.15,2,17.06,-9.71,0
+1270,Machine Learning,Neural Networks,62.21,46.83,1,39.57,45.81,70.43,4.56,2,92.18,24.62,1
+1133,Computer Networks,Network Security,63.19,84.63,2,15.89,41.73,58.1,6.01,1,60.08,16.37,1
+1321,Computer Networks,Transport Layer,60.25,44.75,1,50.57,43.47,62.79,5.06,3,66.24,19.32,0
+1035,Operating Systems,Virtual Memory,90.65,89.87,1,23.02,67.66,91.96,4.9,1,83.38,24.31,1
+1275,Artificial Intelligence,Search Algorithms,47.55,43.27,2,34.7,59.79,47.96,1.73,1,56.57,-11.83,0
+1016,Computer Networks,Routing Protocols,75.6,69.95,2,42.97,74.76,67.72,6.44,3,92.27,-7.04,1
+1191,Computer Networks,Transport Layer,38.69,26.19,4,34.17,27.39,40.1,5.97,1,29.22,12.71,0
+1175,Data Structures,Graphs,40.64,38.95,2,31.18,69.44,43.1,4.65,1,88.24,-26.34,0
+1053,Computer Networks,TCP/IP,67.91,58.43,1,26.65,55.85,83.83,4.18,1,75.89,27.97,1
+1059,Machine Learning,Decision Trees,71.38,57.89,1,35.82,65.08,71.3,5.6,2,97.37,6.21,1
+1015,Machine Learning,Neural Networks,12.81,18.68,3,50.38,34.98,22.27,2.08,2,46.75,-12.71,0
+1274,Computer Networks,Network Security,29.67,24.51,2,43.68,65.23,28.2,2.74,3,62.32,-37.03,0
+1359,Data Structures,Searching,12.29,3.61,3,42.65,26.09,14.78,3.6,1,15.0,-11.31,0
+1155,Database Management Systems,SQL Queries,63.72,75.5,1,29.33,66.51,72.39,7.05,2,71.72,5.88,1
+1340,Computer Networks,TCP/IP,57.82,47.97,3,30.05,65.81,61.19,3.81,2,56.17,-4.62,0
+1306,Data Structures,Searching,36.64,45.58,1,30.52,24.65,52.04,3.14,2,56.19,27.39,0
+1101,Data Structures,Queue,68.62,68.5,2,30.88,44.96,72.68,3.86,1,97.44,27.72,1
+1032,Artificial Intelligence,Knowledge Representation,18.44,28.99,4,47.55,40.8,19.95,2.16,2,69.98,-20.85,0
+1089,Machine Learning,Supervised Learning,69.23,61.58,2,39.63,67.36,68.79,4.9,2,89.19,1.43,1
+1337,Operating Systems,CPU Scheduling,52.41,54.46,1,46.6,77.04,56.14,6.56,2,69.51,-20.9,0
+1004,Operating Systems,Virtual Memory,69.93,78.57,2,39.3,64.3,65.72,5.75,3,67.86,1.42,1
+1374,Operating Systems,Deadlocks,68.23,67.13,2,29.83,85.53,67.41,5.12,1,90.95,-18.12,1
+1274,Computer Networks,OSI Model,64.75,63.96,2,18.57,67.77,59.59,3.06,1,47.76,-8.18,1
+1032,Artificial Intelligence,Knowledge Representation,83.51,82.17,2,34.48,41.02,89.0,3.52,2,51.36,47.97,1
+1058,Machine Learning,Supervised Learning,67.37,73.87,3,47.73,54.94,69.26,4.62,2,55.93,14.32,1
+1075,Machine Learning,Decision Trees,30.93,35.06,1,38.62,46.58,39.6,4.36,2,53.21,-6.99,0
+1086,Operating Systems,Virtual Memory,42.46,51.57,3,31.83,18.51,45.55,3.57,1,36.29,27.04,0
+1230,Computer Networks,TCP/IP,35.0,34.22,4,54.66,45.79,44.35,4.54,2,53.81,-1.44,0
+1124,Data Structures,Graphs,36.7,42.98,4,34.97,32.3,40.18,2.24,2,39.15,7.89,0
+1180,Artificial Intelligence,Heuristics,67.17,67.78,1,22.86,54.99,68.36,5.37,2,87.31,13.37,1
+1130,Artificial Intelligence,Heuristics,70.93,81.72,1,51.31,47.21,78.94,6.51,3,57.0,31.73,1
+1199,Machine Learning,Model Evaluation,47.91,45.79,1,42.18,89.22,53.1,5.77,3,63.01,-36.12,0
+1038,Database Management Systems,Indexing,56.52,67.27,4,49.5,61.79,60.22,3.97,2,65.07,-1.58,1
+1252,Data Structures,Arrays,21.11,17.28,1,35.62,20.95,28.35,2.69,3,33.17,7.41,0
+1324,Data Structures,Queue,37.42,33.42,3,28.53,54.04,21.32,3.17,1,33.95,-32.72,0
+1184,Machine Learning,Decision Trees,40.55,36.97,4,38.06,19.04,38.27,3.42,1,49.31,19.23,0
+1174,Data Structures,Queue,49.02,49.22,4,28.55,35.75,46.04,4.7,1,59.86,10.29,0
+1335,Artificial Intelligence,Game Playing,38.04,37.71,1,49.17,68.98,35.67,4.8,3,65.63,-33.31,0
+1255,Artificial Intelligence,Heuristics,8.29,21.59,1,39.55,21.11,6.75,2.64,1,33.51,-14.36,0
+1172,Machine Learning,Model Evaluation,87.51,80.75,1,33.26,94.66,88.0,4.29,2,79.11,-6.65,1
+1046,Database Management Systems,Indexing,24.4,18.66,1,47.42,49.01,33.16,3.91,1,60.78,-15.85,0
+1093,Operating Systems,CPU Scheduling,78.06,72.43,1,24.98,77.05,81.42,5.17,1,77.99,4.37,1
+1107,Machine Learning,Neural Networks,89.5,96.12,1,36.0,80.33,96.19,4.3,2,97.27,15.86,2
+1389,Operating Systems,Virtual Memory,50.69,57.87,2,30.09,45.32,54.6,3.46,1,45.71,9.27,0
+1117,Database Management Systems,ER Model,74.24,82.88,2,29.36,76.76,70.75,5.86,2,78.13,-6.01,1
+1184,Operating Systems,Process Management,60.69,53.08,2,36.25,62.19,64.34,4.03,2,60.63,2.16,0
+1118,Operating Systems,Virtual Memory,71.92,64.8,1,26.53,73.74,76.02,3.61,2,77.42,2.29,1
+1303,Computer Networks,Transport Layer,41.54,41.02,3,39.15,24.99,39.04,3.42,2,32.76,14.05,0
+1152,Operating Systems,Virtual Memory,25.45,30.85,4,51.97,0.0,36.15,3.08,2,40.76,36.15,0
+1321,Database Management Systems,Transactions,68.81,55.61,2,46.09,79.06,73.7,8.12,3,83.0,-5.36,1
+1317,Machine Learning,Decision Trees,74.85,72.18,1,36.66,94.3,85.32,6.83,3,100.0,-8.98,1
+1165,Computer Networks,TCP/IP,18.62,25.52,2,38.03,30.07,25.1,0.52,1,42.76,-4.96,0
+1345,Data Structures,Graphs,35.94,28.03,3,39.3,41.95,26.96,2.43,2,31.79,-14.99,0
+1278,Data Structures,Stack,36.57,39.73,1,37.1,42.47,41.85,6.54,2,52.4,-0.62,0
+1157,Data Structures,Queue,63.28,72.91,2,48.25,70.09,61.57,4.52,3,78.04,-8.52,1
+1363,Data Structures,Stack,61.34,57.86,3,43.91,28.66,60.93,4.15,2,52.96,32.27,0
+1084,Data Structures,Graphs,75.78,85.2,2,42.55,83.43,82.89,6.48,3,90.62,-0.54,1
+1387,Database Management Systems,Transactions,100.0,90.88,2,25.95,100.0,99.96,6.25,2,100.0,-0.04,2
+1270,Data Structures,Stack,0.0,8.89,1,53.22,23.12,0.0,2.34,3,27.57,-23.12,0
+1076,Artificial Intelligence,Search Algorithms,35.69,28.06,1,55.48,24.21,33.35,2.9,3,42.43,9.14,0
+1301,Operating Systems,Process Management,89.55,88.88,2,39.26,52.93,88.94,5.09,1,73.46,36.0,1
+1364,Computer Networks,Routing Protocols,56.24,55.59,2,19.95,82.13,58.73,5.88,1,57.79,-23.4,1
+1328,Machine Learning,Model Evaluation,58.43,53.66,1,21.7,58.56,60.16,5.91,1,82.43,1.6,1
+1382,Operating Systems,CPU Scheduling,49.93,63.33,2,38.96,78.52,53.75,4.89,2,80.71,-24.78,1
+1070,Artificial Intelligence,Game Playing,40.99,39.49,2,56.51,36.41,42.52,3.13,3,64.91,6.1,0
+1086,Machine Learning,Supervised Learning,68.82,73.47,2,39.39,46.95,72.65,2.75,2,89.74,25.69,1
+1175,Machine Learning,Neural Networks,15.74,14.14,3,53.06,23.75,19.76,2.52,3,43.47,-3.99,0
+1060,Computer Networks,Network Security,4.13,0.0,1,39.24,32.73,4.61,4.13,3,49.93,-28.12,0
+1073,Machine Learning,Decision Trees,67.6,60.31,1,33.34,55.79,69.24,5.66,2,91.2,13.45,1
+1031,Operating Systems,Process Management,78.08,73.28,1,28.13,88.73,81.75,4.14,1,100.0,-6.98,1
+1083,Data Structures,Linked Lists,87.22,84.24,2,26.97,74.23,87.66,6.92,1,94.12,13.43,1
+1372,Data Structures,Linked Lists,41.9,37.5,1,50.69,66.5,28.77,4.24,3,68.8,-37.73,0
+1064,Machine Learning,Decision Trees,41.22,21.77,4,47.41,23.85,36.81,5.74,2,39.0,12.96,0
+1116,Machine Learning,Supervised Learning,60.01,57.73,3,25.69,47.35,69.95,2.16,1,88.76,22.61,1
+1303,Operating Systems,Deadlocks,75.3,68.21,1,23.27,79.43,68.38,6.56,1,100.0,-11.05,1
+1205,Operating Systems,Process Management,47.05,44.8,2,28.91,73.33,58.39,2.74,1,81.95,-14.94,0
+1256,Computer Networks,Routing Protocols,18.64,28.02,1,35.0,13.51,18.4,2.4,1,34.7,4.89,0
+1339,Database Management Systems,SQL Queries,38.28,33.15,2,44.92,47.86,34.12,4.3,3,44.76,-13.75,0
+1091,Computer Networks,Network Security,25.89,33.41,4,35.1,48.81,24.01,3.94,1,63.5,-24.8,0
+1293,Operating Systems,Virtual Memory,74.82,75.74,2,22.27,58.13,69.07,3.47,1,73.2,10.94,1
+1195,Operating Systems,Deadlocks,79.86,84.12,1,45.65,65.1,76.11,5.09,2,69.04,11.01,1
+1276,Artificial Intelligence,Heuristics,41.25,51.76,3,37.53,36.42,47.91,3.9,1,26.18,11.49,0
+1224,Machine Learning,Model Evaluation,25.78,22.35,3,44.68,46.82,25.31,3.92,3,31.96,-21.5,0
+1272,Computer Networks,Transport Layer,28.76,26.64,3,29.96,23.77,23.04,5.71,1,69.87,-0.73,0
+1265,Machine Learning,Neural Networks,21.9,25.02,2,41.19,25.4,14.99,4.69,2,40.83,-10.41,0
+1031,Artificial Intelligence,Game Playing,67.87,57.57,2,42.79,95.04,63.11,5.12,2,71.11,-31.93,1
+1308,Artificial Intelligence,Knowledge Representation,77.68,71.67,2,29.77,85.68,82.36,4.86,2,53.09,-3.32,1
+1370,Operating Systems,Process Management,43.27,42.51,2,31.97,44.15,56.08,3.41,1,42.13,11.93,0
+1397,Operating Systems,Deadlocks,55.48,50.99,1,50.41,41.45,59.33,1.82,3,53.39,17.88,0
+1252,Operating Systems,CPU Scheduling,39.16,40.59,4,41.22,40.36,45.85,5.23,2,46.52,5.49,0
+1028,Operating Systems,CPU Scheduling,60.86,70.49,1,32.38,51.01,63.4,6.54,2,100.0,12.39,1
+1155,Machine Learning,Neural Networks,77.66,82.63,2,56.23,91.69,75.02,4.28,3,60.22,-16.67,1
+1171,Database Management Systems,Transactions,17.01,5.88,4,51.94,63.98,18.64,2.5,3,40.55,-45.34,0
+1027,Artificial Intelligence,Knowledge Representation,41.42,40.11,3,46.66,57.9,35.93,4.02,3,58.0,-21.97,0
+1164,Data Structures,Sorting,65.28,67.59,1,26.72,51.81,51.5,5.89,1,60.25,-0.32,0
+1286,Computer Networks,Routing Protocols,74.72,81.51,1,36.1,74.15,87.89,5.38,2,58.4,13.73,1
+1368,Database Management Systems,SQL Queries,12.7,5.38,2,64.97,29.7,23.63,3.88,3,48.24,-6.07,0
+1347,Database Management Systems,Normalization,62.25,73.02,2,43.97,49.43,72.87,4.41,2,60.44,23.44,1
+1049,Computer Networks,Transport Layer,30.96,41.97,4,23.33,39.2,29.29,3.53,1,58.13,-9.91,0
+1022,Artificial Intelligence,Search Algorithms,75.91,73.31,2,38.48,60.58,83.6,6.74,1,58.15,23.02,1
+1145,Operating Systems,CPU Scheduling,57.58,60.69,3,30.83,70.92,62.6,4.51,1,57.0,-8.32,1
+1118,Database Management Systems,SQL Queries,53.22,62.33,2,46.9,90.88,64.78,5.44,3,40.73,-26.1,1
+1146,Data Structures,Searching,35.26,31.96,2,37.24,69.59,44.54,4.88,1,21.98,-25.05,0
+1049,Artificial Intelligence,Heuristics,27.52,28.05,1,50.4,37.03,25.75,4.86,3,52.2,-11.28,0
+1319,Data Structures,Graphs,63.63,54.8,1,23.75,67.24,62.34,4.89,1,89.01,-4.9,1
+1084,Data Structures,Linked Lists,44.88,40.84,4,57.27,69.01,49.11,5.83,3,69.11,-19.9,0
+1251,Database Management Systems,ER Model,36.43,29.96,1,37.8,41.04,37.16,4.41,2,35.48,-3.88,0
+1332,Data Structures,Sorting,45.96,43.9,2,46.93,49.55,48.73,4.56,2,53.83,-0.82,0
+1152,Computer Networks,OSI Model,58.66,52.25,2,35.61,61.5,69.72,5.63,2,63.1,8.23,1
+1202,Operating Systems,Deadlocks,52.67,48.73,4,39.91,54.21,54.6,5.18,2,48.52,0.39,0
+1345,Artificial Intelligence,Game Playing,0.0,15.03,1,49.48,26.91,3.52,2.48,3,15.0,-23.39,0
+1346,Artificial Intelligence,Game Playing,31.73,20.66,3,41.13,65.55,34.42,1.21,3,36.95,-31.13,0
+1079,Artificial Intelligence,Heuristics,55.97,55.16,2,32.31,39.06,58.39,5.65,2,86.91,19.33,0
+1213,Operating Systems,CPU Scheduling,85.35,79.75,1,20.45,56.02,90.76,3.61,1,72.91,34.73,1
+1217,Machine Learning,Supervised Learning,54.73,36.24,1,27.65,75.21,66.71,4.78,2,58.85,-8.5,0
+1177,Operating Systems,Process Management,47.24,39.12,1,34.33,51.45,51.29,5.91,2,56.01,-0.16,0
+1083,Computer Networks,Transport Layer,37.78,43.06,3,28.42,30.11,47.91,4.59,1,73.59,17.8,0
+1025,Database Management Systems,Normalization,51.57,56.74,4,30.61,53.74,39.74,4.73,1,29.57,-14.0,0
+1286,Computer Networks,OSI Model,59.98,70.14,2,31.01,64.27,42.96,4.97,1,63.49,-21.32,0
+1313,Artificial Intelligence,Search Algorithms,28.78,34.99,1,62.9,65.07,16.12,2.96,3,19.51,-48.96,0
+1104,Database Management Systems,SQL Queries,82.03,72.66,2,21.16,58.89,86.42,5.64,1,83.63,27.53,1
+1386,Operating Systems,Deadlocks,31.99,22.66,3,38.54,30.08,41.22,2.81,2,54.77,11.14,0
+1396,Operating Systems,Virtual Memory,61.67,44.19,1,37.78,69.21,54.04,6.51,2,98.46,-15.17,0
+1359,Artificial Intelligence,Heuristics,22.9,20.22,3,39.83,43.7,16.31,4.07,3,44.93,-27.39,0
+1333,Data Structures,Trees,18.15,24.68,4,42.42,37.06,26.54,2.99,3,46.59,-10.52,0
+1267,Machine Learning,Model Evaluation,20.24,10.34,2,52.75,51.73,21.28,5.5,3,36.74,-30.45,0
+1064,Computer Networks,Network Security,71.32,48.01,2,33.93,100.0,74.94,5.82,2,87.23,-25.06,1
+1367,Artificial Intelligence,Search Algorithms,47.64,47.36,2,37.41,36.59,41.72,4.6,2,70.86,5.13,0
+1067,Data Structures,Graphs,45.23,48.01,1,31.85,47.71,44.54,5.9,3,45.02,-3.17,0
+1375,Computer Networks,Network Security,26.31,16.49,4,39.07,62.1,24.0,1.94,3,74.75,-38.1,0
+1149,Artificial Intelligence,Search Algorithms,16.59,0.0,4,65.03,41.37,8.52,3.78,3,42.91,-32.85,0
+1379,Machine Learning,Neural Networks,24.17,25.93,3,47.95,34.51,20.03,2.41,2,48.96,-14.48,0
+1236,Operating Systems,Virtual Memory,43.36,49.99,1,33.65,72.8,51.11,4.84,3,61.41,-21.69,0
+1085,Data Structures,Sorting,83.82,64.33,2,31.82,79.48,81.97,4.1,2,66.74,2.49,1
+1010,Computer Networks,OSI Model,24.16,17.04,2,50.92,42.42,33.54,4.02,3,47.15,-8.88,0
+1013,Operating Systems,Process Management,4.92,20.21,1,50.32,13.62,10.25,3.47,3,20.16,-3.37,0
+1200,Database Management Systems,Normalization,78.71,75.14,1,42.06,57.03,94.96,5.51,2,74.19,37.94,1
+1034,Computer Networks,Network Security,62.24,59.27,1,24.79,37.8,66.2,6.26,1,70.66,28.4,1
+1277,Machine Learning,Supervised Learning,75.69,83.04,1,32.3,44.01,66.74,5.19,1,74.26,22.73,1
+1180,Computer Networks,Routing Protocols,80.56,88.94,2,41.93,89.23,79.76,5.44,3,85.79,-9.47,1
+1363,Artificial Intelligence,Search Algorithms,68.1,64.29,2,27.61,12.59,59.3,2.79,1,63.11,46.71,0
+1361,Data Structures,Stack,30.63,31.74,2,33.9,68.65,32.66,5.67,3,30.06,-35.99,0
+1357,Artificial Intelligence,Search Algorithms,62.09,51.56,2,51.58,80.19,57.47,3.92,3,100.0,-22.71,1
+1019,Machine Learning,Neural Networks,95.4,91.22,1,41.53,100.0,100.0,5.77,1,100.0,0.0,2
+1034,Database Management Systems,Transactions,18.59,18.97,2,27.25,19.49,16.43,3.86,1,58.22,-3.06,0
+1002,Artificial Intelligence,Knowledge Representation,16.52,28.34,3,31.69,21.49,16.82,0.5,1,36.67,-4.68,0
+1354,Artificial Intelligence,Heuristics,64.39,64.65,1,30.17,80.15,67.24,5.99,1,71.06,-12.91,1
+1243,Machine Learning,Supervised Learning,50.89,49.28,2,47.37,58.62,53.43,4.11,3,68.95,-5.19,0
+1356,Database Management Systems,ER Model,48.51,41.06,1,43.72,53.98,52.34,3.58,3,59.06,-1.64,0
+1338,Data Structures,Linked Lists,29.51,34.27,4,51.67,38.01,26.59,4.95,3,67.69,-11.42,0
+1304,Computer Networks,Network Security,58.56,49.94,1,33.03,86.79,58.71,6.64,1,48.93,-28.08,0
+1184,Artificial Intelligence,Game Playing,88.34,94.77,2,17.18,67.46,92.27,5.03,1,76.17,24.81,2
+1328,Machine Learning,Supervised Learning,54.56,57.92,4,34.5,41.7,62.62,2.57,3,42.93,20.92,0
+1022,Computer Networks,Routing Protocols,28.04,25.85,1,38.32,24.33,35.14,4.06,3,81.83,10.81,0
+1016,Operating Systems,CPU Scheduling,49.11,35.77,1,37.06,48.06,46.79,3.67,1,30.31,-1.27,0
+1092,Machine Learning,Supervised Learning,66.89,68.1,2,24.67,60.58,73.48,5.93,1,70.57,12.9,1
+1320,Artificial Intelligence,Heuristics,36.95,41.62,3,41.15,24.5,33.41,2.65,2,41.19,8.91,0
+1301,Database Management Systems,Normalization,77.47,73.95,1,33.56,63.95,85.25,5.25,1,60.42,21.3,1
+1331,Data Structures,Trees,33.66,30.06,1,40.47,0.0,41.56,3.44,1,61.69,41.56,0
+1333,Artificial Intelligence,Knowledge Representation,38.86,32.54,2,36.17,54.99,41.01,3.34,3,83.91,-13.98,0
+1118,Operating Systems,CPU Scheduling,38.86,51.7,1,45.7,39.49,40.79,2.91,2,32.39,1.3,0
+1184,Operating Systems,Virtual Memory,58.67,58.41,4,40.05,38.82,62.0,5.96,2,77.31,23.18,1
+1071,Database Management Systems,ER Model,79.36,84.4,2,30.44,77.38,78.93,6.29,1,86.25,1.54,1
+1371,Machine Learning,Model Evaluation,67.51,79.13,1,33.91,97.72,70.16,5.71,2,100.0,-27.56,1
+1072,Operating Systems,Virtual Memory,67.08,79.76,2,31.62,50.88,67.75,5.14,2,74.41,16.87,1
+1017,Machine Learning,Decision Trees,42.53,43.52,3,40.82,17.93,35.37,3.85,2,47.26,17.44,0
+1284,Operating Systems,CPU Scheduling,39.91,41.04,3,36.05,58.0,50.24,4.87,2,75.94,-7.76,0
+1168,Database Management Systems,ER Model,35.91,34.27,1,42.37,29.71,35.98,3.36,2,48.02,6.27,0
+1351,Data Structures,Sorting,15.97,21.17,3,36.3,40.04,9.91,2.09,1,52.2,-30.13,0
+1234,Database Management Systems,Indexing,13.6,3.44,1,39.34,57.66,17.55,5.72,2,36.15,-40.12,0
+1123,Database Management Systems,Transactions,20.69,23.95,1,26.12,48.73,17.67,0.92,1,52.44,-31.06,0
+1107,Operating Systems,Virtual Memory,51.2,51.53,3,43.87,57.86,46.1,4.53,3,80.82,-11.76,0
+1249,Artificial Intelligence,Game Playing,72.72,74.8,1,44.09,88.03,74.68,4.8,2,74.58,-13.35,1
+1380,Operating Systems,CPU Scheduling,20.82,21.56,1,42.21,54.31,23.83,4.4,2,75.76,-30.48,0
+1027,Database Management Systems,Transactions,42.62,36.46,1,43.28,54.35,42.86,2.58,2,56.76,-11.49,0
+1050,Database Management Systems,SQL Queries,65.08,66.43,1,27.3,62.43,67.26,4.51,1,78.37,4.83,1
+1089,Operating Systems,Process Management,53.67,40.49,1,37.17,95.91,50.66,6.09,2,75.45,-45.25,0
+1256,Database Management Systems,ER Model,35.52,33.48,2,35.2,65.44,39.16,5.75,3,80.18,-26.29,0
+1196,Artificial Intelligence,Heuristics,29.48,9.05,1,37.88,66.06,30.36,2.73,2,67.04,-35.71,0
+1192,Data Structures,Queue,32.83,28.1,2,28.7,30.01,43.99,4.09,1,49.41,13.98,0
+1013,Database Management Systems,Indexing,50.35,61.66,4,28.81,45.15,52.83,4.09,2,65.76,7.68,0
+1252,Data Structures,Queue,28.1,34.87,2,47.12,42.98,24.88,4.09,3,46.81,-18.1,0
+1126,Database Management Systems,Normalization,25.35,20.16,4,36.7,38.82,21.03,2.02,1,45.24,-17.79,0
+1259,Artificial Intelligence,Heuristics,47.11,54.3,2,40.91,68.49,47.39,5.83,2,89.3,-21.1,0
+1233,Operating Systems,Process Management,77.09,73.34,1,31.76,75.6,71.68,5.48,2,74.53,-3.92,1
+1203,Artificial Intelligence,Game Playing,51.22,60.61,3,16.68,47.92,53.79,3.99,1,70.43,5.87,0
+1353,Data Structures,Linked Lists,46.58,26.57,3,28.02,43.89,49.91,2.71,2,65.8,6.02,0
+1349,Database Management Systems,Normalization,51.66,43.48,2,38.13,76.48,47.05,5.65,2,60.21,-29.43,0
+1219,Database Management Systems,ER Model,40.67,36.65,2,27.54,10.95,31.61,3.69,1,46.13,20.66,0
+1158,Operating Systems,Process Management,28.41,25.93,2,38.35,29.79,33.17,3.49,1,49.88,3.38,0
+1096,Operating Systems,Deadlocks,30.02,33.97,1,50.46,41.42,24.95,1.46,3,40.81,-16.47,0
+1052,Data Structures,Stack,51.71,50.48,2,22.91,36.26,59.12,3.93,1,59.57,22.87,0
+1194,Operating Systems,Deadlocks,4.68,7.98,2,27.87,24.87,24.59,4.37,2,22.74,-0.28,0
+1359,Data Structures,Searching,38.17,39.79,1,54.17,13.56,39.55,2.71,3,39.06,25.98,0
+1348,Operating Systems,Virtual Memory,81.38,77.52,1,44.24,100.0,89.02,7.03,3,90.09,-10.98,1
+1100,Data Structures,Graphs,38.48,26.89,1,37.49,85.08,41.8,3.49,2,58.97,-43.28,0
+1277,Artificial Intelligence,Search Algorithms,57.4,34.13,4,32.76,39.46,66.11,4.97,1,44.31,26.65,0
+1132,Data Structures,Linked Lists,22.79,29.21,4,44.25,32.33,22.49,2.22,2,36.77,-9.84,0
+1377,Computer Networks,Transport Layer,54.01,64.35,3,29.56,39.1,57.96,2.95,1,64.84,18.86,0
+1189,Operating Systems,CPU Scheduling,59.56,65.15,2,31.45,46.8,65.09,3.51,1,74.43,18.29,1
+1114,Machine Learning,Supervised Learning,34.15,33.26,2,57.81,31.13,30.17,1.91,3,20.41,-0.97,0
+1150,Artificial Intelligence,Search Algorithms,62.6,60.2,2,41.83,51.2,60.16,4.1,3,64.7,8.96,0
+1348,Artificial Intelligence,Search Algorithms,44.97,58.97,1,28.92,31.99,49.98,3.19,1,74.75,17.99,0
+1028,Artificial Intelligence,Knowledge Representation,43.53,48.49,2,32.18,52.76,40.82,6.48,2,61.05,-11.94,0
+1348,Database Management Systems,Transactions,63.27,77.26,2,51.96,73.81,68.19,5.17,3,46.15,-5.62,1
+1322,Artificial Intelligence,Heuristics,85.58,86.7,2,11.11,100.0,89.36,3.61,1,57.97,-10.64,1
+1189,Machine Learning,Decision Trees,88.84,88.18,2,44.79,54.17,96.5,5.57,3,84.04,42.33,1
+1167,Operating Systems,Deadlocks,1.71,5.57,4,50.68,28.12,9.98,3.65,3,63.04,-18.14,0
+1093,Computer Networks,Transport Layer,15.3,1.53,1,44.93,22.46,24.44,3.51,1,18.08,1.97,0
+1279,Computer Networks,TCP/IP,23.68,24.95,1,47.7,26.88,24.39,2.37,3,49.82,-2.49,0
+1023,Data Structures,Trees,8.55,8.96,2,39.01,27.8,27.77,2.42,3,33.96,-0.03,0
+1333,Database Management Systems,Indexing,48.38,56.1,1,42.04,51.83,56.43,3.91,3,38.7,4.6,0
+1223,Computer Networks,TCP/IP,16.97,8.42,2,26.48,22.95,17.26,2.58,1,35.23,-5.69,0
+1116,Computer Networks,OSI Model,50.53,45.7,2,45.62,54.28,48.14,4.1,3,72.25,-6.15,0
+1093,Machine Learning,Model Evaluation,69.96,62.37,1,18.66,59.47,61.98,4.17,1,48.82,2.51,1
+1372,Operating Systems,CPU Scheduling,40.44,42.77,4,36.06,57.49,45.03,3.34,2,74.66,-12.46,0
+1157,Operating Systems,Virtual Memory,31.3,32.59,2,29.92,48.61,40.26,3.09,1,41.49,-8.35,0
+1218,Artificial Intelligence,Heuristics,79.2,78.78,2,26.46,74.28,73.58,5.31,1,100.0,-0.7,1
+1271,Artificial Intelligence,Search Algorithms,75.04,74.2,2,37.05,76.93,70.43,5.79,2,92.57,-6.49,1
+1061,Machine Learning,Supervised Learning,55.89,63.03,2,44.38,47.36,56.86,2.54,2,89.75,9.5,1
+1096,Machine Learning,Supervised Learning,36.46,36.77,1,43.48,19.54,33.56,6.01,2,70.96,14.03,0
+1154,Computer Networks,Network Security,64.73,78.42,3,31.87,24.61,67.17,5.49,1,61.74,42.56,1
+1381,Operating Systems,Virtual Memory,71.01,71.62,3,29.02,62.11,72.27,5.09,1,70.82,10.17,1
+1205,Artificial Intelligence,Knowledge Representation,43.71,47.61,3,34.05,21.25,36.67,1.42,1,52.22,15.42,0
+1249,Data Structures,Stack,71.7,69.3,1,19.33,74.9,76.76,4.63,1,78.72,1.86,1
+1053,Database Management Systems,Normalization,0.0,6.03,4,48.17,27.68,1.84,4.61,2,42.88,-25.85,0
+1209,Computer Networks,TCP/IP,75.71,80.88,1,26.53,84.27,78.4,5.96,1,92.51,-5.87,1
+1021,Operating Systems,Process Management,59.92,71.74,2,36.64,66.63,58.61,4.95,2,68.2,-8.02,1
+1186,Machine Learning,Supervised Learning,1.94,7.09,2,48.17,43.48,4.75,1.16,2,41.47,-38.72,0
+1336,Machine Learning,Decision Trees,70.45,79.44,1,62.9,36.56,79.68,5.53,3,88.86,43.12,1
+1368,Database Management Systems,Indexing,35.28,41.49,2,37.52,65.11,45.15,5.8,3,72.41,-19.96,0
+1380,Computer Networks,OSI Model,18.63,20.32,1,37.98,14.61,21.96,1.47,1,34.36,7.35,0
+1005,Data Structures,Stack,64.05,56.09,1,39.92,51.8,65.53,3.68,2,73.7,13.73,1
+1021,Computer Networks,Routing Protocols,59.57,59.11,1,38.89,79.57,64.58,5.77,2,70.94,-14.99,1
+1314,Data Structures,Queue,58.61,67.53,2,29.13,67.66,58.9,5.04,1,74.82,-8.76,1
+1335,Machine Learning,Decision Trees,39.83,53.59,1,37.32,66.43,40.44,2.41,2,44.27,-25.99,0
+1048,Operating Systems,CPU Scheduling,37.91,25.41,4,46.34,54.47,42.35,1.71,2,45.52,-12.13,0
+1126,Database Management Systems,SQL Queries,75.04,80.06,2,33.79,37.74,68.7,4.36,1,82.45,30.96,1
+1074,Database Management Systems,ER Model,49.71,50.56,2,31.69,62.57,58.5,4.51,3,75.89,-4.07,0
+1279,Data Structures,Queue,51.47,46.98,3,26.03,31.14,54.7,4.31,1,65.4,23.56,0
+1351,Data Structures,Trees,90.08,100.0,1,25.97,75.38,98.34,5.19,1,55.42,22.96,2
+1092,Data Structures,Trees,67.21,55.57,1,43.3,75.67,79.7,4.07,2,82.49,4.03,1
+1077,Artificial Intelligence,Knowledge Representation,79.72,90.54,1,29.71,53.55,74.37,5.69,3,79.16,20.82,1
+1164,Data Structures,Linked Lists,18.57,22.91,2,55.95,2.71,24.75,3.81,3,15.0,22.04,0
+1384,Artificial Intelligence,Heuristics,23.69,21.61,4,33.86,53.23,28.26,1.93,2,40.46,-24.98,0
+1072,Data Structures,Graphs,36.46,50.02,3,56.36,37.33,46.89,1.99,3,51.01,9.56,0
+1028,Operating Systems,CPU Scheduling,44.8,60.39,1,29.89,21.7,45.14,2.47,1,41.3,23.43,0
+1381,Database Management Systems,ER Model,82.72,91.9,2,26.73,76.86,88.34,6.59,1,71.92,11.48,1
+1233,Artificial Intelligence,Search Algorithms,10.35,1.85,4,48.23,28.48,13.99,3.76,2,42.43,-14.49,0
+1382,Database Management Systems,SQL Queries,35.76,39.66,1,33.21,5.7,40.69,4.66,1,35.1,34.99,0
+1278,Operating Systems,Virtual Memory,21.01,23.92,3,39.88,33.09,27.52,4.01,1,54.84,-5.57,0
+1024,Database Management Systems,Indexing,74.51,71.87,1,13.78,73.56,92.83,4.88,1,84.79,19.27,1
+1013,Computer Networks,TCP/IP,45.16,43.12,1,47.21,9.29,52.18,1.15,2,44.36,42.89,0
+1335,Machine Learning,Decision Trees,46.88,32.98,2,40.12,49.36,38.33,2.9,1,61.13,-11.03,0
+1039,Operating Systems,CPU Scheduling,29.72,28.88,2,32.62,51.41,29.62,3.69,2,39.35,-21.8,0
+1364,Data Structures,Searching,25.95,25.1,3,35.62,14.02,30.11,3.05,1,55.6,16.08,0
+1320,Operating Systems,CPU Scheduling,62.02,66.99,1,32.78,62.64,57.0,3.78,1,90.66,-5.64,1
+1193,Artificial Intelligence,Search Algorithms,62.96,66.09,1,44.34,74.85,55.96,5.85,3,84.12,-18.89,1
+1169,Operating Systems,Process Management,66.28,61.03,2,41.98,66.95,76.63,5.05,2,50.07,9.69,1
+1308,Artificial Intelligence,Game Playing,23.69,28.72,2,36.22,22.75,31.29,3.03,1,26.82,8.55,0
+1028,Machine Learning,Decision Trees,76.54,84.53,2,32.23,63.0,72.57,4.04,1,71.3,9.57,1
+1200,Database Management Systems,Normalization,23.87,10.22,4,35.71,50.39,23.55,4.89,2,37.04,-26.84,0
+1163,Database Management Systems,SQL Queries,53.8,40.75,4,48.98,54.59,54.41,5.96,3,100.0,-0.18,0
+1086,Data Structures,Searching,19.85,17.93,2,26.71,21.52,21.08,4.12,1,39.57,-0.44,0
+1278,Artificial Intelligence,Search Algorithms,77.61,71.9,2,26.54,67.44,85.89,4.4,2,78.35,18.45,1
+1051,Operating Systems,Virtual Memory,67.95,60.39,4,30.29,64.83,68.39,3.22,2,72.85,3.56,1
+1241,Operating Systems,Process Management,23.91,25.26,4,54.66,32.86,22.17,2.37,3,20.86,-10.69,0
+1213,Machine Learning,Decision Trees,67.02,65.63,4,46.35,45.56,80.43,4.24,3,59.04,34.88,1
+1066,Machine Learning,Neural Networks,70.9,92.43,1,37.11,53.55,75.94,5.58,1,100.0,22.4,1
+1166,Database Management Systems,ER Model,45.47,35.97,2,44.75,74.8,39.74,4.75,3,58.43,-35.06,0
+1096,Computer Networks,TCP/IP,52.62,50.82,4,35.0,28.38,64.26,2.32,1,37.6,35.88,0
+1063,Database Management Systems,Transactions,33.7,44.02,1,51.43,43.28,32.35,5.98,2,39.97,-10.93,0
+1231,Database Management Systems,Transactions,56.37,65.39,4,40.23,31.03,66.48,4.48,1,40.1,35.45,0
+1012,Machine Learning,Model Evaluation,72.18,66.1,1,40.36,81.03,73.55,6.33,3,74.57,-7.48,1
+1151,Database Management Systems,ER Model,61.17,57.29,1,39.9,70.98,62.58,4.3,2,78.48,-8.4,1
+1160,Database Management Systems,SQL Queries,77.63,73.47,1,19.9,62.15,64.61,3.42,1,78.47,2.46,1
+1231,Operating Systems,Virtual Memory,5.53,0.0,3,56.14,0.95,0.52,4.72,3,39.1,-0.43,0
+1191,Artificial Intelligence,Knowledge Representation,56.99,50.75,2,36.41,70.81,68.52,5.77,2,54.02,-2.29,1
+1312,Data Structures,Graphs,76.2,70.1,1,33.28,73.06,72.08,6.02,1,49.38,-0.98,1
+1088,Operating Systems,Deadlocks,53.19,50.72,3,35.22,54.12,55.26,4.69,2,69.65,1.14,0
+1213,Computer Networks,OSI Model,59.72,69.48,1,30.23,100.0,63.2,6.68,2,84.14,-36.8,1
+1053,Computer Networks,Routing Protocols,37.66,34.75,1,48.24,38.76,33.42,1.86,2,62.32,-5.33,0
+1314,Database Management Systems,SQL Queries,50.21,45.64,3,44.39,44.73,52.84,5.03,3,92.17,8.12,0
+1268,Computer Networks,Transport Layer,74.47,74.79,4,22.73,76.15,63.92,3.27,1,71.88,-12.23,1
+1254,Machine Learning,Model Evaluation,45.56,38.31,2,27.55,58.42,49.84,3.83,1,77.41,-8.57,0
+1067,Database Management Systems,Indexing,44.8,56.6,2,47.83,42.72,43.57,4.06,3,58.63,0.86,0
+1236,Database Management Systems,ER Model,44.77,41.62,1,46.38,47.78,52.12,3.54,2,29.16,4.34,0
+1333,Data Structures,Graphs,75.53,68.99,2,34.23,72.54,79.81,5.87,2,65.69,7.27,1
+1295,Database Management Systems,Indexing,39.48,44.38,1,22.07,59.69,32.29,6.87,2,53.92,-27.41,0
+1178,Computer Networks,Transport Layer,70.18,75.69,2,38.93,57.61,63.96,7.14,2,94.5,6.35,1
+1243,Computer Networks,Transport Layer,63.72,70.66,2,43.9,100.0,69.22,5.62,3,68.35,-30.78,1
+1117,Data Structures,Graphs,55.66,55.72,1,15.93,52.01,60.55,3.65,2,75.91,8.54,1
+1266,Machine Learning,Neural Networks,48.24,44.9,2,42.03,71.78,50.09,5.09,2,64.47,-21.68,0
+1357,Artificial Intelligence,Search Algorithms,79.78,77.39,2,33.25,100.0,78.98,6.25,1,99.15,-21.02,1
+1176,Operating Systems,CPU Scheduling,44.69,54.0,2,36.01,47.91,51.23,5.93,2,75.98,3.33,0
+1156,Data Structures,Arrays,44.55,40.46,3,31.37,58.24,39.93,3.07,2,65.65,-18.31,0
+1258,Database Management Systems,SQL Queries,66.32,66.55,1,42.57,72.46,69.28,4.3,3,82.12,-3.17,1
+1348,Machine Learning,Decision Trees,83.97,88.89,2,46.26,80.86,88.02,5.27,3,91.56,7.16,1
+1044,Machine Learning,Decision Trees,58.52,54.4,2,37.56,79.72,61.03,4.33,3,47.99,-18.69,0
+1216,Operating Systems,Process Management,40.04,27.88,3,25.01,23.16,41.82,4.19,1,50.86,18.66,0
+1266,Machine Learning,Decision Trees,5.12,18.05,1,57.51,18.14,2.36,0.75,3,17.72,-15.79,0
+1262,Artificial Intelligence,Search Algorithms,62.33,51.1,1,39.6,55.58,60.66,6.88,2,89.66,5.07,0
+1062,Database Management Systems,Normalization,39.97,34.35,1,40.69,11.8,39.11,4.64,2,24.1,27.31,0
+1337,Data Structures,Trees,48.98,50.45,3,43.05,43.61,62.57,2.76,2,62.19,18.95,0
+1198,Artificial Intelligence,Heuristics,50.76,59.47,4,33.97,49.06,52.08,3.64,1,37.35,3.02,0
+1072,Data Structures,Trees,69.96,68.12,2,50.52,74.33,71.2,5.74,2,81.34,-3.14,1
+1072,Machine Learning,Decision Trees,52.32,51.92,2,44.79,51.46,59.41,2.59,2,84.85,7.95,0
+1298,Artificial Intelligence,Game Playing,44.22,49.54,3,42.99,69.77,54.76,5.09,2,68.52,-15.02,0
+1373,Artificial Intelligence,Heuristics,62.62,58.97,2,11.38,53.38,65.68,6.18,1,65.49,12.29,1
+1358,Computer Networks,Routing Protocols,82.74,75.51,1,30.94,97.21,86.83,5.14,1,100.0,-10.38,1
+1343,Database Management Systems,SQL Queries,38.92,43.46,2,28.8,47.66,45.18,4.1,2,42.72,-2.47,0
+1321,Artificial Intelligence,Game Playing,42.97,35.62,2,31.96,65.4,45.89,3.39,1,67.31,-19.51,0
+1081,Machine Learning,Supervised Learning,69.35,68.92,2,20.8,72.16,73.5,4.62,1,74.48,1.34,1
+1392,Artificial Intelligence,Search Algorithms,58.01,57.84,2,40.69,28.97,61.48,5.18,3,77.48,32.51,0
+1314,Data Structures,Queue,34.06,27.01,1,44.1,34.1,36.22,4.05,2,65.63,2.12,0
+1101,Machine Learning,Model Evaluation,67.85,69.49,1,50.79,42.16,69.62,4.66,2,54.73,27.46,1
+1189,Computer Networks,Transport Layer,55.4,64.21,1,31.15,53.49,54.57,6.67,1,44.21,1.08,0
+1145,Computer Networks,Network Security,44.68,41.92,1,38.2,51.76,35.89,4.66,1,33.72,-15.86,0
+1228,Machine Learning,Decision Trees,4.91,2.26,3,51.96,32.25,10.68,4.46,3,16.14,-21.57,0
+1319,Artificial Intelligence,Heuristics,29.25,25.62,3,56.51,56.76,30.52,2.99,3,39.72,-26.23,0
+1018,Computer Networks,TCP/IP,67.68,84.88,4,21.31,68.86,66.91,4.51,1,41.09,-1.95,1
+1221,Data Structures,Trees,43.95,37.53,2,48.03,48.86,50.32,5.04,3,59.88,1.46,0
+1386,Data Structures,Graphs,80.18,72.89,2,25.32,64.24,85.24,6.59,2,95.09,21.0,1
+1122,Artificial Intelligence,Knowledge Representation,19.11,10.31,2,59.33,11.28,18.09,2.74,3,15.0,6.81,0
+1165,Computer Networks,Routing Protocols,76.95,83.21,1,41.96,80.42,78.92,7.16,2,84.31,-1.5,1
+1313,Data Structures,Searching,69.83,72.96,1,23.96,85.8,68.34,5.15,1,91.33,-17.46,1
+1226,Machine Learning,Neural Networks,65.12,73.97,1,38.52,71.0,69.94,5.21,2,80.74,-1.06,1
+1228,Machine Learning,Supervised Learning,19.52,17.18,2,46.51,60.14,21.07,4.35,3,71.81,-39.07,0
+1151,Artificial Intelligence,Game Playing,48.29,53.86,4,25.91,23.07,51.58,4.92,1,36.65,28.51,0
+1299,Computer Networks,OSI Model,67.2,53.3,2,30.25,61.84,68.5,5.59,1,78.86,6.66,1
+1267,Data Structures,Linked Lists,6.59,0.0,1,35.75,5.46,5.63,1.47,1,15.0,0.17,0
+1259,Machine Learning,Decision Trees,85.42,82.38,2,32.08,47.15,81.32,5.78,2,56.79,34.17,1
+1175,Operating Systems,CPU Scheduling,30.32,27.62,2,46.24,0.0,39.89,1.34,3,61.68,39.89,0
+1284,Computer Networks,Transport Layer,30.55,34.3,2,51.62,53.94,38.52,4.73,3,41.01,-15.42,0
+1365,Operating Systems,Process Management,57.66,56.74,1,45.19,83.83,54.87,4.64,3,88.37,-28.96,1
+1388,Artificial Intelligence,Search Algorithms,27.34,19.56,4,33.33,36.75,31.28,2.28,1,60.24,-5.47,0
+1153,Computer Networks,OSI Model,57.95,66.4,2,32.34,55.54,55.27,5.72,1,90.83,-0.28,1
+1316,Computer Networks,Transport Layer,55.49,57.43,2,33.7,45.38,60.5,4.7,2,58.4,15.11,0
+1261,Operating Systems,Virtual Memory,94.59,82.73,2,12.44,54.14,96.89,5.43,1,79.59,42.74,1
+1152,Data Structures,Searching,80.5,88.48,2,13.05,63.85,80.46,5.17,1,86.83,16.61,1
+1020,Machine Learning,Supervised Learning,23.29,31.71,1,59.49,16.05,23.91,3.28,3,55.81,7.86,0
+1078,Computer Networks,OSI Model,16.79,2.9,2,47.99,26.97,12.51,2.53,3,33.69,-14.46,0
+1315,Artificial Intelligence,Search Algorithms,50.01,50.07,2,44.99,33.17,48.17,6.11,3,76.77,15.0,0
+1152,Artificial Intelligence,Heuristics,15.77,11.19,4,34.03,55.68,11.71,2.84,2,57.02,-43.98,0
+1248,Machine Learning,Model Evaluation,20.18,26.12,4,49.44,35.83,20.94,1.84,2,21.45,-14.89,0
+1201,Data Structures,Trees,55.5,56.08,2,35.3,35.11,55.42,6.11,2,47.85,20.31,0
+1169,Operating Systems,CPU Scheduling,63.26,65.09,1,27.23,71.93,70.54,7.23,2,79.02,-1.4,1
+1368,Machine Learning,Neural Networks,28.86,31.3,2,53.54,41.45,38.07,2.51,3,42.28,-3.39,0
+1127,Data Structures,Arrays,32.26,32.13,1,31.68,36.55,38.98,4.71,1,63.79,2.43,0
+1078,Machine Learning,Supervised Learning,35.98,36.63,1,36.29,44.73,31.79,1.33,1,63.47,-12.95,0
+1114,Machine Learning,Neural Networks,26.86,32.18,4,52.86,33.42,28.08,2.42,2,42.44,-5.34,0
+1395,Data Structures,Searching,50.19,46.53,2,45.69,39.03,51.37,4.1,3,70.82,12.33,0
+1268,Machine Learning,Decision Trees,40.33,54.32,2,50.37,35.59,37.79,1.61,3,54.86,2.2,0
+1108,Machine Learning,Model Evaluation,49.36,61.27,2,37.66,71.36,53.45,4.86,2,96.43,-17.91,1
+1388,Artificial Intelligence,Heuristics,36.51,32.08,2,20.69,65.52,37.08,4.54,2,53.47,-28.44,0
+1223,Data Structures,Arrays,23.31,18.98,4,38.71,10.58,24.81,3.73,2,28.86,14.23,0
+1243,Machine Learning,Decision Trees,23.75,18.23,2,55.09,37.03,27.06,4.72,3,65.96,-9.97,0
+1035,Data Structures,Trees,36.7,29.73,1,45.81,33.96,37.44,1.75,3,59.17,3.48,0
+1104,Database Management Systems,SQL Queries,48.46,45.0,2,31.9,33.82,46.14,3.18,2,81.08,12.32,0
+1316,Machine Learning,Supervised Learning,2.99,3.71,3,48.69,26.52,0.0,2.22,1,26.67,-26.52,0
+1155,Database Management Systems,ER Model,75.08,70.07,2,40.17,80.85,78.64,4.4,3,86.59,-2.21,1
+1143,Operating Systems,Virtual Memory,59.42,43.14,2,55.42,42.69,59.03,3.4,2,66.89,16.34,0
+1287,Machine Learning,Supervised Learning,64.02,78.45,2,35.56,46.76,72.35,4.63,3,85.26,25.6,1
+1258,Artificial Intelligence,Search Algorithms,84.77,91.66,1,37.37,64.4,86.95,4.54,1,76.28,22.55,1
+1332,Artificial Intelligence,Knowledge Representation,24.37,10.07,4,34.61,0.0,44.86,1.35,2,15.0,44.86,0
+1100,Database Management Systems,ER Model,42.62,30.81,3,45.73,55.56,47.91,5.23,2,62.79,-7.65,0
+1257,Machine Learning,Decision Trees,75.47,76.52,1,48.62,52.8,69.76,7.2,3,71.47,16.97,1
+1357,Operating Systems,CPU Scheduling,0.0,6.4,3,57.34,29.29,2.1,4.02,3,53.46,-27.19,0
+1127,Database Management Systems,ER Model,58.85,59.46,4,30.92,71.16,69.38,6.11,1,54.18,-1.78,1
+1103,Machine Learning,Supervised Learning,21.52,25.94,2,45.91,29.58,27.55,2.41,2,56.0,-2.03,0
+1360,Operating Systems,Deadlocks,0.0,0.0,4,47.95,46.44,0.59,3.89,3,24.06,-45.85,0
+1244,Machine Learning,Neural Networks,41.51,42.74,1,23.33,30.8,48.08,3.53,1,67.74,17.28,0
+1084,Computer Networks,OSI Model,33.71,32.98,1,44.57,19.75,30.94,4.04,2,43.62,11.19,0
+1021,Operating Systems,Virtual Memory,90.4,90.27,2,32.72,60.77,98.2,6.19,3,100.0,37.43,2
+1072,Machine Learning,Model Evaluation,80.79,72.97,1,40.29,66.69,96.81,6.5,3,89.67,30.12,1
+1105,Machine Learning,Model Evaluation,35.45,45.4,3,39.51,41.02,47.39,4.45,2,46.05,6.37,0
+1391,Machine Learning,Supervised Learning,52.99,50.53,2,42.75,72.93,56.58,6.15,2,79.05,-16.36,0
+1394,Machine Learning,Model Evaluation,39.46,26.35,1,49.07,44.09,42.18,5.77,3,38.07,-1.92,0
+1199,Computer Networks,Transport Layer,40.83,45.93,2,35.92,33.26,37.81,2.77,1,45.66,4.54,0
+1007,Database Management Systems,Normalization,46.47,43.23,1,30.54,58.97,49.02,4.36,2,82.96,-9.95,0
+1365,Data Structures,Searching,29.22,22.49,4,60.39,30.98,30.76,1.29,3,61.18,-0.23,0
+1373,Operating Systems,Virtual Memory,43.14,55.02,3,50.95,52.32,42.13,6.38,3,60.43,-10.19,0
+1019,Machine Learning,Neural Networks,79.81,70.73,1,38.67,87.83,84.25,4.86,2,77.78,-3.58,1
+1317,Database Management Systems,Normalization,82.16,87.89,2,19.44,74.88,89.68,7.15,1,92.12,14.8,1
+1041,Computer Networks,Network Security,37.81,40.42,1,31.96,28.3,38.01,0.5,2,51.17,9.71,0
+1156,Database Management Systems,SQL Queries,30.21,34.63,1,48.51,37.65,26.74,2.99,3,92.13,-10.91,0
+1348,Data Structures,Graphs,10.49,15.61,1,43.35,45.59,13.35,1.69,3,27.63,-32.24,0
+1236,Operating Systems,Deadlocks,29.28,27.97,3,33.88,31.86,33.22,1.57,1,23.61,1.36,0
+1017,Computer Networks,OSI Model,45.85,48.9,1,31.16,74.33,47.66,4.58,2,64.32,-26.67,0
+1320,Machine Learning,Supervised Learning,63.8,59.35,2,23.6,79.17,75.23,5.64,1,75.51,-3.95,1
+1057,Data Structures,Trees,33.48,40.5,1,58.22,10.3,24.92,5.09,3,60.59,14.62,0
+1341,Artificial Intelligence,Game Playing,75.95,66.53,2,43.4,52.04,81.94,3.79,3,84.96,29.9,1
+1172,Computer Networks,Network Security,57.17,50.61,1,34.8,74.42,62.29,4.75,2,71.44,-12.13,1
+1012,Computer Networks,Transport Layer,60.73,57.52,1,28.52,38.83,60.5,3.43,2,65.68,21.67,0
+1123,Data Structures,Graphs,31.32,22.96,2,22.72,11.92,40.96,1.88,1,50.68,29.05,0
+1057,Database Management Systems,Indexing,46.34,40.75,2,48.18,24.75,49.88,3.75,2,62.19,25.13,0
+1134,Database Management Systems,Transactions,54.4,56.82,4,31.04,44.67,69.64,5.1,3,57.39,24.97,1
+1075,Data Structures,Trees,44.38,52.2,2,32.57,74.77,47.88,5.31,2,79.04,-26.89,0
+1386,Artificial Intelligence,Heuristics,78.47,71.06,1,38.5,72.48,81.14,3.32,2,62.19,8.66,1
+1186,Operating Systems,Deadlocks,45.49,51.68,1,48.28,49.13,53.11,5.37,3,65.87,3.98,0
+1109,Machine Learning,Model Evaluation,40.2,27.88,4,51.37,55.47,45.22,4.28,3,49.35,-10.24,0
+1249,Computer Networks,Network Security,87.67,98.99,2,24.26,55.77,88.18,6.08,2,100.0,32.4,2
+1236,Operating Systems,Process Management,50.14,55.45,1,56.88,55.01,50.29,4.11,3,81.03,-4.72,0
+1274,Computer Networks,TCP/IP,93.48,90.55,2,33.48,91.42,97.11,6.19,3,79.53,5.69,2
+1137,Operating Systems,CPU Scheduling,77.92,67.14,2,34.15,100.0,80.2,7.61,1,88.43,-19.8,1
+1027,Data Structures,Stack,73.02,73.53,2,34.21,66.08,85.17,5.66,3,100.0,19.09,1
+1330,Data Structures,Searching,54.06,50.15,1,29.26,70.71,62.41,4.55,1,84.72,-8.3,1
+1273,Data Structures,Trees,16.45,20.69,3,48.59,19.31,24.85,2.96,2,28.69,5.54,0
+1227,Operating Systems,Process Management,47.88,46.43,4,36.01,38.48,51.03,3.3,1,35.97,12.55,0
+1081,Machine Learning,Neural Networks,49.67,42.36,1,31.34,69.42,39.06,4.95,2,69.65,-30.36,0
+1156,Artificial Intelligence,Heuristics,43.95,32.36,3,32.55,43.86,46.84,2.17,2,100.0,2.98,0
+1331,Machine Learning,Model Evaluation,36.84,25.08,4,49.0,23.07,43.9,3.86,2,52.54,20.83,0
+1141,Artificial Intelligence,Knowledge Representation,42.78,46.23,2,33.28,54.55,35.59,3.7,2,67.93,-18.96,0
+1193,Artificial Intelligence,Game Playing,23.36,35.49,2,31.97,40.41,23.01,5.17,1,38.36,-17.4,0
+1168,Operating Systems,CPU Scheduling,42.66,27.83,2,40.86,64.97,50.29,2.93,3,94.87,-14.69,0
+1396,Machine Learning,Supervised Learning,60.95,63.78,2,33.76,66.87,53.73,4.86,1,68.02,-13.14,0
+1025,Operating Systems,Deadlocks,63.15,74.01,2,33.86,100.0,68.15,3.19,2,86.45,-31.85,1
+1045,Machine Learning,Neural Networks,58.62,67.18,1,31.87,67.72,64.82,4.54,3,83.05,-2.9,1
+1379,Data Structures,Sorting,45.47,45.31,3,43.33,54.26,45.63,2.13,2,27.49,-8.63,0
+1103,Data Structures,Sorting,89.45,98.66,2,12.78,98.96,100.0,5.96,1,99.49,1.04,2
+1168,Computer Networks,TCP/IP,71.75,73.42,1,18.44,60.55,64.46,2.48,1,78.93,3.91,1
+1014,Database Management Systems,Transactions,85.84,86.1,2,47.95,67.7,86.44,7.1,2,63.26,18.74,1
+1251,Operating Systems,Virtual Memory,28.99,26.77,1,40.15,60.59,37.99,3.99,2,57.49,-22.6,0
+1182,Computer Networks,Routing Protocols,78.36,77.43,2,22.29,74.3,80.56,7.02,2,90.25,6.25,1
+1024,Artificial Intelligence,Knowledge Representation,67.28,61.05,2,28.87,73.13,54.77,5.22,1,86.55,-18.36,1
+1081,Database Management Systems,Normalization,17.9,13.38,3,46.27,27.08,17.56,4.08,3,15.0,-9.52,0
+1014,Artificial Intelligence,Heuristics,51.22,59.22,3,48.77,42.87,50.32,3.9,2,63.06,7.44,0
+1215,Operating Systems,Process Management,80.64,76.0,1,38.03,63.5,82.08,6.46,3,81.16,18.59,1
+1293,Artificial Intelligence,Search Algorithms,61.15,68.21,1,30.07,74.75,48.58,3.42,2,45.95,-26.17,0
+1155,Database Management Systems,ER Model,57.8,60.66,1,45.05,70.24,57.95,6.67,3,70.87,-12.29,1
+1094,Computer Networks,Routing Protocols,46.56,56.9,4,24.64,48.58,54.46,2.05,1,41.44,5.88,0
+1226,Operating Systems,Virtual Memory,33.7,41.72,2,40.54,30.67,34.58,2.83,2,15.0,3.91,0
+1329,Machine Learning,Decision Trees,16.16,7.41,3,53.05,46.34,27.87,3.76,2,19.46,-18.47,0
+1094,Data Structures,Linked Lists,24.72,19.66,1,67.8,37.06,32.1,2.94,3,55.68,-4.96,0
+1085,Machine Learning,Decision Trees,80.47,73.25,1,56.61,69.01,84.25,5.67,3,99.82,15.24,1
+1216,Artificial Intelligence,Heuristics,57.44,61.5,2,38.14,88.05,55.67,7.85,3,82.48,-32.38,1
+1215,Artificial Intelligence,Search Algorithms,22.79,23.36,2,31.94,23.26,40.97,2.63,1,43.6,17.71,0
+1307,Database Management Systems,Normalization,39.14,33.81,3,30.33,42.74,48.69,3.13,2,53.07,5.95,0
+1321,Artificial Intelligence,Game Playing,74.52,70.62,2,49.3,76.92,74.05,5.31,1,100.0,-2.88,1
+1254,Operating Systems,Deadlocks,26.35,24.04,3,36.28,23.9,13.25,5.45,1,32.58,-10.65,0
+1303,Machine Learning,Neural Networks,61.49,56.21,2,35.17,61.32,62.89,5.49,2,69.82,1.57,1
+1392,Computer Networks,Transport Layer,40.71,32.68,1,43.98,17.92,48.19,3.95,3,77.14,30.27,0
+1291,Operating Systems,Process Management,0.81,4.7,4,44.97,18.72,8.69,3.03,2,33.42,-10.02,0
+1229,Operating Systems,Process Management,41.47,33.82,3,53.62,15.41,50.53,3.75,3,51.58,35.12,0
+1316,Database Management Systems,Normalization,43.02,50.31,4,56.11,38.61,38.62,5.26,3,67.79,0.01,0
+1186,Data Structures,Sorting,45.12,45.35,2,28.68,48.17,43.1,6.71,2,60.42,-5.07,0
+1340,Computer Networks,Routing Protocols,62.62,52.68,1,48.84,53.43,57.2,6.98,3,72.03,3.77,0
+1166,Operating Systems,CPU Scheduling,52.86,59.46,3,27.74,65.32,43.34,1.46,2,62.14,-21.99,0
+1248,Operating Systems,CPU Scheduling,14.16,25.59,2,54.97,18.27,16.36,4.84,3,44.39,-1.91,0
+1190,Computer Networks,Transport Layer,37.18,32.45,2,46.98,31.25,42.22,3.82,3,60.57,10.97,0
+1310,Data Structures,Stack,60.09,70.04,2,51.16,27.75,73.75,4.23,2,96.17,46.0,1
+1012,Database Management Systems,Transactions,23.35,16.46,4,64.64,26.42,20.57,4.72,2,41.43,-5.85,0
+1069,Artificial Intelligence,Heuristics,76.4,66.21,2,20.8,74.35,87.56,4.03,1,83.12,13.21,1
+1387,Computer Networks,Network Security,50.28,47.37,1,43.18,52.28,47.54,3.7,2,63.33,-4.74,0
+1207,Artificial Intelligence,Heuristics,70.48,69.49,1,35.26,41.19,86.04,3.66,1,80.62,44.85,1
+1095,Artificial Intelligence,Game Playing,54.89,53.01,2,34.68,65.31,60.36,3.85,1,74.73,-4.94,0
+1271,Data Structures,Graphs,59.47,60.86,3,39.25,30.63,63.55,4.18,2,58.18,32.92,0
+1050,Computer Networks,Network Security,0.0,4.2,2,26.82,43.53,9.74,1.92,2,35.44,-33.79,0
+1150,Operating Systems,CPU Scheduling,65.15,65.58,1,39.07,87.76,52.46,5.57,3,91.27,-35.3,1
+1343,Data Structures,Searching,0.0,16.52,4,39.6,0.0,0.0,0.5,1,28.32,0.0,0
+1336,Operating Systems,CPU Scheduling,70.86,69.85,1,28.11,61.65,77.75,5.14,2,74.13,16.1,1
+1252,Operating Systems,CPU Scheduling,46.64,52.8,4,35.53,33.93,62.29,4.37,2,46.29,28.37,0
+1274,Machine Learning,Supervised Learning,77.84,86.81,1,34.86,55.6,79.73,3.76,3,76.53,24.13,1
+1110,Computer Networks,OSI Model,0.0,0.0,3,51.98,39.99,1.44,2.45,3,18.13,-38.56,0
+1170,Database Management Systems,Indexing,29.57,41.21,2,49.25,54.41,35.27,3.22,3,62.83,-19.14,0
+1143,Operating Systems,Deadlocks,15.58,22.61,1,29.86,46.27,14.4,3.6,1,15.0,-31.87,0
+1379,Data Structures,Searching,83.79,80.78,1,17.9,78.94,91.47,5.65,1,87.22,12.53,1
+1066,Computer Networks,Routing Protocols,25.8,29.85,1,25.74,39.95,25.15,3.15,1,48.27,-14.8,0
+1258,Data Structures,Sorting,68.31,71.83,4,38.49,64.46,63.55,4.17,1,83.17,-0.92,1
+1116,Machine Learning,Neural Networks,40.22,35.3,2,42.2,29.6,37.51,2.95,1,44.49,7.91,0
+1317,Operating Systems,Process Management,35.35,43.88,1,38.57,23.25,36.14,1.88,1,32.69,12.9,0
+1019,Data Structures,Queue,81.54,86.87,1,34.09,55.88,74.08,3.73,1,86.66,18.2,1
+1233,Computer Networks,Transport Layer,49.64,46.49,4,39.86,34.87,47.09,1.57,2,52.06,12.22,0
+1278,Database Management Systems,Transactions,60.87,75.22,1,41.1,81.4,64.29,5.79,2,83.01,-17.1,1
+1126,Database Management Systems,Transactions,52.31,58.13,2,33.29,71.39,49.0,7.03,2,100.0,-22.39,1
+1278,Artificial Intelligence,Knowledge Representation,46.25,36.61,2,31.85,31.66,52.95,5.34,2,77.5,21.29,0
+1291,Computer Networks,Transport Layer,53.84,46.35,4,30.3,52.44,61.73,4.52,1,55.83,9.28,0
+1313,Database Management Systems,Transactions,30.92,23.29,2,48.31,48.86,36.49,2.7,3,58.9,-12.36,0
+1034,Data Structures,Arrays,55.94,58.97,2,27.25,40.88,63.06,5.49,1,90.45,22.18,1
+1317,Operating Systems,Deadlocks,41.86,43.39,2,50.62,47.41,40.51,4.32,3,49.66,-6.9,0
+1301,Machine Learning,Decision Trees,21.61,26.16,4,37.97,35.22,27.48,1.77,1,48.63,-7.74,0
+1057,Operating Systems,Deadlocks,69.32,73.24,2,26.7,100.0,72.68,3.2,2,84.78,-27.32,1
+1267,Data Structures,Graphs,50.55,43.15,2,42.82,65.35,58.27,5.56,3,92.34,-7.09,0
+1320,Machine Learning,Model Evaluation,42.09,53.79,1,41.04,31.19,43.82,3.78,2,60.02,12.64,0
+1178,Operating Systems,Virtual Memory,14.96,8.12,4,32.65,25.29,20.81,1.68,2,56.1,-4.47,0
+1039,Operating Systems,Process Management,43.16,44.52,1,45.4,86.03,44.37,4.4,3,78.25,-41.66,0
+1341,Data Structures,Linked Lists,17.07,31.79,4,38.78,10.5,26.24,2.56,1,41.04,15.74,0
+1199,Artificial Intelligence,Search Algorithms,36.92,51.08,2,39.63,52.73,39.17,4.63,1,27.27,-13.56,0
+1278,Operating Systems,CPU Scheduling,42.25,40.12,2,40.87,65.31,44.52,4.89,2,50.19,-20.79,0
+1147,Database Management Systems,Normalization,61.67,49.67,2,26.91,74.43,70.68,4.75,2,79.14,-3.75,1
+1367,Data Structures,Trees,51.12,53.95,4,30.33,40.39,52.23,5.79,2,56.21,11.84,0
+1251,Machine Learning,Supervised Learning,57.39,44.84,4,44.9,39.19,62.4,4.5,3,64.65,23.21,0
+1385,Data Structures,Graphs,73.9,66.73,2,35.42,63.32,82.5,4.17,2,52.39,19.18,1
+1049,Operating Systems,CPU Scheduling,32.17,39.31,2,40.34,17.58,22.3,2.56,2,42.78,4.72,0
+1250,Operating Systems,Virtual Memory,12.33,10.58,4,37.81,56.9,4.74,0.63,1,24.88,-52.16,0
+1063,Operating Systems,CPU Scheduling,53.68,48.75,3,35.06,19.21,51.67,3.33,2,75.34,32.45,0
+1325,Artificial Intelligence,Heuristics,68.44,69.3,1,52.83,57.01,70.79,7.19,2,56.09,13.79,1
+1128,Computer Networks,Routing Protocols,57.5,52.56,1,41.74,64.8,67.14,3.35,3,53.44,2.34,0
+1099,Data Structures,Sorting,66.88,67.5,2,12.42,78.9,80.59,7.19,1,84.42,1.69,1
+1275,Artificial Intelligence,Search Algorithms,74.12,61.17,2,29.83,51.81,72.14,5.13,2,78.22,20.33,1
+1153,Computer Networks,OSI Model,56.37,69.85,4,50.28,31.03,56.22,3.74,2,60.73,25.19,0
+1056,Operating Systems,Process Management,74.95,81.68,1,23.12,47.03,83.69,4.64,2,55.66,36.66,1
+1203,Machine Learning,Supervised Learning,42.3,42.94,1,25.68,51.38,47.16,2.91,1,70.31,-4.22,0
+1084,Machine Learning,Supervised Learning,20.49,22.45,1,54.52,46.7,24.1,3.32,3,23.17,-22.61,0
+1134,Data Structures,Searching,55.92,49.67,1,45.29,65.13,64.19,4.81,2,59.85,-0.94,0
+1344,Operating Systems,Process Management,40.87,50.16,3,29.62,34.97,52.8,5.1,1,47.49,17.82,0
+1204,Data Structures,Arrays,33.63,33.15,3,25.06,32.06,33.27,1.28,1,40.1,1.21,0
+1232,Computer Networks,Transport Layer,30.51,30.3,3,23.4,60.46,36.47,5.25,1,57.1,-23.99,0
+1304,Operating Systems,CPU Scheduling,40.17,51.73,3,49.53,27.19,44.96,3.35,1,43.43,17.77,0
+1369,Machine Learning,Decision Trees,11.04,18.65,2,41.83,25.52,2.59,2.76,3,17.19,-22.93,0
+1006,Operating Systems,Virtual Memory,13.16,0.0,1,50.91,25.34,17.69,4.67,3,28.95,-7.65,0
+1395,Data Structures,Graphs,11.16,10.77,3,31.97,17.26,7.37,3.81,1,34.55,-9.89,0
+1297,Database Management Systems,ER Model,55.39,58.9,1,50.06,16.01,56.38,3.32,3,47.97,40.37,0
+1296,Data Structures,Stack,90.63,99.85,2,7.09,100.0,93.94,7.91,1,74.34,-6.06,2
+1119,Artificial Intelligence,Knowledge Representation,92.0,92.14,2,16.15,89.0,100.0,3.85,1,82.39,11.0,2
+1209,Machine Learning,Model Evaluation,62.21,72.71,1,30.12,57.35,58.62,6.94,2,69.35,1.27,1
+1239,Machine Learning,Decision Trees,17.17,15.18,2,53.88,20.65,11.76,2.96,3,48.81,-8.89,0
+1355,Machine Learning,Decision Trees,48.64,48.13,2,61.27,30.4,38.94,3.45,3,64.56,8.54,0
+1192,Computer Networks,OSI Model,34.43,29.7,3,56.42,28.07,38.63,1.91,3,41.22,10.55,0
+1386,Computer Networks,Routing Protocols,49.07,58.05,4,53.8,26.96,56.39,5.59,3,57.86,29.44,0
+1096,Data Structures,Trees,86.08,97.12,1,22.69,68.96,91.81,6.58,1,87.45,22.85,2
+1302,Data Structures,Sorting,79.44,73.44,2,33.32,82.67,78.28,7.37,2,91.0,-4.39,1
+1389,Operating Systems,Virtual Memory,33.92,25.33,1,40.82,48.07,44.58,2.72,3,73.0,-3.49,0
+1232,Data Structures,Searching,33.34,35.45,3,30.3,42.68,35.18,3.23,2,79.99,-7.49,0
+1265,Computer Networks,Transport Layer,14.7,7.2,1,32.5,22.54,24.49,2.7,1,19.42,1.94,0
+1382,Machine Learning,Neural Networks,63.03,65.81,2,36.49,67.62,61.62,6.08,2,77.43,-6.0,1
+1358,Artificial Intelligence,Game Playing,83.39,82.12,1,27.9,53.21,87.03,4.76,1,78.36,33.82,1
+1125,Data Structures,Trees,38.76,44.49,3,31.49,33.12,42.62,4.3,2,62.67,9.51,0
+1021,Computer Networks,TCP/IP,63.2,60.3,1,41.98,100.0,49.4,5.63,3,96.82,-50.6,1
+1164,Data Structures,Graphs,59.63,53.41,1,24.47,58.14,60.9,6.9,1,65.36,2.77,0
+1263,Data Structures,Stack,71.54,69.16,1,21.34,68.78,67.64,5.96,2,62.15,-1.14,1
+1192,Database Management Systems,SQL Queries,37.78,47.36,1,45.53,52.51,32.19,5.42,2,45.76,-20.31,0
+1308,Database Management Systems,Transactions,1.33,10.31,3,48.01,22.9,0.38,2.55,3,57.87,-22.52,0
+1241,Machine Learning,Neural Networks,59.1,66.39,3,51.81,42.65,60.64,2.91,2,57.09,17.99,0
+1305,Artificial Intelligence,Heuristics,39.36,37.83,3,41.41,50.11,39.75,5.46,2,32.09,-10.36,0
+1338,Computer Networks,TCP/IP,20.2,14.09,3,43.13,37.77,29.96,4.31,2,29.14,-7.82,0
+1150,Artificial Intelligence,Knowledge Representation,12.74,10.87,2,27.76,12.95,17.09,4.28,1,32.82,4.14,0
+1130,Database Management Systems,Transactions,54.57,53.22,3,46.4,43.3,64.28,5.15,2,69.89,20.97,0
+1322,Data Structures,Queue,43.32,42.71,2,52.37,23.52,44.01,2.81,2,57.59,20.49,0
+1105,Machine Learning,Supervised Learning,67.38,61.34,1,35.7,77.91,67.95,4.63,1,100.0,-9.96,1
+1163,Computer Networks,Routing Protocols,31.72,24.68,2,48.01,53.54,32.93,5.09,2,49.49,-20.61,0
+1144,Computer Networks,Routing Protocols,75.91,70.96,1,46.53,78.1,80.39,3.73,2,93.59,2.29,1
+1012,Computer Networks,Transport Layer,50.46,56.69,4,45.62,44.85,43.26,4.79,2,51.58,-1.59,0
+1358,Machine Learning,Supervised Learning,30.1,25.03,2,38.8,24.89,33.55,2.06,2,29.98,8.66,0
+1366,Machine Learning,Model Evaluation,62.23,72.99,1,36.12,75.71,62.92,4.78,2,72.44,-12.78,1
+1246,Operating Systems,Virtual Memory,67.74,60.91,2,26.11,57.88,71.87,8.52,3,74.66,14.0,1
+1131,Computer Networks,TCP/IP,32.81,29.35,1,33.64,29.6,37.09,3.2,1,57.84,7.49,0
+1217,Database Management Systems,ER Model,59.38,63.62,1,43.13,78.2,46.85,6.06,3,86.07,-31.35,1
+1259,Operating Systems,Deadlocks,46.75,59.73,3,51.75,61.47,47.07,3.77,3,64.4,-14.4,0
+1001,Machine Learning,Model Evaluation,35.09,34.01,1,41.49,9.86,33.62,3.66,1,43.13,23.76,0
+1209,Computer Networks,Network Security,59.43,54.91,4,56.25,52.3,56.45,3.85,3,38.45,4.16,0
+1223,Machine Learning,Supervised Learning,45.76,45.22,2,44.42,74.56,49.01,5.2,3,53.31,-25.54,0
+1105,Artificial Intelligence,Heuristics,75.64,89.04,2,40.23,53.04,81.41,3.87,3,78.6,28.37,1
+1263,Artificial Intelligence,Search Algorithms,82.84,96.91,2,37.93,68.49,78.08,6.28,2,87.7,9.59,1
+1314,Machine Learning,Decision Trees,77.62,71.47,2,25.49,77.47,83.79,7.02,1,92.8,6.31,1
+1194,Computer Networks,Network Security,47.42,38.64,1,32.66,78.11,52.35,4.84,1,71.53,-25.76,0
+1078,Database Management Systems,Normalization,31.82,33.26,2,51.07,41.29,28.97,2.65,1,58.02,-12.32,0
+1373,Data Structures,Queue,72.6,70.76,2,34.96,86.0,71.99,4.85,2,89.98,-14.02,1
+1208,Artificial Intelligence,Knowledge Representation,43.41,35.58,3,64.22,36.22,43.44,2.13,3,58.97,7.22,0
+1170,Database Management Systems,Normalization,0.0,0.0,4,46.13,43.23,0.0,1.13,2,31.11,-43.23,0
+1121,Artificial Intelligence,Search Algorithms,22.55,27.29,3,51.8,35.17,10.29,4.09,2,53.49,-24.89,0
+1043,Database Management Systems,SQL Queries,60.64,64.48,2,29.46,59.03,67.13,4.68,1,70.68,8.1,1
+1085,Artificial Intelligence,Heuristics,100.0,100.0,2,33.19,75.55,95.89,5.42,1,91.64,20.33,2
+1134,Operating Systems,Process Management,21.03,6.12,3,47.16,19.94,21.18,4.49,2,42.25,1.24,0
+1206,Database Management Systems,SQL Queries,38.29,46.02,3,39.67,41.88,26.17,2.84,1,35.28,-15.7,0
+1065,Artificial Intelligence,Knowledge Representation,43.08,44.9,1,49.6,34.18,47.1,6.75,1,68.34,12.92,0
+1243,Computer Networks,TCP/IP,28.28,23.21,3,42.87,25.7,25.69,3.55,3,21.98,-0.01,0
+1382,Data Structures,Arrays,73.05,52.74,2,23.73,43.8,78.6,5.7,2,67.86,34.8,1
+1370,Data Structures,Stack,40.16,39.83,4,37.68,48.72,45.48,6.24,2,36.78,-3.24,0
+1381,Machine Learning,Supervised Learning,18.38,12.87,3,32.12,0.0,20.35,0.5,1,24.15,20.35,0
+1209,Computer Networks,Network Security,28.51,20.13,4,26.85,43.61,29.05,4.16,1,15.0,-14.56,0
+1020,Operating Systems,Virtual Memory,60.64,63.53,2,37.28,50.62,58.97,7.55,3,89.23,8.36,1
+1214,Data Structures,Queue,64.81,65.35,2,28.71,89.4,69.09,2.52,1,77.0,-20.31,1
+1200,Machine Learning,Supervised Learning,7.48,4.0,1,56.68,24.67,5.29,0.5,2,22.31,-19.38,0
+1213,Artificial Intelligence,Game Playing,45.86,46.32,2,25.69,61.71,56.68,3.4,1,56.81,-5.03,0
+1123,Machine Learning,Neural Networks,0.0,4.13,1,52.69,19.06,3.61,2.83,3,20.49,-15.45,0
+1048,Database Management Systems,ER Model,19.99,11.48,3,45.32,33.58,15.13,2.78,2,24.09,-18.45,0
+1354,Artificial Intelligence,Search Algorithms,31.58,34.06,1,39.7,70.11,34.7,6.13,3,56.58,-35.41,0
+1337,Operating Systems,Process Management,83.44,93.12,1,40.79,67.87,77.51,8.0,3,90.37,9.64,1
+1004,Data Structures,Arrays,72.51,84.27,2,31.86,69.47,75.46,3.96,2,67.29,6.0,1
+1218,Data Structures,Stack,14.84,7.62,3,43.2,27.32,15.75,2.92,2,15.0,-11.57,0
+1154,Database Management Systems,SQL Queries,71.77,85.01,2,39.33,83.71,60.06,5.98,2,98.16,-23.65,1
+1041,Data Structures,Stack,43.01,45.73,1,51.41,41.83,44.53,5.06,3,43.88,2.7,0
+1021,Computer Networks,OSI Model,11.69,9.23,3,58.51,6.86,9.0,3.53,3,47.02,2.14,0
+1082,Artificial Intelligence,Search Algorithms,67.52,65.52,2,28.04,82.49,62.84,4.8,1,100.0,-19.65,1
+1268,Computer Networks,OSI Model,52.32,51.76,1,42.83,77.74,51.22,5.46,3,82.98,-26.51,0
+1064,Operating Systems,CPU Scheduling,43.05,41.77,2,49.45,54.65,38.43,4.76,3,66.12,-16.22,0
+1128,Artificial Intelligence,Knowledge Representation,78.89,76.33,1,42.01,84.38,78.55,6.09,3,100.0,-5.83,1
+1332,Database Management Systems,SQL Queries,46.64,31.9,2,30.26,45.4,51.49,3.87,1,44.57,6.08,0
+1340,Artificial Intelligence,Knowledge Representation,48.44,53.27,1,43.57,57.43,55.17,3.75,2,81.82,-2.26,0
+1144,Data Structures,Sorting,58.74,47.24,1,38.1,71.32,56.73,4.78,2,74.93,-14.59,0
+1246,Data Structures,Searching,39.23,44.08,4,47.34,33.7,52.65,3.3,2,43.0,18.95,0
+1338,Operating Systems,Virtual Memory,77.11,73.63,2,31.37,76.63,78.47,5.48,1,100.0,1.83,1
+1002,Data Structures,Queue,60.14,78.0,2,24.0,56.91,58.49,2.27,2,55.06,1.57,1
+1290,Operating Systems,CPU Scheduling,70.12,64.06,2,18.32,74.96,74.8,3.76,1,85.2,-0.16,1
+1009,Database Management Systems,SQL Queries,41.66,42.21,4,32.13,64.2,36.27,7.57,1,31.79,-27.93,0
+1210,Data Structures,Linked Lists,57.55,52.01,1,50.41,62.9,60.83,4.93,3,91.16,-2.08,1
+1278,Database Management Systems,ER Model,21.14,26.19,2,54.09,45.73,25.66,3.55,2,74.86,-20.07,0
+1285,Operating Systems,CPU Scheduling,13.36,13.22,3,44.24,22.34,15.28,4.77,2,44.69,-7.06,0
+1231,Database Management Systems,Normalization,49.34,51.17,1,25.81,68.18,55.21,5.78,1,67.46,-12.97,0
+1192,Database Management Systems,SQL Queries,60.15,52.82,1,32.16,37.77,57.83,4.75,3,71.06,20.05,0
+1305,Data Structures,Stack,44.34,46.75,3,43.56,51.34,41.98,3.42,2,54.61,-9.36,0
+1060,Machine Learning,Neural Networks,46.16,31.65,4,44.95,28.33,49.82,6.34,2,31.47,21.5,0
+1065,Computer Networks,Transport Layer,8.03,7.69,2,39.88,39.7,6.8,2.58,2,23.89,-32.89,0
+1358,Data Structures,Graphs,54.63,58.4,1,49.75,64.81,59.39,6.58,3,63.87,-5.42,0
+1400,Artificial Intelligence,Search Algorithms,33.71,23.21,3,58.24,53.07,18.6,4.75,3,82.21,-34.47,0
+1332,Data Structures,Linked Lists,50.43,47.94,1,30.28,75.64,49.82,2.22,2,77.66,-25.82,0
+1044,Artificial Intelligence,Heuristics,47.9,50.52,3,42.58,26.43,43.07,2.44,2,58.31,16.64,0
+1223,Machine Learning,Model Evaluation,47.24,59.37,3,47.83,42.84,38.67,3.77,3,61.41,-4.18,0
+1121,Database Management Systems,Transactions,71.32,70.27,1,25.24,74.1,68.57,6.69,2,87.49,-5.53,1
+1211,Machine Learning,Supervised Learning,25.33,19.32,4,38.91,55.5,25.72,4.89,2,54.48,-29.79,0
+1285,Data Structures,Stack,62.33,66.24,2,29.02,68.29,65.22,6.18,1,70.47,-3.07,1
+1348,Database Management Systems,Indexing,30.67,30.16,1,37.56,55.25,32.28,4.38,1,31.8,-22.97,0
+1271,Artificial Intelligence,Knowledge Representation,38.81,48.58,2,33.77,38.56,33.88,5.07,2,62.5,-4.68,0
+1189,Operating Systems,Deadlocks,40.58,27.11,4,45.32,59.01,43.76,4.75,3,49.76,-15.25,0
+1272,Artificial Intelligence,Search Algorithms,48.8,43.3,3,28.22,66.56,53.37,4.27,3,40.94,-13.18,0
+1149,Machine Learning,Decision Trees,33.25,27.63,1,45.9,22.37,34.75,3.09,3,43.96,12.38,0
+1279,Operating Systems,CPU Scheduling,64.87,62.74,2,24.01,73.35,60.45,3.37,1,66.46,-12.89,1
+1314,Artificial Intelligence,Heuristics,25.46,30.59,1,33.38,47.76,36.18,5.92,2,49.0,-11.59,0
+1282,Operating Systems,Process Management,75.7,90.09,1,20.43,88.8,79.51,7.05,1,77.71,-9.28,1
+1178,Artificial Intelligence,Game Playing,6.73,0.0,2,33.32,11.49,19.93,2.26,2,45.28,8.44,0
+1209,Data Structures,Trees,40.2,32.93,1,22.96,31.27,46.33,2.7,1,65.06,15.05,0
+1383,Computer Networks,Network Security,51.63,58.79,3,38.62,62.65,65.33,5.59,1,79.8,2.68,1
+1400,Database Management Systems,Transactions,73.84,73.46,1,39.02,29.2,68.58,5.35,2,84.1,39.39,1
+1090,Machine Learning,Model Evaluation,84.48,83.11,2,37.54,80.77,90.23,6.98,2,95.25,9.46,1
+1136,Operating Systems,CPU Scheduling,60.15,64.98,1,19.85,55.88,56.99,3.02,2,74.04,1.11,1
+1331,Computer Networks,OSI Model,56.43,61.35,1,31.91,62.66,67.06,4.4,3,99.06,4.4,1
+1094,Operating Systems,Process Management,55.81,66.35,1,43.23,82.43,57.47,4.73,3,87.67,-24.96,1
+1075,Computer Networks,Network Security,12.07,1.83,4,43.07,29.06,20.06,4.6,3,60.86,-9.0,0
+1056,Database Management Systems,Normalization,52.26,54.59,1,51.13,48.03,41.84,4.01,2,77.39,-6.19,0
+1227,Operating Systems,Process Management,45.58,43.93,4,31.55,54.5,43.36,4.92,2,63.45,-11.14,0
+1337,Database Management Systems,Indexing,41.63,35.57,2,57.59,37.1,40.22,2.44,3,44.69,3.12,0
+1279,Data Structures,Graphs,64.87,74.49,2,33.45,51.97,62.64,2.92,2,71.41,10.68,1
+1352,Operating Systems,Virtual Memory,70.97,71.63,2,35.71,65.2,72.06,4.85,2,91.42,6.85,1
+1016,Data Structures,Trees,86.86,95.43,2,11.59,62.41,90.55,5.49,1,85.61,28.14,2
+1172,Operating Systems,Process Management,76.48,72.4,1,23.62,83.77,81.1,2.6,1,61.09,-2.67,1
+1268,Operating Systems,Process Management,75.59,73.32,2,36.49,81.74,77.44,6.65,3,88.13,-4.3,1
+1084,Database Management Systems,ER Model,38.5,36.36,4,44.04,25.97,53.16,4.0,3,21.22,27.19,0
+1083,Operating Systems,CPU Scheduling,12.07,0.0,4,55.24,17.66,5.67,4.72,3,31.8,-11.99,0
+1161,Data Structures,Sorting,60.12,65.35,2,42.49,73.28,61.38,8.65,3,68.89,-11.9,1
+1195,Operating Systems,Process Management,79.5,80.54,1,34.02,59.51,84.39,5.5,2,63.85,24.88,1
+1342,Artificial Intelligence,Knowledge Representation,46.06,53.75,2,33.11,25.79,47.21,4.32,1,58.15,21.41,0
+1105,Database Management Systems,Indexing,48.74,51.02,3,32.32,57.82,53.36,5.11,2,88.23,-4.46,0
+1252,Database Management Systems,Transactions,39.18,41.65,1,48.82,69.57,44.57,3.57,3,72.15,-25.0,0
+1210,Operating Systems,Virtual Memory,36.85,51.63,2,37.82,6.98,38.98,0.5,1,48.4,32.01,0
+1207,Data Structures,Searching,0.0,0.0,1,44.15,0.0,5.93,2.9,3,17.17,5.93,0
+1008,Operating Systems,CPU Scheduling,89.18,96.49,2,20.02,79.87,90.01,5.57,1,87.47,10.14,2
+1291,Machine Learning,Model Evaluation,59.68,48.74,1,47.02,69.99,50.19,5.12,3,54.85,-19.8,0
+1170,Computer Networks,Network Security,26.44,22.26,2,48.19,57.83,27.4,5.74,3,52.1,-30.43,0
+1377,Computer Networks,Transport Layer,42.5,35.86,2,42.49,39.9,44.27,6.23,3,90.52,4.37,0
+1337,Computer Networks,Transport Layer,58.08,62.01,2,23.62,49.28,64.89,3.53,1,66.36,15.61,1
+1295,Data Structures,Linked Lists,6.82,0.0,4,36.26,12.33,9.05,2.99,3,52.56,-3.27,0
+1016,Artificial Intelligence,Search Algorithms,63.98,64.03,2,33.81,54.12,61.6,5.62,3,45.09,7.47,0
+1192,Artificial Intelligence,Knowledge Representation,39.22,36.96,2,48.98,42.48,37.99,2.96,3,60.53,-4.49,0
+1114,Operating Systems,CPU Scheduling,32.0,42.97,3,30.43,60.67,31.86,4.25,1,34.75,-28.8,0
+1302,Computer Networks,Routing Protocols,13.85,20.15,2,56.12,44.25,13.02,2.88,3,15.0,-31.22,0
+1287,Artificial Intelligence,Knowledge Representation,31.07,30.78,4,36.17,88.38,28.63,1.03,1,63.97,-59.75,0
+1247,Machine Learning,Neural Networks,30.89,19.16,1,38.07,44.19,24.29,2.99,1,39.99,-19.9,0
+1055,Machine Learning,Decision Trees,59.05,65.08,1,37.51,64.55,65.3,4.89,2,79.45,0.75,1
+1137,Operating Systems,Virtual Memory,14.18,14.81,3,67.75,43.08,22.49,4.18,3,57.32,-20.59,0
+1388,Data Structures,Arrays,33.69,28.62,1,24.9,89.29,33.26,3.97,2,90.07,-56.03,0
+1396,Computer Networks,Network Security,78.88,88.26,2,19.25,46.66,77.85,6.92,2,60.66,31.19,1
+1187,Machine Learning,Neural Networks,10.21,8.74,3,29.12,59.42,16.01,3.7,1,68.77,-43.41,0
+1004,Database Management Systems,Indexing,69.13,71.57,4,31.19,49.68,72.82,4.57,1,49.79,23.14,1
+1247,Database Management Systems,ER Model,96.09,86.05,1,11.72,97.06,100.0,5.99,1,100.0,2.94,2
+1354,Database Management Systems,ER Model,37.76,30.0,4,57.03,10.25,38.85,4.94,2,45.89,28.6,0
+1270,Artificial Intelligence,Game Playing,71.78,52.71,3,15.41,45.04,69.92,5.16,1,61.96,24.88,1
+1031,Data Structures,Stack,29.2,16.32,1,28.69,33.64,23.55,1.92,1,79.03,-10.09,0
+1165,Artificial Intelligence,Game Playing,21.32,23.03,2,45.49,40.29,28.97,4.74,2,59.29,-11.32,0
+1124,Database Management Systems,Transactions,13.82,8.75,4,26.11,59.82,23.24,4.76,1,39.47,-36.58,0
+1167,Operating Systems,Process Management,48.26,43.34,1,33.72,61.14,52.5,7.46,3,63.56,-8.64,0
+1122,Database Management Systems,ER Model,45.48,47.4,3,47.63,39.43,45.59,5.8,3,51.33,6.16,0
+1149,Computer Networks,TCP/IP,12.83,17.4,4,34.03,27.84,8.8,3.66,2,32.15,-19.04,0
+1036,Operating Systems,Process Management,34.27,40.37,1,34.72,55.82,29.8,4.42,1,78.78,-26.03,0
+1346,Computer Networks,Transport Layer,29.89,25.54,2,47.53,39.13,25.16,3.24,3,54.5,-13.97,0
+1292,Computer Networks,TCP/IP,52.06,52.7,4,22.49,55.25,47.13,4.15,1,63.63,-8.13,0
+1155,Machine Learning,Neural Networks,58.56,52.0,1,27.46,57.28,69.94,3.98,1,52.8,12.66,1
+1296,Computer Networks,Routing Protocols,70.94,84.7,1,31.31,53.58,62.2,5.25,1,85.66,8.62,1
+1352,Database Management Systems,Transactions,27.32,37.63,4,44.38,10.21,29.52,3.57,2,27.71,19.3,0
+1028,Database Management Systems,ER Model,100.0,100.0,2,14.05,96.08,95.0,6.34,1,86.5,-1.08,2
+1319,Operating Systems,Virtual Memory,39.04,47.85,4,40.22,31.89,31.96,3.6,1,45.04,0.07,0
+1392,Operating Systems,Deadlocks,67.15,51.41,2,26.75,51.27,72.55,4.9,1,74.55,21.27,1
+1195,Data Structures,Graphs,70.04,81.12,3,24.35,62.61,64.21,5.55,1,70.12,1.6,1
+1184,Database Management Systems,Indexing,32.46,33.63,2,36.63,66.12,41.0,5.79,2,64.18,-25.11,0
+1083,Database Management Systems,Normalization,58.78,54.13,1,35.14,64.71,65.14,3.76,1,67.7,0.43,1
+1145,Computer Networks,OSI Model,28.46,14.01,1,33.22,54.66,35.47,5.24,2,76.88,-19.19,0
+1394,Database Management Systems,ER Model,77.21,77.77,2,26.3,47.23,84.88,7.09,1,71.93,37.64,1
+1237,Artificial Intelligence,Knowledge Representation,98.53,100.0,1,40.57,74.12,99.01,7.6,2,81.05,24.88,2
+1083,Computer Networks,OSI Model,46.07,37.85,3,39.37,70.94,48.9,4.1,1,64.15,-22.04,0
+1210,Data Structures,Stack,31.4,43.73,4,56.96,59.61,31.89,4.28,3,42.74,-27.72,0
+1094,Data Structures,Arrays,43.77,50.44,2,34.52,64.81,46.94,5.87,2,49.56,-17.87,0
+1398,Artificial Intelligence,Game Playing,31.62,32.22,2,62.53,37.02,34.05,3.52,3,51.72,-2.98,0
+1017,Operating Systems,Deadlocks,27.3,33.31,2,46.86,14.52,33.4,2.37,2,49.71,18.87,0
+1384,Machine Learning,Supervised Learning,20.64,10.57,1,37.56,29.47,17.94,2.85,1,24.75,-11.53,0
+1307,Data Structures,Trees,54.88,54.83,1,43.47,56.97,57.26,4.99,3,77.28,0.29,0
+1150,Operating Systems,CPU Scheduling,66.94,63.18,2,35.67,85.38,70.07,6.47,3,66.64,-15.31,1
+1313,Operating Systems,Virtual Memory,26.26,32.53,3,61.77,40.9,32.26,0.87,3,42.05,-8.64,0
+1082,Database Management Systems,Transactions,34.35,42.78,2,55.06,45.61,38.45,4.41,3,34.27,-7.17,0
+1043,Machine Learning,Supervised Learning,50.39,62.49,4,37.22,44.26,52.43,6.5,3,87.79,8.18,0
+1183,Artificial Intelligence,Search Algorithms,48.54,53.91,2,31.37,88.31,47.39,5.14,1,47.21,-40.92,0
+1093,Computer Networks,Routing Protocols,67.2,67.89,2,33.65,58.54,63.15,4.61,2,90.77,4.6,1
+1238,Data Structures,Stack,33.16,21.22,4,38.68,68.89,29.45,3.88,3,63.43,-39.45,0
+1283,Data Structures,Trees,59.76,71.47,1,37.51,37.37,68.49,3.62,1,44.45,31.12,1
+1310,Artificial Intelligence,Heuristics,53.45,55.06,2,39.2,65.41,48.9,6.8,2,78.99,-16.51,0
+1183,Machine Learning,Model Evaluation,54.04,61.1,4,36.82,63.98,59.16,6.22,1,55.87,-4.82,0
+1315,Computer Networks,TCP/IP,53.84,55.23,4,23.08,30.96,51.72,3.92,1,92.32,20.76,0
+1372,Computer Networks,Transport Layer,23.8,21.77,1,54.32,31.28,24.51,1.85,3,35.5,-6.77,0
+1131,Database Management Systems,Transactions,70.03,69.83,1,31.14,60.35,72.12,4.69,1,54.5,11.77,1
+1099,Artificial Intelligence,Search Algorithms,44.19,34.83,4,41.01,75.38,45.55,4.04,1,34.67,-29.82,0
+1294,Data Structures,Searching,40.42,40.2,2,45.05,15.14,32.1,2.48,3,59.8,16.96,0
+1319,Artificial Intelligence,Search Algorithms,58.62,60.48,1,44.78,65.72,59.67,5.43,2,51.62,-6.05,0
+1047,Operating Systems,CPU Scheduling,26.68,20.35,4,39.1,55.63,24.3,3.03,3,24.86,-31.33,0
+1041,Database Management Systems,Indexing,76.4,51.0,1,57.61,98.84,78.71,5.35,3,93.53,-20.12,1
+1191,Computer Networks,Transport Layer,67.39,78.81,1,22.84,52.94,68.08,4.85,1,75.33,15.14,1
+1286,Database Management Systems,SQL Queries,68.01,73.24,3,47.17,46.92,79.09,4.62,3,70.17,32.18,1
+1276,Operating Systems,Deadlocks,58.92,55.79,2,21.01,85.47,66.76,4.94,1,45.44,-18.71,1
+1215,Computer Networks,Network Security,72.62,66.56,1,29.95,76.6,69.77,5.95,1,69.17,-6.83,1
+1078,Computer Networks,Network Security,66.63,62.55,1,37.21,68.2,60.17,4.76,2,67.8,-8.04,1
+1258,Operating Systems,Virtual Memory,11.3,6.11,1,46.4,42.73,16.28,5.27,2,20.81,-26.45,0
+1007,Operating Systems,Virtual Memory,76.34,77.42,2,28.51,63.0,80.64,6.71,3,100.0,17.63,1
+1357,Artificial Intelligence,Game Playing,25.84,30.49,4,48.6,27.92,27.77,2.01,1,40.31,-0.16,0
+1186,Artificial Intelligence,Heuristics,48.11,50.01,2,23.89,87.14,52.9,4.38,2,76.19,-34.24,1
+1392,Operating Systems,Deadlocks,56.46,53.8,2,43.53,66.62,61.73,4.44,3,74.17,-4.89,1
+1285,Data Structures,Searching,45.86,49.06,2,36.31,65.69,56.39,4.51,2,81.85,-9.3,0
+1017,Machine Learning,Supervised Learning,42.72,48.46,3,46.93,29.95,55.64,2.69,3,22.33,25.69,0
+1203,Machine Learning,Decision Trees,22.98,38.74,1,29.12,61.48,25.86,3.78,2,74.21,-35.62,0
+1353,Operating Systems,Deadlocks,42.42,35.8,2,33.62,59.21,44.27,5.22,1,56.75,-14.94,0
+1076,Computer Networks,OSI Model,19.42,30.3,3,34.17,25.53,16.26,5.2,1,21.82,-9.26,0
+1247,Computer Networks,Transport Layer,29.98,25.01,1,58.43,46.82,39.02,3.21,3,48.17,-7.8,0
+1068,Operating Systems,CPU Scheduling,59.91,70.85,4,36.53,53.53,67.09,3.88,2,100.0,13.56,1
+1291,Database Management Systems,Indexing,71.91,75.09,1,19.96,92.62,69.31,3.53,1,77.59,-23.31,1
+1355,Artificial Intelligence,Heuristics,26.46,30.25,2,38.2,24.89,31.03,2.55,1,53.13,6.14,0
+1284,Data Structures,Searching,58.77,62.13,2,54.07,59.79,53.31,6.51,3,65.66,-6.49,0
+1302,Computer Networks,Network Security,47.05,49.86,2,31.87,57.73,39.04,5.51,1,73.65,-18.69,0
+1024,Operating Systems,Virtual Memory,34.42,41.46,1,27.99,33.59,36.13,2.03,1,72.79,2.55,0
+1116,Data Structures,Linked Lists,38.19,27.11,1,28.79,52.73,48.93,1.33,1,80.52,-3.8,0
+1274,Computer Networks,Routing Protocols,63.8,65.1,2,38.62,57.57,66.21,4.31,3,45.87,8.64,1
+1339,Operating Systems,Process Management,72.19,56.13,1,20.96,67.44,69.81,5.82,3,81.9,2.38,1
+1184,Machine Learning,Model Evaluation,52.68,54.25,2,44.75,29.48,64.75,2.11,1,24.09,35.26,0
+1237,Database Management Systems,Transactions,54.62,62.9,3,46.5,47.07,48.59,3.05,1,68.77,1.52,0
+1304,Data Structures,Stack,42.01,38.48,2,28.06,64.54,38.71,3.73,2,50.9,-25.83,0
+1068,Computer Networks,Transport Layer,58.01,69.84,2,35.72,53.68,63.1,3.64,2,88.2,9.42,1
+1376,Data Structures,Graphs,23.09,19.43,1,39.18,17.4,28.3,2.76,2,39.17,10.9,0
+1287,Machine Learning,Model Evaluation,25.79,26.83,4,50.58,50.07,30.94,3.35,2,44.35,-19.13,0
+1180,Artificial Intelligence,Heuristics,79.76,84.08,2,27.61,59.37,76.54,6.38,1,77.31,17.17,1
+1226,Artificial Intelligence,Search Algorithms,32.25,41.88,2,56.05,35.02,27.48,2.5,2,45.14,-7.55,0
+1151,Machine Learning,Supervised Learning,40.91,18.26,3,35.2,47.52,48.99,3.28,1,71.48,1.47,0
+1320,Operating Systems,CPU Scheduling,33.55,31.91,1,34.6,15.79,42.22,3.93,2,34.24,26.43,0
+1240,Machine Learning,Supervised Learning,90.72,93.37,2,26.25,66.24,98.08,6.03,1,100.0,31.83,2
+1100,Database Management Systems,SQL Queries,79.76,94.15,2,32.43,71.26,69.04,6.0,1,91.8,-2.22,1
+1025,Machine Learning,Decision Trees,39.59,32.12,3,46.34,53.27,54.6,3.43,3,52.55,1.33,0
+1374,Artificial Intelligence,Search Algorithms,37.62,33.05,4,48.53,16.85,44.19,4.39,2,46.42,27.34,0
+1237,Machine Learning,Supervised Learning,60.24,48.48,1,18.78,66.79,52.06,9.02,1,50.65,-14.73,0
+1368,Data Structures,Stack,57.91,50.43,1,32.75,88.58,61.92,6.23,2,71.85,-26.67,1
+1081,Machine Learning,Supervised Learning,63.26,65.4,2,45.85,65.84,60.45,5.41,3,73.71,-5.4,1
+1253,Artificial Intelligence,Heuristics,67.97,65.56,2,38.83,95.56,65.68,5.88,2,78.61,-29.88,1
+1148,Computer Networks,Network Security,37.87,33.78,1,33.07,35.48,44.14,7.21,1,76.75,8.67,0
+1114,Database Management Systems,Transactions,19.86,20.05,3,26.98,0.0,19.68,0.69,1,46.62,19.68,0
+1220,Machine Learning,Neural Networks,57.39,59.09,1,33.78,47.68,45.18,3.15,1,68.78,-2.5,0
+1340,Machine Learning,Supervised Learning,24.77,12.45,1,41.3,96.06,26.72,1.83,3,56.1,-69.35,0
+1006,Machine Learning,Decision Trees,31.42,42.27,2,37.14,46.16,36.37,4.61,1,73.82,-9.79,0
+1399,Operating Systems,CPU Scheduling,37.44,38.59,2,38.34,45.2,41.39,1.88,2,55.57,-3.8,0
+1277,Data Structures,Arrays,18.77,5.54,2,46.86,24.78,21.75,5.87,3,57.99,-3.03,0
+1289,Database Management Systems,Indexing,77.45,94.95,2,21.62,55.44,75.87,6.91,1,69.3,20.43,1
+1092,Database Management Systems,ER Model,47.31,49.55,2,34.5,46.17,63.53,2.73,1,48.99,17.37,0
+1047,Computer Networks,TCP/IP,100.0,100.0,1,31.98,77.93,96.1,5.91,1,98.91,18.17,2
+1064,Data Structures,Stack,88.68,96.98,2,20.88,90.83,90.12,6.94,1,48.63,-0.71,1
+1302,Computer Networks,OSI Model,39.21,30.08,3,38.07,47.28,44.09,3.64,2,42.83,-3.18,0
+1312,Operating Systems,Process Management,59.1,64.07,1,40.27,81.17,50.46,8.28,3,100.0,-30.71,1
+1031,Operating Systems,CPU Scheduling,62.41,54.96,2,41.06,71.54,59.48,6.7,1,81.31,-12.06,1
+1377,Database Management Systems,Normalization,64.29,73.0,2,46.58,22.98,73.88,3.19,3,67.9,50.9,1
+1191,Artificial Intelligence,Heuristics,41.22,34.22,2,29.88,54.55,45.34,3.73,1,38.72,-9.22,0
+1050,Database Management Systems,ER Model,51.06,40.56,2,41.38,61.19,58.99,3.31,3,75.34,-2.21,0
+1312,Artificial Intelligence,Heuristics,48.17,56.71,1,41.86,61.0,34.85,4.08,3,79.43,-26.14,0
+1104,Database Management Systems,ER Model,18.2,3.37,2,40.29,48.08,25.62,2.92,1,32.4,-22.46,0
+1154,Operating Systems,CPU Scheduling,70.04,68.21,2,26.95,54.94,73.66,3.75,1,89.33,18.72,1
+1087,Artificial Intelligence,Knowledge Representation,44.25,41.23,1,53.38,39.66,43.62,4.3,3,73.29,3.95,0
+1305,Artificial Intelligence,Knowledge Representation,20.71,19.0,1,42.85,21.4,20.25,3.0,3,47.38,-1.15,0
+1145,Machine Learning,Supervised Learning,66.45,71.79,1,45.23,64.83,66.1,5.22,3,65.64,1.28,1
+1041,Data Structures,Graphs,79.89,98.44,1,41.23,84.93,77.29,5.33,3,51.99,-7.64,1
+1301,Data Structures,Graphs,46.66,38.83,4,36.5,81.11,45.34,3.8,3,59.7,-35.77,0
+1107,Database Management Systems,Transactions,52.31,51.28,2,37.37,28.61,60.19,5.17,2,90.32,31.58,0
+1196,Data Structures,Graphs,78.52,82.34,2,32.02,68.83,81.05,5.91,3,92.82,12.22,1
+1147,Database Management Systems,ER Model,51.0,51.91,1,35.14,71.83,63.37,6.22,2,58.28,-8.46,1
+1337,Database Management Systems,Normalization,33.17,39.8,1,45.12,24.07,31.71,2.13,1,71.23,7.65,0
+1229,Artificial Intelligence,Search Algorithms,76.0,79.88,1,40.75,100.0,76.4,7.23,2,96.38,-23.6,1
+1330,Machine Learning,Neural Networks,49.3,41.32,4,63.1,29.28,50.59,4.94,3,62.49,21.3,0
+1058,Database Management Systems,Normalization,65.69,54.73,2,38.13,59.83,71.55,6.46,2,80.23,11.73,1
+1248,Artificial Intelligence,Knowledge Representation,53.01,60.07,1,43.71,0.0,49.17,5.58,1,53.26,49.17,0
+1204,Database Management Systems,ER Model,38.13,50.16,1,41.84,51.71,38.27,2.85,2,58.92,-13.44,0
+1372,Data Structures,Queue,73.18,76.91,1,20.94,94.12,75.78,5.07,1,89.11,-18.34,1
+1268,Machine Learning,Neural Networks,36.44,39.17,2,44.13,56.44,41.2,6.96,3,70.91,-15.24,0
+1236,Artificial Intelligence,Heuristics,49.71,53.93,1,34.02,75.92,58.36,6.42,2,75.65,-17.56,1
+1284,Data Structures,Stack,21.79,17.14,1,29.22,16.61,23.98,4.47,1,24.45,7.37,0
+1386,Database Management Systems,ER Model,6.59,11.59,4,57.03,8.06,7.68,2.15,2,29.17,-0.38,0
+1351,Artificial Intelligence,Search Algorithms,63.69,63.58,1,42.37,76.25,69.16,3.14,3,71.6,-7.09,1
+1370,Data Structures,Sorting,55.15,54.91,2,19.41,28.5,49.98,4.88,1,65.5,21.48,0
+1287,Computer Networks,OSI Model,82.81,80.39,1,27.03,56.45,95.92,5.82,2,64.51,39.47,1
+1161,Database Management Systems,Transactions,90.06,78.53,2,35.95,88.68,93.53,5.61,1,87.2,4.85,1
+1345,Computer Networks,OSI Model,75.48,69.76,2,31.63,100.0,82.16,6.8,1,76.82,-17.84,1
+1087,Data Structures,Sorting,62.66,65.5,1,37.67,79.38,65.37,6.09,3,100.0,-14.01,1
+1221,Artificial Intelligence,Game Playing,97.0,98.84,1,13.01,96.71,100.0,5.25,1,86.37,3.29,2
+1346,Computer Networks,Transport Layer,61.19,57.59,2,11.07,59.05,68.35,5.56,1,76.24,9.3,1
+1358,Computer Networks,Network Security,67.64,58.44,1,52.34,52.96,78.83,4.73,3,93.83,25.87,1
+1301,Operating Systems,Deadlocks,44.07,31.68,1,34.32,88.03,43.59,5.01,2,79.2,-44.44,0
+1288,Operating Systems,Deadlocks,9.69,17.75,1,53.22,5.06,8.45,2.53,2,40.11,3.39,0
+1018,Operating Systems,Virtual Memory,63.03,55.33,4,46.22,40.03,74.39,5.13,2,40.43,34.36,1
+1226,Machine Learning,Decision Trees,87.74,82.93,2,19.45,83.32,92.88,3.74,2,73.98,9.56,1
+1212,Computer Networks,Transport Layer,15.03,21.52,1,36.74,30.0,22.77,3.27,1,36.91,-7.24,0
+1337,Machine Learning,Neural Networks,54.16,47.62,2,38.95,58.08,53.86,6.23,3,86.0,-4.22,0
+1362,Machine Learning,Decision Trees,54.6,48.0,2,43.67,33.37,62.23,4.67,2,59.54,28.86,0
+1257,Operating Systems,Deadlocks,46.82,41.17,2,32.08,31.1,42.38,5.94,1,50.44,11.28,0
+1229,Computer Networks,Network Security,47.4,42.47,1,50.39,32.59,49.42,6.25,3,61.89,16.82,0
+1300,Data Structures,Searching,72.69,68.89,4,32.5,46.05,78.72,5.5,2,63.77,32.67,1
+1105,Machine Learning,Model Evaluation,22.11,16.06,3,41.84,56.74,30.29,5.39,1,64.67,-26.45,0
+1041,Computer Networks,Network Security,54.82,44.21,1,33.78,48.97,48.56,3.38,2,69.35,-0.41,0
+1344,Operating Systems,CPU Scheduling,59.07,58.28,2,43.39,72.09,64.61,5.02,1,98.2,-7.47,1
+1015,Database Management Systems,ER Model,65.26,63.41,4,32.69,43.56,61.2,2.79,1,52.36,17.64,0
+1239,Computer Networks,Routing Protocols,24.39,36.25,4,51.81,0.0,33.87,1.51,2,32.39,33.87,0
+1144,Data Structures,Stack,45.95,44.29,2,34.72,26.29,49.33,2.76,1,65.04,23.04,0
+1105,Database Management Systems,Normalization,49.41,45.32,4,33.64,84.2,53.52,3.79,1,92.86,-30.68,1
+1245,Artificial Intelligence,Search Algorithms,18.27,8.53,4,51.68,59.72,28.54,3.16,3,47.91,-31.18,0
+1235,Data Structures,Stack,48.59,57.83,2,35.87,32.25,50.99,5.68,1,58.18,18.74,0
+1370,Data Structures,Linked Lists,0.0,0.0,1,46.54,17.34,0.0,2.53,2,43.03,-17.34,0
+1185,Artificial Intelligence,Search Algorithms,29.5,35.11,2,48.71,23.89,39.8,4.07,2,37.38,15.91,0
+1145,Database Management Systems,SQL Queries,30.84,36.89,3,39.71,46.55,39.56,5.19,3,51.72,-6.98,0
+1235,Database Management Systems,Transactions,48.95,45.79,1,34.27,39.58,52.18,4.88,1,49.05,12.6,0
+1323,Artificial Intelligence,Search Algorithms,33.69,47.75,2,44.63,91.44,40.98,5.03,3,66.34,-50.46,0
+1128,Machine Learning,Decision Trees,30.28,20.98,4,52.7,66.42,33.83,5.56,3,38.16,-32.59,0
+1099,Machine Learning,Decision Trees,60.38,55.14,3,20.95,63.58,54.14,3.71,1,57.71,-9.44,0
+1086,Machine Learning,Neural Networks,5.2,19.63,3,46.82,0.0,0.0,3.65,2,50.15,0.0,0
+1094,Artificial Intelligence,Knowledge Representation,0.0,4.49,4,38.49,0.0,10.43,4.12,1,30.16,10.43,0
+1042,Computer Networks,Routing Protocols,70.56,66.25,2,32.26,71.23,73.54,4.74,2,71.8,2.31,1
+1163,Computer Networks,TCP/IP,43.55,36.5,4,32.35,41.68,56.32,4.79,1,56.67,14.64,0
+1172,Database Management Systems,Transactions,12.02,20.15,2,39.08,31.98,12.5,4.81,3,49.58,-19.48,0
+1115,Machine Learning,Supervised Learning,91.17,83.54,1,32.13,85.97,84.79,6.59,1,93.71,-1.18,1
+1005,Machine Learning,Neural Networks,28.31,18.66,4,42.14,18.4,35.45,4.87,3,37.82,17.04,0
+1292,Computer Networks,OSI Model,33.54,43.71,1,50.34,24.97,44.04,3.4,2,41.23,19.06,0
+1223,Operating Systems,CPU Scheduling,84.31,81.45,2,47.18,72.1,83.9,5.77,2,56.37,11.8,1
+1273,Database Management Systems,Transactions,60.47,72.65,1,27.87,58.73,63.45,6.13,1,56.73,4.72,1
+1334,Computer Networks,Network Security,49.55,42.94,3,40.91,44.27,54.34,2.88,3,63.29,10.07,0
+1101,Data Structures,Queue,53.66,51.82,1,43.2,55.38,52.29,5.12,2,58.56,-3.09,0
+1083,Data Structures,Arrays,74.55,79.96,1,32.31,66.35,72.24,7.08,2,73.31,5.89,1
+1285,Data Structures,Searching,45.87,51.79,2,40.84,39.46,38.82,3.89,2,55.99,-0.64,0
+1127,Database Management Systems,Normalization,50.47,50.06,2,21.49,86.99,63.93,6.2,2,60.43,-23.06,1
+1378,Computer Networks,TCP/IP,66.01,72.89,1,22.91,92.26,75.34,6.24,1,96.05,-16.92,1
+1326,Artificial Intelligence,Search Algorithms,40.3,47.94,3,42.5,50.26,34.83,4.86,2,80.81,-15.43,0
+1297,Computer Networks,TCP/IP,15.28,28.57,1,35.61,12.57,26.27,4.98,2,43.22,13.7,0
+1314,Artificial Intelligence,Game Playing,63.93,51.24,2,20.51,65.22,64.18,3.26,1,75.28,-1.04,1
+1070,Computer Networks,Network Security,48.71,47.48,1,33.55,37.62,57.05,1.91,1,48.61,19.43,0
+1305,Database Management Systems,Indexing,40.53,53.35,1,34.08,77.27,37.15,3.28,2,27.17,-40.12,0
+1148,Artificial Intelligence,Knowledge Representation,73.93,77.73,3,44.89,44.54,83.63,5.13,2,52.84,39.09,1
+1088,Artificial Intelligence,Search Algorithms,68.21,69.37,2,36.63,81.03,78.37,5.75,2,66.21,-2.66,1
+1184,Operating Systems,Process Management,72.02,73.26,1,33.18,53.87,73.36,7.53,2,66.59,19.48,1
+1055,Computer Networks,Network Security,86.27,92.25,2,14.07,71.21,91.27,6.27,1,100.0,20.06,2
+1199,Artificial Intelligence,Game Playing,52.82,43.35,1,43.0,37.68,49.9,3.33,1,99.28,12.23,0
+1018,Machine Learning,Model Evaluation,19.05,20.66,4,40.5,38.23,24.04,5.27,2,39.76,-14.2,0
+1202,Artificial Intelligence,Search Algorithms,61.58,54.68,2,21.82,35.56,78.52,1.54,1,70.27,42.96,1
+1092,Data Structures,Sorting,52.33,58.9,2,21.25,50.0,44.36,4.14,1,68.0,-5.64,0
+1167,Artificial Intelligence,Knowledge Representation,38.28,32.22,3,28.87,52.24,52.35,3.75,2,73.9,0.12,0
+1306,Database Management Systems,Indexing,53.34,55.48,1,36.8,64.15,52.58,5.34,1,52.61,-11.57,0
+1139,Data Structures,Linked Lists,14.7,15.5,4,44.42,30.6,13.42,3.1,3,65.76,-17.18,0
+1258,Machine Learning,Neural Networks,53.47,49.21,2,40.28,73.41,57.27,5.6,3,69.3,-16.15,0
+1110,Artificial Intelligence,Search Algorithms,53.3,46.81,4,39.38,49.76,56.95,5.5,2,66.15,7.19,0
+1309,Artificial Intelligence,Knowledge Representation,61.81,68.98,4,12.66,24.99,58.86,4.47,1,73.02,33.87,1
+1308,Database Management Systems,Normalization,36.67,38.79,2,34.35,23.62,37.06,5.3,1,61.28,13.44,0
+1063,Computer Networks,OSI Model,15.46,15.63,3,38.71,6.49,20.45,2.25,2,40.12,13.96,0
+1097,Machine Learning,Decision Trees,32.34,41.45,1,30.66,67.1,36.56,6.12,2,54.88,-30.54,0
+1193,Operating Systems,Virtual Memory,72.04,62.29,2,45.34,34.84,75.79,2.49,1,40.88,40.96,1
+1351,Data Structures,Arrays,55.36,52.27,1,25.43,70.47,61.0,4.22,1,51.9,-9.47,0
+1288,Operating Systems,Deadlocks,43.4,61.99,4,32.85,61.8,46.23,3.22,2,67.37,-15.57,0
+1276,Computer Networks,TCP/IP,26.41,30.63,2,44.79,57.41,29.47,3.41,3,59.68,-27.95,0
+1135,Database Management Systems,SQL Queries,36.28,31.45,3,50.4,32.48,39.17,3.55,3,28.34,6.69,0
+1386,Database Management Systems,Indexing,69.55,71.87,1,35.11,83.02,75.38,7.11,2,64.75,-7.64,1
+1296,Computer Networks,Transport Layer,30.59,31.63,2,39.94,51.66,36.83,4.08,3,78.97,-14.83,0
+1384,Operating Systems,CPU Scheduling,8.45,0.33,1,37.39,28.61,4.12,1.37,1,21.93,-24.48,0
+1158,Operating Systems,Process Management,12.03,22.61,2,54.74,13.62,29.13,4.69,3,34.14,15.51,0
+1070,Operating Systems,Process Management,30.13,36.73,1,55.46,55.21,22.62,3.92,3,15.86,-32.59,0
+1124,Machine Learning,Model Evaluation,60.45,58.8,2,21.4,67.88,59.82,3.96,1,56.06,-8.06,1
+1123,Operating Systems,Process Management,4.59,2.87,3,54.44,10.52,4.39,0.76,2,28.01,-6.13,0
+1015,Data Structures,Linked Lists,55.98,53.85,1,42.51,75.57,62.74,4.18,2,66.78,-12.83,1
+1350,Operating Systems,Virtual Memory,80.39,81.85,2,25.52,66.2,84.61,7.7,1,80.99,18.42,1
+1020,Operating Systems,Deadlocks,76.57,68.4,1,54.86,62.67,75.11,8.46,3,88.57,12.44,1
+1139,Database Management Systems,ER Model,92.69,76.24,1,30.27,95.91,100.0,7.25,2,86.24,4.09,2
+1275,Database Management Systems,ER Model,23.4,27.38,1,34.78,59.37,21.38,3.37,3,33.89,-37.99,0
+1233,Machine Learning,Neural Networks,66.61,73.27,2,42.3,75.85,59.67,5.81,2,64.05,-16.18,1
+1303,Computer Networks,Network Security,46.73,34.16,1,22.62,12.07,50.37,4.25,1,52.92,38.31,0
+1231,Computer Networks,Transport Layer,67.09,54.14,1,23.13,69.4,68.36,6.92,2,100.0,-1.04,1
+1135,Machine Learning,Decision Trees,57.79,56.81,3,48.31,30.86,62.02,5.34,3,79.37,31.16,0
+1139,Database Management Systems,ER Model,9.18,20.66,3,49.14,22.73,14.38,3.19,2,15.0,-8.35,0
+1286,Data Structures,Searching,14.76,11.42,4,42.89,25.0,16.79,5.0,3,36.75,-8.21,0
+1331,Database Management Systems,SQL Queries,46.35,47.73,1,30.21,74.21,44.65,6.61,1,61.96,-29.56,0
+1335,Computer Networks,OSI Model,63.17,68.25,1,32.4,91.1,66.65,4.58,1,89.93,-24.45,1
+1310,Database Management Systems,Transactions,21.35,16.1,1,50.92,30.78,28.09,3.31,2,39.33,-2.69,0
+1277,Computer Networks,OSI Model,35.96,37.21,2,22.39,34.35,39.53,4.2,1,57.6,5.19,0
+1254,Data Structures,Sorting,57.07,59.12,3,37.25,59.96,54.74,2.44,2,70.94,-5.22,0
+1068,Operating Systems,Process Management,46.46,53.8,3,35.05,31.24,53.06,4.33,2,33.93,21.82,0
+1243,Computer Networks,Routing Protocols,53.49,65.42,3,28.08,57.61,51.71,5.98,1,27.03,-5.9,0
+1139,Machine Learning,Supervised Learning,34.4,38.66,1,27.21,14.37,40.38,4.43,1,50.22,26.01,0
+1376,Data Structures,Graphs,49.1,53.15,2,53.69,45.27,56.69,5.22,3,72.21,11.42,0
+1225,Operating Systems,Virtual Memory,62.49,62.9,2,27.7,73.72,59.37,6.81,1,72.39,-14.34,1
+1372,Computer Networks,OSI Model,100.0,100.0,1,40.35,75.49,100.0,6.56,2,92.12,24.51,2
+1021,Database Management Systems,Transactions,56.25,44.11,3,46.1,46.15,63.06,3.34,3,81.12,16.91,0
+1352,Machine Learning,Neural Networks,61.62,64.57,2,42.84,57.12,63.75,6.01,2,58.07,6.63,1
+1399,Data Structures,Sorting,38.02,37.69,1,31.24,2.91,33.15,1.3,1,44.92,30.24,0
+1254,Data Structures,Arrays,51.82,41.81,1,44.95,92.61,60.48,4.58,3,72.38,-32.14,1
+1281,Computer Networks,Transport Layer,35.47,36.27,1,60.4,19.59,33.57,5.03,3,36.07,13.98,0
+1050,Data Structures,Trees,56.5,66.39,2,48.91,56.75,52.39,4.32,3,52.79,-4.36,0
+1341,Artificial Intelligence,Knowledge Representation,69.2,48.71,1,58.89,91.47,65.36,4.23,3,80.84,-26.1,1
+1208,Operating Systems,Virtual Memory,19.85,10.23,3,28.09,7.87,18.19,1.68,1,15.0,10.32,0
+1001,Artificial Intelligence,Search Algorithms,80.06,85.24,2,21.96,51.79,89.73,3.61,1,71.18,37.94,1
+1160,Computer Networks,OSI Model,57.94,61.71,3,35.14,52.97,63.19,3.87,2,48.83,10.22,0
+1322,Data Structures,Trees,45.28,25.85,1,30.91,46.73,42.17,2.67,1,56.14,-4.56,0
+1044,Machine Learning,Model Evaluation,34.86,30.35,3,31.08,47.27,34.35,4.01,1,21.76,-12.92,0
+1273,Data Structures,Stack,50.06,31.92,2,33.49,50.97,47.06,6.9,1,69.28,-3.91,0
+1113,Artificial Intelligence,Knowledge Representation,69.42,77.69,1,41.82,66.42,65.24,5.18,2,83.1,-1.18,1
+1163,Artificial Intelligence,Heuristics,77.72,85.13,2,37.97,100.0,82.14,5.63,3,81.84,-17.86,1
+1205,Database Management Systems,Transactions,74.19,81.35,2,47.38,95.57,68.53,4.77,2,83.37,-27.05,1
+1262,Machine Learning,Neural Networks,36.07,38.44,4,42.52,40.75,38.34,4.23,2,44.86,-2.41,0
+1173,Machine Learning,Decision Trees,66.98,76.67,1,39.5,85.85,62.05,4.85,2,71.64,-23.81,1
+1364,Machine Learning,Decision Trees,83.16,84.03,1,21.72,99.25,81.25,5.7,2,80.49,-18.0,1
+1092,Database Management Systems,Transactions,53.65,54.24,3,15.96,75.49,59.92,4.51,1,57.21,-15.57,1
+1190,Computer Networks,OSI Model,86.62,88.4,1,14.12,86.84,96.29,7.29,2,53.54,9.46,1
+1255,Database Management Systems,Normalization,64.62,59.69,4,46.95,64.66,75.81,4.56,1,78.63,11.15,1
+1017,Data Structures,Arrays,36.71,46.97,1,32.94,74.97,31.08,4.94,1,71.37,-43.89,0
+1182,Computer Networks,Transport Layer,16.5,16.42,4,55.66,21.01,6.03,2.38,3,51.3,-14.98,0
+1085,Artificial Intelligence,Knowledge Representation,67.05,53.7,2,42.78,63.28,67.39,4.21,3,50.64,4.11,0
+1263,Database Management Systems,Transactions,33.51,14.6,1,37.09,60.15,38.4,5.42,3,79.07,-21.75,0
+1345,Database Management Systems,Transactions,37.66,30.56,2,52.54,27.93,49.84,3.65,2,45.93,21.92,0
+1096,Computer Networks,OSI Model,52.1,55.66,2,33.19,52.61,51.2,5.28,1,39.7,-1.41,0
+1061,Operating Systems,Virtual Memory,18.18,23.57,3,54.23,51.84,15.21,5.18,3,40.87,-36.63,0
+1005,Database Management Systems,ER Model,27.49,21.88,2,43.14,35.88,32.28,3.16,2,50.37,-3.59,0
+1006,Database Management Systems,SQL Queries,12.54,1.57,3,32.28,11.63,10.17,2.41,1,37.73,-1.46,0
+1366,Data Structures,Arrays,38.81,53.01,4,33.24,49.01,48.64,4.21,2,56.53,-0.37,0
+1142,Database Management Systems,Normalization,53.2,59.23,1,44.2,49.51,55.6,6.08,3,86.03,6.08,0
+1230,Data Structures,Graphs,38.98,38.36,1,49.66,37.73,27.68,5.11,2,21.08,-10.05,0
+1010,Computer Networks,OSI Model,39.26,30.19,4,29.67,40.92,42.11,4.43,2,41.01,1.19,0
+1257,Machine Learning,Neural Networks,21.94,24.78,1,46.6,39.18,24.44,3.65,2,69.22,-14.75,0
+1038,Operating Systems,CPU Scheduling,37.87,41.91,2,41.29,30.46,47.18,4.16,2,43.92,16.72,0
+1096,Database Management Systems,Transactions,80.0,79.2,2,40.21,78.96,92.0,5.33,1,73.28,13.04,1
+1184,Operating Systems,Virtual Memory,70.92,77.17,4,51.43,72.92,74.39,2.85,3,71.17,1.47,1
+1030,Operating Systems,Process Management,40.23,43.06,4,33.56,72.21,35.31,4.06,2,67.94,-36.9,0
+1161,Computer Networks,Network Security,62.65,42.6,2,39.32,69.91,59.15,7.19,1,55.39,-10.76,0
+1361,Artificial Intelligence,Game Playing,27.55,25.75,2,45.56,32.05,24.21,4.15,3,47.8,-7.85,0
+1334,Database Management Systems,Transactions,49.27,66.42,1,50.79,49.48,52.95,5.12,3,56.84,3.48,0
+1192,Machine Learning,Decision Trees,14.12,10.42,4,45.92,44.78,27.21,2.99,3,22.44,-17.57,0
+1137,Database Management Systems,Indexing,39.3,13.31,1,32.24,66.58,51.93,6.38,1,62.66,-14.65,0
+1399,Operating Systems,Process Management,46.98,48.05,1,30.31,8.89,35.46,3.96,1,71.84,26.57,0
+1124,Operating Systems,Virtual Memory,0.0,0.0,3,31.79,32.38,6.22,2.88,1,34.37,-26.16,0
+1378,Machine Learning,Neural Networks,34.13,32.15,3,43.19,35.85,25.16,4.08,1,25.65,-10.68,0
+1220,Operating Systems,CPU Scheduling,19.06,12.51,3,57.76,40.37,22.57,5.59,3,62.81,-17.8,0
+1384,Artificial Intelligence,Knowledge Representation,20.02,15.41,2,33.07,11.94,17.59,2.07,1,30.75,5.64,0
+1396,Operating Systems,Deadlocks,37.66,37.98,2,37.95,38.09,39.05,3.12,2,53.48,0.96,0
+1089,Machine Learning,Neural Networks,6.88,9.54,3,59.12,15.41,21.57,2.25,3,27.57,6.16,0
+1259,Machine Learning,Neural Networks,34.83,42.01,1,45.17,49.65,32.31,3.34,1,66.62,-17.35,0
+1276,Computer Networks,TCP/IP,84.16,88.86,1,22.37,77.41,81.3,5.28,1,96.53,3.88,1
+1314,Database Management Systems,ER Model,16.71,13.22,3,36.93,0.0,20.21,2.36,1,43.49,20.21,0
+1305,Operating Systems,Virtual Memory,84.45,78.96,1,29.99,93.81,83.91,5.28,1,71.25,-9.91,1
+1066,Operating Systems,Deadlocks,83.16,89.1,2,42.32,80.57,89.01,4.66,3,94.01,8.44,1
+1118,Operating Systems,Deadlocks,47.63,42.55,4,51.81,58.48,37.6,4.86,2,63.43,-20.88,0
+1139,Computer Networks,Routing Protocols,36.26,47.91,3,46.91,25.31,46.75,2.66,2,53.7,21.43,0
+1310,Machine Learning,Decision Trees,44.02,27.35,2,40.67,71.6,50.82,4.24,3,81.26,-20.78,0
+1155,Computer Networks,TCP/IP,62.82,51.74,1,40.06,59.25,62.02,5.5,3,92.57,2.77,1
+1317,Operating Systems,CPU Scheduling,65.2,45.35,2,19.27,100.0,57.9,7.08,1,50.61,-42.1,1
+1245,Data Structures,Graphs,47.03,37.23,2,36.95,60.04,52.62,4.25,3,42.98,-7.42,0
+1300,Operating Systems,Virtual Memory,53.62,41.83,2,25.34,60.91,65.98,5.12,1,58.68,5.07,0
+1097,Data Structures,Linked Lists,49.5,39.76,2,56.35,85.21,57.62,3.63,3,82.58,-27.6,0
+1228,Data Structures,Trees,58.3,60.89,2,31.64,55.17,52.35,6.88,3,85.45,-2.82,0
+1390,Machine Learning,Supervised Learning,99.65,100.0,1,37.64,93.8,100.0,6.03,3,85.82,6.2,2
+1024,Computer Networks,TCP/IP,50.98,67.25,2,34.21,47.48,61.12,3.4,1,42.18,13.64,0
+1112,Artificial Intelligence,Search Algorithms,58.26,52.12,4,37.6,55.39,61.24,4.9,2,45.17,5.85,0
+1102,Database Management Systems,SQL Queries,75.1,66.56,1,38.72,90.55,67.14,7.61,2,65.28,-23.42,1
+1338,Operating Systems,Deadlocks,65.3,69.43,1,23.59,60.48,68.52,4.01,1,98.5,8.04,1
+1045,Computer Networks,OSI Model,44.87,29.27,1,28.54,81.59,48.84,4.89,2,75.58,-32.74,0
+1220,Machine Learning,Decision Trees,67.15,73.88,2,25.16,55.81,69.48,5.48,1,80.99,13.67,1
+1390,Machine Learning,Model Evaluation,56.98,52.76,2,43.45,65.03,62.85,3.92,3,83.37,-2.18,1
+1161,Database Management Systems,Normalization,57.6,58.09,1,40.67,75.88,67.39,4.12,3,53.43,-8.49,1
+1345,Machine Learning,Decision Trees,48.01,49.06,1,32.22,71.34,48.69,5.32,2,75.45,-22.65,0
+1334,Artificial Intelligence,Search Algorithms,33.87,30.41,4,45.54,47.11,36.32,4.91,2,46.26,-10.78,0
+1244,Operating Systems,Process Management,4.02,10.62,1,47.59,12.55,9.04,2.77,2,53.32,-3.5,0
+1218,Computer Networks,Transport Layer,20.84,29.54,2,35.67,53.02,35.42,3.5,1,51.19,-17.61,0
+1211,Operating Systems,CPU Scheduling,69.21,73.68,1,25.36,89.63,58.64,6.81,1,73.36,-30.99,1
+1349,Computer Networks,Transport Layer,41.44,28.43,2,40.25,77.77,49.92,3.78,2,69.08,-27.85,0
+1293,Computer Networks,Transport Layer,57.01,60.45,1,42.67,84.98,50.86,3.3,2,62.8,-34.12,0
+1347,Artificial Intelligence,Search Algorithms,9.43,12.31,1,64.86,11.84,14.57,2.42,3,55.55,2.73,0
+1166,Computer Networks,Network Security,19.57,14.98,1,27.96,25.11,20.77,2.85,1,50.75,-4.34,0
+1395,Data Structures,Sorting,70.92,68.48,1,42.37,75.7,75.43,6.51,2,80.24,-0.26,1
+1033,Artificial Intelligence,Search Algorithms,50.64,44.24,1,44.58,26.78,48.64,3.16,1,42.84,21.87,0
+1380,Database Management Systems,SQL Queries,68.37,56.8,1,29.31,61.57,70.43,5.63,1,58.99,8.86,1
+1387,Data Structures,Sorting,48.59,42.35,3,53.66,34.32,42.87,3.19,3,36.24,8.54,0
+1229,Machine Learning,Decision Trees,74.92,83.22,1,42.5,79.31,83.45,5.09,3,73.05,4.14,1
+1154,Data Structures,Searching,60.88,54.2,2,23.65,37.64,59.21,2.67,1,68.07,21.57,0
+1242,Artificial Intelligence,Game Playing,39.4,37.32,2,42.93,65.22,38.95,5.26,3,67.58,-26.27,0
+1136,Data Structures,Queue,38.22,38.45,4,53.23,48.63,36.5,6.4,3,48.61,-12.14,0
+1339,Artificial Intelligence,Heuristics,8.34,0.0,1,50.22,78.17,12.34,2.93,3,39.83,-65.83,0
+1361,Computer Networks,OSI Model,43.06,43.11,3,24.75,64.0,48.87,3.68,1,46.68,-15.13,0
+1359,Database Management Systems,SQL Queries,20.98,8.79,4,39.08,26.98,28.4,2.58,1,29.56,1.42,0
+1292,Artificial Intelligence,Search Algorithms,47.4,45.15,1,39.34,77.83,61.57,6.44,1,93.36,-16.26,1
+1191,Artificial Intelligence,Game Playing,54.31,60.37,4,47.85,56.58,48.32,4.09,2,64.85,-8.26,0
+1318,Artificial Intelligence,Heuristics,27.4,31.21,2,33.25,55.81,36.13,5.66,1,71.11,-19.68,0
+1376,Computer Networks,Network Security,8.86,25.08,2,32.8,63.0,23.11,1.82,2,62.23,-39.89,0
+1269,Operating Systems,Virtual Memory,31.03,21.35,1,47.28,22.13,40.55,4.62,3,39.56,18.42,0
+1153,Machine Learning,Decision Trees,21.17,17.82,1,50.79,29.81,29.25,3.65,3,34.14,-0.56,0
+1375,Database Management Systems,Indexing,5.55,9.01,2,62.37,19.52,0.0,0.6,3,33.57,-19.52,0
+1318,Computer Networks,Transport Layer,54.44,57.28,1,23.36,64.96,54.05,4.81,1,89.82,-10.91,1
+1398,Computer Networks,Transport Layer,38.44,53.78,4,54.99,0.65,49.05,5.17,2,45.32,48.4,0
+1221,Machine Learning,Model Evaluation,17.08,18.32,4,49.52,38.07,18.77,1.16,3,49.67,-19.31,0
+1337,Artificial Intelligence,Knowledge Representation,95.48,93.3,1,18.55,62.93,100.0,8.31,1,98.35,37.07,2
+1340,Data Structures,Arrays,46.06,54.26,4,39.57,45.99,50.17,5.34,2,46.09,4.18,0
+1159,Artificial Intelligence,Search Algorithms,54.76,55.33,3,45.88,53.65,58.42,1.99,3,68.82,4.77,0
+1312,Operating Systems,Virtual Memory,81.78,90.23,4,30.8,40.78,95.21,3.51,1,64.47,54.42,1
+1099,Computer Networks,Routing Protocols,67.03,58.25,2,33.98,51.97,59.02,5.47,1,94.16,7.04,1
+1252,Artificial Intelligence,Search Algorithms,68.06,82.3,1,38.15,62.96,65.6,5.84,2,92.57,2.64,1
+1280,Artificial Intelligence,Knowledge Representation,13.61,13.36,2,35.25,28.64,16.75,1.45,2,34.33,-11.89,0
+1356,Computer Networks,Transport Layer,27.63,25.35,4,41.6,8.76,16.35,2.88,2,47.72,7.59,0
+1105,Operating Systems,Deadlocks,52.98,60.7,2,27.2,51.65,53.91,4.11,1,58.99,2.26,0
+1310,Database Management Systems,Indexing,45.8,45.61,2,39.5,91.24,57.49,3.69,2,64.36,-33.75,0
+1103,Artificial Intelligence,Search Algorithms,68.66,76.55,2,41.99,78.7,61.21,5.61,3,88.21,-17.49,1
+1017,Data Structures,Graphs,41.21,42.6,1,51.15,55.94,40.1,5.22,3,52.02,-15.84,0
+1246,Database Management Systems,ER Model,57.41,53.44,3,38.81,39.02,53.27,4.11,2,60.5,14.25,0
+1216,Artificial Intelligence,Heuristics,76.07,69.46,2,26.7,78.87,77.79,5.87,3,93.16,-1.08,1
+1285,Operating Systems,Process Management,49.92,49.9,3,44.56,55.52,49.58,4.67,2,45.1,-5.94,0
+1280,Operating Systems,Virtual Memory,71.3,74.84,4,28.34,53.89,75.26,4.41,1,60.98,21.37,1
+1236,Artificial Intelligence,Heuristics,55.26,61.43,1,40.05,73.98,57.94,2.96,3,71.4,-16.04,1
+1132,Data Structures,Stack,50.18,49.69,4,32.03,59.7,56.55,6.13,2,84.3,-3.15,0
+1009,Machine Learning,Neural Networks,48.0,41.65,1,40.48,45.13,37.17,4.93,3,62.54,-7.96,0
+1077,Artificial Intelligence,Knowledge Representation,59.93,48.73,2,50.04,83.79,57.02,3.06,3,72.29,-26.77,0
+1006,Operating Systems,Process Management,59.23,64.95,2,26.27,77.61,50.57,4.93,1,58.75,-27.04,1
+1118,Operating Systems,Process Management,76.41,80.06,1,29.49,85.53,84.14,4.73,1,79.17,-1.39,1
+1126,Data Structures,Graphs,79.83,72.88,1,32.37,95.15,79.3,6.36,2,80.28,-15.86,1
+1294,Operating Systems,Deadlocks,39.94,33.58,1,40.52,43.05,54.38,3.84,3,62.11,11.32,0
+1311,Artificial Intelligence,Knowledge Representation,53.66,45.63,2,48.03,46.71,66.6,5.51,3,79.26,19.89,0
+1004,Data Structures,Graphs,74.05,69.36,1,34.5,53.62,72.05,3.32,3,33.76,18.42,1
+1288,Database Management Systems,Indexing,54.55,61.46,2,44.21,35.87,62.3,5.16,3,66.03,26.44,0
+1123,Computer Networks,TCP/IP,65.49,84.03,2,44.92,79.23,72.65,4.91,2,82.24,-6.58,1
+1345,Database Management Systems,Indexing,46.94,43.52,2,41.03,41.59,57.37,3.82,2,51.13,15.78,0
+1146,Operating Systems,Process Management,53.51,51.59,1,34.66,78.57,51.49,7.21,2,62.11,-27.08,0
+1153,Database Management Systems,Normalization,36.5,37.41,1,48.72,22.19,40.78,3.18,2,49.39,18.59,0
+1028,Computer Networks,Routing Protocols,63.45,68.4,2,26.84,42.44,65.22,5.07,1,49.68,22.78,1
+1082,Operating Systems,Virtual Memory,67.86,61.1,1,37.7,58.98,72.64,4.52,2,68.61,13.66,1
+1301,Artificial Intelligence,Game Playing,57.8,66.33,1,43.98,53.23,57.05,7.02,2,92.28,3.81,1
+1162,Computer Networks,Routing Protocols,47.85,56.0,1,36.18,64.1,46.18,4.0,3,90.86,-17.92,0
+1361,Operating Systems,Virtual Memory,32.84,43.37,1,40.4,42.1,37.02,4.23,2,48.38,-5.08,0
+1303,Database Management Systems,SQL Queries,70.72,67.32,1,29.98,73.23,66.82,5.85,1,91.31,-6.41,1
+1231,Artificial Intelligence,Heuristics,40.69,40.46,1,26.69,70.09,48.63,5.38,2,56.06,-21.45,0
+1329,Computer Networks,Routing Protocols,55.34,47.68,2,28.42,50.4,40.55,3.59,1,59.06,-9.85,0
+1124,Computer Networks,Routing Protocols,14.82,13.65,4,36.15,37.7,11.28,4.01,2,68.76,-26.42,0
+1351,Computer Networks,TCP/IP,74.94,83.27,2,43.93,81.36,77.23,4.19,2,97.86,-4.12,1
+1027,Computer Networks,Transport Layer,62.77,57.96,2,36.49,80.96,68.45,4.7,2,56.98,-12.51,1
+1132,Computer Networks,TCP/IP,31.17,24.75,3,43.32,40.57,36.03,4.48,2,57.12,-4.55,0
+1232,Database Management Systems,Normalization,62.67,62.66,2,14.38,59.79,66.5,6.42,1,40.99,6.71,1
+1377,Machine Learning,Neural Networks,17.21,13.03,3,34.8,43.09,21.17,1.56,1,23.27,-21.92,0
+1295,Artificial Intelligence,Search Algorithms,36.41,32.12,4,35.25,66.58,45.92,5.97,1,56.16,-20.66,0
+1385,Machine Learning,Model Evaluation,28.12,27.15,2,42.18,38.71,31.73,5.27,3,25.55,-6.98,0
+1001,Computer Networks,Routing Protocols,36.05,30.72,1,30.76,33.26,44.12,6.98,2,45.12,10.86,0
+1240,Data Structures,Queue,62.53,66.86,3,21.0,35.63,64.01,2.48,1,89.53,28.37,1
+1352,Operating Systems,Deadlocks,0.0,14.6,4,49.99,32.23,0.76,2.67,3,26.83,-31.47,0
+1126,Artificial Intelligence,Heuristics,88.41,97.08,2,44.34,78.82,83.81,7.13,3,45.27,5.0,1
+1359,Computer Networks,Transport Layer,14.48,18.35,1,55.91,38.68,14.57,4.82,3,48.29,-24.11,0
+1213,Computer Networks,OSI Model,12.02,15.04,3,49.36,13.7,1.71,1.25,2,21.8,-11.99,0
+1117,Database Management Systems,Normalization,80.28,76.97,1,11.41,85.99,72.01,8.64,1,81.68,-13.97,1
+1298,Operating Systems,Deadlocks,59.67,53.61,2,40.31,92.66,56.97,2.56,2,80.03,-35.69,1
+1237,Operating Systems,Deadlocks,58.8,57.65,1,38.94,54.56,52.73,4.69,2,55.08,-1.82,0
+1135,Data Structures,Trees,69.64,67.76,2,35.09,58.16,65.83,5.06,2,63.08,7.67,1
+1280,Database Management Systems,Indexing,69.6,64.07,3,31.91,47.03,64.82,4.42,2,60.46,17.79,1
+1206,Artificial Intelligence,Game Playing,7.49,9.06,1,47.76,26.59,0.0,1.74,3,19.5,-26.59,0
+1233,Database Management Systems,Normalization,74.94,82.93,2,31.72,50.23,80.29,4.43,2,79.94,30.06,1
+1337,Operating Systems,CPU Scheduling,64.33,73.54,2,29.82,40.53,66.91,2.31,1,44.18,26.38,1
+1144,Machine Learning,Model Evaluation,60.69,53.03,1,34.23,67.88,56.05,3.79,3,93.79,-11.83,1
+1026,Data Structures,Trees,55.32,51.31,1,47.98,84.17,47.75,4.79,2,70.49,-36.42,0
+1399,Operating Systems,Process Management,43.6,37.54,2,50.1,44.27,43.72,4.03,3,71.72,-0.55,0
+1034,Operating Systems,Deadlocks,43.75,47.3,4,41.75,93.36,40.05,4.01,1,100.0,-53.32,0
+1261,Operating Systems,CPU Scheduling,26.96,36.3,2,45.4,70.3,36.0,3.44,1,32.32,-34.3,0
+1090,Database Management Systems,Indexing,43.19,41.29,2,39.25,29.06,40.28,3.42,1,38.09,11.22,0
+1373,Machine Learning,Decision Trees,54.53,48.76,4,60.97,46.27,53.24,3.42,3,38.18,6.96,0
+1007,Artificial Intelligence,Search Algorithms,19.44,29.16,4,52.14,6.44,17.62,3.13,3,27.55,11.19,0
+1250,Artificial Intelligence,Knowledge Representation,39.8,29.69,3,44.86,54.6,32.27,3.52,1,46.95,-22.32,0
+1295,Artificial Intelligence,Heuristics,61.05,72.9,2,39.01,65.63,75.54,4.72,1,64.07,9.91,1
+1383,Computer Networks,TCP/IP,36.62,32.05,1,42.27,63.14,33.09,8.52,2,50.09,-30.05,0
+1372,Data Structures,Stack,78.64,80.7,1,46.53,79.02,88.77,6.64,1,73.21,9.75,1
+1085,Machine Learning,Supervised Learning,66.91,68.91,1,40.12,65.7,65.22,4.95,1,55.34,-0.48,1
+1385,Operating Systems,Deadlocks,36.26,41.57,1,35.16,50.44,28.01,3.68,2,58.89,-22.43,0
+1024,Machine Learning,Model Evaluation,20.11,8.7,3,52.17,20.18,15.69,3.51,3,33.07,-4.49,0
+1282,Machine Learning,Supervised Learning,12.71,32.11,3,55.9,30.11,8.61,2.81,3,32.37,-21.5,0
+1298,Computer Networks,OSI Model,40.59,46.66,1,45.14,47.97,38.83,3.06,2,45.52,-9.14,0
+1125,Computer Networks,Transport Layer,5.56,13.69,3,59.76,24.96,14.39,2.69,3,46.55,-10.57,0
+1129,Data Structures,Graphs,41.06,32.41,1,52.42,54.86,43.28,3.13,3,68.99,-11.58,0
+1390,Data Structures,Searching,45.46,56.92,3,45.34,56.54,49.98,4.14,3,85.37,-6.56,0
+1207,Data Structures,Stack,40.85,55.39,2,47.84,24.81,55.72,3.66,2,63.65,30.92,0
+1050,Operating Systems,Deadlocks,28.25,24.22,2,53.02,43.81,21.78,5.88,3,49.02,-22.03,0
+1073,Data Structures,Graphs,43.83,43.19,2,31.0,69.58,51.88,4.6,1,56.14,-17.7,0
+1388,Computer Networks,TCP/IP,39.89,31.49,1,44.36,37.88,47.97,3.21,1,75.02,10.08,0
+1211,Data Structures,Queue,40.54,38.41,1,29.47,60.93,45.64,5.35,1,69.65,-15.29,0
+1382,Operating Systems,Deadlocks,58.71,64.97,2,29.04,60.67,60.86,5.9,2,67.92,0.19,1
+1353,Operating Systems,CPU Scheduling,6.28,2.75,4,46.91,3.77,3.99,2.76,2,22.75,0.22,0
+1154,Machine Learning,Model Evaluation,34.98,35.24,1,35.18,56.43,45.55,3.03,2,48.53,-10.88,0
+1358,Machine Learning,Decision Trees,57.9,52.18,2,49.49,17.27,52.38,2.55,2,64.83,35.11,0
+1153,Computer Networks,Network Security,69.35,74.52,2,23.56,76.89,83.96,5.83,2,100.0,7.07,1
+1343,Artificial Intelligence,Game Playing,48.84,55.12,3,29.36,30.29,55.43,2.86,1,57.56,25.14,0
+1115,Database Management Systems,SQL Queries,71.51,61.53,1,35.57,56.07,66.84,6.27,3,82.48,10.76,1
+1396,Computer Networks,TCP/IP,91.81,93.91,2,41.78,78.94,88.02,5.08,3,81.07,9.08,1
+1204,Artificial Intelligence,Search Algorithms,35.01,34.15,2,65.33,65.3,41.06,4.06,3,39.61,-24.25,0
+1098,Operating Systems,CPU Scheduling,66.05,41.35,2,28.74,51.86,64.05,4.84,2,61.96,12.19,0
+1329,Computer Networks,Routing Protocols,66.79,65.6,1,35.79,49.32,80.37,3.87,1,67.16,31.05,1
+1056,Data Structures,Sorting,27.06,17.85,1,46.61,37.5,29.9,6.49,2,52.65,-7.6,0
+1140,Artificial Intelligence,Heuristics,13.16,26.26,2,51.73,14.39,17.28,4.22,3,52.48,2.89,0
+1253,Database Management Systems,SQL Queries,40.47,31.53,1,46.04,30.83,41.53,6.09,3,56.17,10.7,0
+1214,Machine Learning,Supervised Learning,79.44,83.27,1,30.18,88.61,79.33,7.02,1,75.29,-9.28,1
+1080,Data Structures,Linked Lists,81.96,97.64,2,36.57,66.2,84.53,5.21,3,70.66,18.33,1
+1247,Artificial Intelligence,Search Algorithms,2.41,17.0,4,49.42,46.12,12.33,3.47,2,52.99,-33.79,0
+1267,Database Management Systems,Normalization,69.69,63.1,4,45.71,67.35,76.8,4.48,3,83.05,9.44,1
+1262,Computer Networks,Transport Layer,62.25,49.94,1,51.65,61.77,65.14,4.78,3,71.1,3.37,0
+1061,Data Structures,Arrays,88.62,100.0,2,48.29,72.7,96.29,6.36,3,59.07,23.6,2
+1177,Machine Learning,Decision Trees,76.03,65.27,2,42.24,89.33,81.62,6.07,2,97.54,-7.71,1
+1184,Artificial Intelligence,Knowledge Representation,61.59,74.09,2,32.65,62.3,72.22,2.29,1,91.78,9.92,1
+1340,Computer Networks,TCP/IP,48.29,60.7,3,25.47,54.86,49.73,4.61,1,54.27,-5.13,0
+1244,Database Management Systems,Transactions,11.18,13.91,1,46.56,10.66,9.69,2.76,3,36.27,-0.97,0
+1327,Operating Systems,Virtual Memory,82.61,68.77,1,29.89,55.14,83.83,4.56,1,96.42,28.69,1
+1076,Data Structures,Searching,57.73,60.6,1,24.26,64.01,59.16,5.48,1,70.79,-4.85,1
+1372,Operating Systems,Deadlocks,44.86,36.4,1,34.93,33.22,41.88,4.04,1,63.11,8.65,0
+1075,Machine Learning,Supervised Learning,40.94,27.96,2,42.98,65.8,47.85,7.56,3,76.15,-17.95,0
+1124,Data Structures,Sorting,37.74,27.54,1,36.8,47.57,26.82,2.43,2,36.46,-20.75,0
+1233,Machine Learning,Decision Trees,25.19,11.15,3,43.08,33.26,14.16,2.62,2,52.15,-19.1,0
+1286,Computer Networks,Network Security,72.6,59.99,1,24.61,77.92,88.64,4.5,1,94.41,10.72,1
+1253,Artificial Intelligence,Game Playing,77.93,70.63,2,31.04,60.2,75.26,2.68,2,100.0,15.06,1
+1153,Computer Networks,Routing Protocols,61.97,67.45,2,23.93,52.11,56.93,5.36,1,67.39,4.82,1
+1163,Data Structures,Sorting,31.84,34.68,4,34.73,27.0,29.25,4.12,1,49.84,2.26,0
+1314,Computer Networks,OSI Model,42.85,37.61,4,32.11,18.89,44.56,2.73,1,39.8,25.67,0
+1233,Machine Learning,Supervised Learning,32.94,15.75,1,53.86,51.66,37.27,3.95,3,51.89,-14.39,0
+1289,Operating Systems,Process Management,42.14,38.16,1,28.94,38.77,58.88,5.8,2,48.66,20.1,0
+1072,Database Management Systems,Normalization,61.35,55.42,1,46.83,90.4,65.13,4.77,3,94.62,-25.27,1
+1081,Database Management Systems,Indexing,78.52,74.54,2,40.4,39.73,72.96,6.16,2,88.48,33.23,1
+1182,Database Management Systems,ER Model,62.03,57.41,1,50.63,40.73,66.99,1.9,2,58.87,26.26,0
+1300,Database Management Systems,Indexing,100.0,100.0,1,27.47,71.2,100.0,6.03,1,100.0,28.8,2
+1095,Computer Networks,TCP/IP,18.29,19.34,3,47.06,17.23,29.63,1.55,2,29.46,12.4,0
+1400,Machine Learning,Neural Networks,73.11,63.31,1,45.13,53.83,71.11,5.9,3,76.7,17.28,1
+1228,Data Structures,Sorting,53.72,40.31,2,51.5,48.27,54.45,4.56,3,56.66,6.18,0
+1220,Machine Learning,Decision Trees,0.0,10.44,4,48.09,0.0,0.0,2.88,3,15.0,0.0,0
+1370,Operating Systems,Process Management,18.73,13.8,1,27.42,40.58,16.64,3.16,1,68.46,-23.93,0
+1126,Operating Systems,Virtual Memory,53.64,64.78,2,39.59,38.12,56.92,4.71,3,79.69,18.8,0
+1147,Computer Networks,TCP/IP,21.41,11.79,2,29.37,23.47,19.95,3.75,1,55.5,-3.52,0
+1177,Database Management Systems,Indexing,35.87,44.62,1,47.98,32.17,31.21,5.26,3,58.48,-0.96,0
+1072,Computer Networks,Routing Protocols,71.59,62.7,2,28.81,70.79,72.32,7.5,1,58.28,1.53,1
+1094,Database Management Systems,Transactions,31.02,41.91,3,47.7,23.38,23.85,3.24,2,19.62,0.48,0
+1363,Machine Learning,Model Evaluation,2.93,1.2,3,49.6,31.49,1.93,3.67,3,26.25,-29.56,0
+1345,Machine Learning,Supervised Learning,33.2,26.34,3,40.24,22.65,38.08,4.04,2,46.61,15.44,0
+1071,Operating Systems,Virtual Memory,40.13,41.65,3,36.92,37.46,32.43,3.49,1,45.22,-5.03,0
+1253,Artificial Intelligence,Knowledge Representation,51.53,49.06,1,32.93,44.48,60.28,4.47,1,35.84,15.8,0
+1331,Database Management Systems,Normalization,41.63,51.46,2,31.78,50.04,51.41,4.64,3,58.09,1.37,0
+1323,Artificial Intelligence,Knowledge Representation,88.47,74.87,2,36.32,100.0,91.22,6.14,2,78.72,-8.78,1
+1266,Computer Networks,Transport Layer,36.02,46.88,1,47.7,22.99,44.48,4.21,1,41.84,21.49,0
+1086,Computer Networks,TCP/IP,61.37,68.38,2,40.09,73.67,56.06,5.34,1,57.15,-17.61,1
+1134,Computer Networks,Routing Protocols,96.79,100.0,1,33.07,50.59,100.0,5.61,2,86.61,49.41,2
+1177,Database Management Systems,SQL Queries,50.88,53.15,2,23.96,94.12,51.18,6.35,1,90.3,-42.94,1
+1124,Data Structures,Arrays,42.46,36.19,1,23.77,49.92,44.0,5.02,1,89.18,-5.92,0
+1101,Database Management Systems,Indexing,4.04,0.0,4,49.95,14.87,0.62,3.92,3,36.81,-14.25,0
+1337,Machine Learning,Model Evaluation,41.82,32.57,1,44.59,48.3,58.78,4.61,2,37.53,10.47,0
+1217,Artificial Intelligence,Heuristics,14.07,21.62,4,32.5,24.87,20.56,4.07,2,55.74,-4.31,0
+1275,Operating Systems,Deadlocks,19.24,15.19,3,56.66,15.32,32.34,3.96,3,42.85,17.01,0
+1304,Computer Networks,Routing Protocols,54.57,48.79,2,49.47,34.02,55.3,3.8,2,44.81,21.28,0
+1249,Artificial Intelligence,Heuristics,53.91,55.07,2,28.43,77.57,60.82,6.67,1,54.44,-16.75,1
+1332,Data Structures,Stack,35.66,37.96,4,41.21,35.22,34.31,4.32,3,44.11,-0.91,0
+1004,Artificial Intelligence,Search Algorithms,22.8,27.71,4,38.05,58.76,28.27,4.48,1,32.05,-30.48,0
+1387,Data Structures,Searching,42.8,47.38,4,14.51,33.87,50.78,5.03,1,31.62,16.91,0
+1367,Database Management Systems,Transactions,36.14,36.22,2,52.02,31.02,51.21,5.22,3,28.79,20.19,0
+1365,Data Structures,Graphs,31.53,28.41,4,53.45,42.46,27.43,5.58,3,78.8,-15.02,0
+1194,Operating Systems,Process Management,53.48,60.02,1,28.19,80.93,56.24,3.68,2,60.85,-24.69,1
+1400,Data Structures,Graphs,79.66,78.8,2,25.33,76.72,84.87,3.94,1,56.32,8.15,1
+1172,Data Structures,Linked Lists,38.64,38.78,2,33.59,60.36,38.25,1.94,2,52.76,-22.11,0
+1017,Machine Learning,Supervised Learning,63.34,51.35,1,40.44,71.11,72.14,5.65,3,91.62,1.03,1
+1308,Machine Learning,Model Evaluation,28.21,25.57,2,51.01,14.14,27.23,1.54,2,18.28,13.09,0
+1123,Machine Learning,Model Evaluation,40.35,60.95,4,39.46,62.35,34.38,2.28,1,76.58,-27.97,0
+1021,Machine Learning,Decision Trees,4.91,18.62,4,50.39,35.53,3.88,2.34,3,47.22,-31.65,0
+1393,Data Structures,Sorting,49.12,48.79,3,47.0,67.24,40.53,4.72,3,54.28,-26.71,0
+1103,Operating Systems,CPU Scheduling,54.49,30.9,1,50.34,71.63,53.81,3.68,3,92.96,-17.82,0
+1023,Computer Networks,Network Security,29.51,30.02,3,42.26,37.06,31.85,1.57,1,52.6,-5.21,0
+1202,Database Management Systems,Indexing,37.52,39.43,4,58.07,41.09,40.72,5.09,3,69.3,-0.37,0
+1132,Data Structures,Stack,65.06,79.37,2,28.44,66.86,71.85,3.08,1,94.27,4.99,1
+1230,Database Management Systems,ER Model,36.47,34.82,4,27.45,45.83,39.31,3.04,1,67.32,-6.52,0
+1054,Data Structures,Trees,60.66,52.57,2,18.47,64.78,63.64,4.0,1,81.42,-1.14,1
+1341,Computer Networks,Transport Layer,31.98,23.59,2,37.42,66.6,39.93,2.84,2,33.19,-26.67,0
+1230,Operating Systems,Virtual Memory,44.83,36.94,1,21.72,40.81,49.52,3.38,1,66.04,8.71,0
+1055,Database Management Systems,Normalization,69.31,63.07,1,39.18,53.27,66.12,5.52,3,88.82,12.85,1
+1163,Operating Systems,Deadlocks,11.86,26.95,3,58.98,40.91,15.65,2.97,3,27.8,-25.26,0
+1048,Operating Systems,Deadlocks,93.16,99.5,2,23.59,74.84,82.81,6.56,2,75.06,7.97,1
+1327,Machine Learning,Model Evaluation,50.17,50.28,2,31.12,65.43,51.61,5.65,1,46.49,-13.82,0
+1330,Machine Learning,Model Evaluation,32.63,22.07,2,35.04,19.36,37.39,3.23,1,30.66,18.03,0
+1108,Computer Networks,OSI Model,63.86,66.85,1,36.38,70.51,68.92,4.98,2,88.77,-1.6,1
+1294,Data Structures,Arrays,90.1,94.8,2,36.74,85.04,94.85,7.54,2,90.61,9.82,2
+1254,Artificial Intelligence,Search Algorithms,17.67,36.89,3,59.17,35.0,14.59,2.3,3,63.92,-20.42,0
+1340,Database Management Systems,SQL Queries,30.0,37.03,4,52.3,69.96,37.39,6.21,3,38.26,-32.57,0
+1111,Artificial Intelligence,Heuristics,59.81,51.71,1,49.39,87.44,59.96,3.88,3,57.4,-27.48,1
+1210,Database Management Systems,ER Model,50.53,50.41,1,44.57,44.02,44.31,6.09,3,73.99,0.3,0
+1157,Machine Learning,Neural Networks,64.74,76.99,1,17.97,90.91,66.56,7.27,1,100.0,-24.35,1
+1229,Operating Systems,CPU Scheduling,56.09,60.74,1,43.61,57.22,66.22,3.19,3,72.02,9.0,1
+1033,Computer Networks,Routing Protocols,0.0,0.0,1,46.46,0.0,0.0,5.32,2,24.75,0.0,0
+1136,Artificial Intelligence,Search Algorithms,81.87,91.31,1,38.54,78.34,81.79,6.71,2,88.17,3.45,1
+1141,Operating Systems,Deadlocks,67.13,70.36,2,24.55,75.83,67.5,3.28,1,78.22,-8.33,1
+1133,Database Management Systems,SQL Queries,32.42,32.67,3,27.81,32.71,25.92,3.38,1,52.28,-6.79,0
+1387,Artificial Intelligence,Search Algorithms,82.17,65.11,2,36.11,82.78,86.06,6.99,3,100.0,3.28,1
+1244,Operating Systems,CPU Scheduling,41.1,43.8,2,41.32,75.51,37.57,5.29,2,71.78,-37.94,0
+1227,Database Management Systems,Transactions,23.08,14.54,1,29.94,42.37,28.38,3.31,2,29.36,-13.99,0
+1031,Computer Networks,TCP/IP,61.74,63.69,1,28.5,32.55,70.91,2.49,1,39.93,38.36,1
+1089,Computer Networks,Network Security,49.14,43.47,4,32.45,57.74,42.51,6.48,1,68.14,-15.23,0
+1348,Data Structures,Trees,43.19,33.5,1,46.28,90.95,50.59,4.09,3,52.41,-40.37,0
+1322,Machine Learning,Model Evaluation,45.18,56.9,3,30.32,26.33,50.91,2.9,2,64.01,24.59,0
+1248,Artificial Intelligence,Knowledge Representation,39.22,53.3,2,26.35,47.32,48.13,2.86,1,31.96,0.8,0
+1110,Artificial Intelligence,Search Algorithms,21.15,10.4,3,55.0,56.67,29.84,1.18,3,33.38,-26.84,0
+1396,Computer Networks,TCP/IP,26.77,37.11,4,24.66,55.64,30.26,2.73,1,71.47,-25.38,0
+1131,Data Structures,Searching,34.67,33.75,1,50.39,13.45,25.19,3.16,3,41.08,11.74,0
+1205,Artificial Intelligence,Heuristics,66.59,57.98,1,50.14,63.42,66.57,5.47,3,50.5,3.14,1
+1036,Machine Learning,Supervised Learning,36.01,34.25,2,41.59,67.59,47.04,4.06,3,82.69,-20.55,0
+1193,Computer Networks,OSI Model,61.62,60.32,2,29.38,70.65,64.5,5.87,1,83.86,-6.15,1
+1268,Database Management Systems,SQL Queries,54.68,53.94,1,41.77,47.36,47.58,2.26,1,54.61,0.22,0
+1262,Data Structures,Queue,47.37,57.08,4,51.0,27.03,44.91,2.34,3,26.75,17.88,0
+1234,Data Structures,Arrays,58.75,57.59,1,44.67,53.07,58.14,4.06,1,55.84,5.07,0
+1156,Data Structures,Graphs,24.19,23.59,1,43.48,43.19,34.24,1.53,1,48.8,-8.95,0
+1376,Computer Networks,Transport Layer,61.02,53.91,4,45.76,35.73,59.14,4.83,2,40.88,23.42,0
+1191,Operating Systems,CPU Scheduling,58.41,66.59,4,32.78,60.37,60.96,1.36,2,58.47,0.6,1
+1155,Computer Networks,Transport Layer,97.08,99.3,2,33.72,59.58,100.0,2.69,3,67.43,40.42,2
+1096,Database Management Systems,Normalization,58.58,62.42,2,20.96,68.38,62.24,3.76,1,51.82,-6.15,1
+1290,Artificial Intelligence,Game Playing,28.36,13.13,4,30.31,49.14,31.86,4.96,1,44.64,-17.28,0
+1177,Operating Systems,CPU Scheduling,33.92,34.85,2,26.03,50.82,32.07,3.94,1,76.44,-18.75,0
+1381,Data Structures,Stack,34.93,29.64,1,41.97,57.75,34.11,3.77,2,50.07,-23.63,0
+1246,Machine Learning,Model Evaluation,31.89,29.91,4,21.47,45.32,18.3,2.66,1,53.17,-27.02,0
+1070,Artificial Intelligence,Knowledge Representation,28.19,19.76,1,42.91,28.06,24.67,6.19,3,26.96,-3.39,0
+1324,Machine Learning,Model Evaluation,21.22,13.15,1,40.78,39.34,35.86,2.41,2,44.59,-3.49,0
+1312,Database Management Systems,Indexing,65.66,56.8,2,42.13,82.77,76.52,6.32,2,84.23,-6.26,1
+1107,Computer Networks,TCP/IP,23.93,10.52,2,50.92,27.6,32.89,3.79,3,70.03,5.29,0
+1241,Artificial Intelligence,Heuristics,44.97,41.94,1,36.44,13.95,41.12,2.46,1,38.39,27.17,0
+1281,Operating Systems,CPU Scheduling,31.84,31.12,2,57.17,61.32,35.29,3.23,3,54.04,-26.02,0
+1095,Database Management Systems,Normalization,5.11,16.56,1,46.77,44.74,13.85,2.06,2,20.71,-30.89,0
+1120,Machine Learning,Model Evaluation,86.22,93.94,1,38.23,53.57,89.82,6.55,2,100.0,36.26,1
+1241,Artificial Intelligence,Knowledge Representation,74.91,75.44,1,47.37,67.46,78.84,5.27,2,87.16,11.38,1
+1384,Computer Networks,OSI Model,24.04,39.57,3,44.53,33.11,20.14,4.2,3,35.3,-12.96,0
+1319,Artificial Intelligence,Heuristics,25.58,32.33,1,44.05,33.09,30.93,4.41,2,55.32,-2.16,0
+1139,Database Management Systems,ER Model,64.99,63.0,2,41.75,34.53,68.35,3.22,2,49.48,33.82,1
+1279,Database Management Systems,ER Model,1.08,0.2,3,48.87,12.57,0.0,2.11,2,15.0,-12.57,0
+1211,Computer Networks,Routing Protocols,41.47,46.88,1,22.6,20.52,47.08,3.28,1,39.31,26.56,0
+1099,Computer Networks,Transport Layer,64.67,65.68,2,49.05,81.53,66.62,6.22,3,65.24,-14.91,1
+1400,Data Structures,Graphs,96.33,75.7,1,23.37,73.05,94.97,5.56,2,89.83,21.92,1
+1222,Machine Learning,Decision Trees,8.18,27.75,2,39.71,0.0,13.48,3.57,3,49.7,13.48,0
+1319,Database Management Systems,Indexing,62.8,66.16,1,28.54,76.24,69.07,4.59,2,69.74,-7.18,1
+1154,Artificial Intelligence,Heuristics,69.25,75.05,2,29.89,87.56,80.16,5.97,2,78.27,-7.4,1
+1148,Database Management Systems,Transactions,58.51,57.08,2,26.84,92.41,53.11,5.63,2,100.0,-39.3,1
+1389,Computer Networks,TCP/IP,24.19,23.32,1,45.04,31.96,31.62,2.79,3,31.39,-0.34,0
+1169,Artificial Intelligence,Search Algorithms,19.54,7.08,1,36.14,37.32,20.68,4.86,1,33.62,-16.64,0
+1146,Data Structures,Arrays,0.0,6.25,4,55.78,20.62,7.41,3.32,3,16.66,-13.22,0
+1222,Operating Systems,Virtual Memory,60.08,61.54,1,27.86,56.51,60.06,6.86,2,57.16,3.56,0
+1184,Data Structures,Linked Lists,61.46,47.35,2,32.86,76.05,61.88,5.9,1,52.83,-14.17,0
+1328,Data Structures,Linked Lists,22.09,17.15,2,45.0,47.01,26.16,5.18,2,44.37,-20.85,0
+1223,Artificial Intelligence,Heuristics,50.32,56.35,3,48.69,49.66,43.42,3.12,2,59.04,-6.24,0
+1220,Machine Learning,Model Evaluation,27.36,29.34,3,25.81,29.59,37.06,5.99,1,37.89,7.47,0
+1114,Computer Networks,Routing Protocols,72.33,82.56,2,46.07,67.39,65.0,6.54,3,34.21,-2.39,1
+1363,Computer Networks,Transport Layer,0.0,0.0,3,44.87,46.56,2.49,3.73,3,15.0,-44.07,0
+1322,Database Management Systems,Transactions,58.97,61.84,3,35.48,53.3,66.87,5.58,2,90.47,13.57,1
+1025,Artificial Intelligence,Heuristics,49.25,48.03,1,40.57,44.85,45.02,1.49,1,57.18,0.17,0
+1276,Machine Learning,Neural Networks,70.31,62.69,2,34.68,55.83,61.07,6.58,2,81.86,5.24,1
+1365,Computer Networks,Transport Layer,34.93,27.27,2,47.32,54.67,36.24,5.73,2,48.17,-18.44,0
+1216,Data Structures,Queue,48.12,46.34,2,53.74,35.09,50.33,4.38,2,46.37,15.24,0
+1143,Machine Learning,Supervised Learning,49.76,63.13,1,35.31,60.39,59.2,3.79,1,49.55,-1.19,0
+1126,Computer Networks,TCP/IP,48.37,42.96,2,22.85,67.11,56.47,4.21,1,71.98,-10.65,0
+1041,Operating Systems,Virtual Memory,56.0,54.84,1,27.21,37.68,62.5,5.8,1,46.6,24.81,0
+1045,Artificial Intelligence,Knowledge Representation,17.75,18.67,4,57.3,34.99,12.7,0.5,2,16.85,-22.29,0
+1144,Operating Systems,Deadlocks,52.05,60.24,2,32.34,67.76,60.41,3.17,2,59.2,-7.35,1
+1009,Operating Systems,CPU Scheduling,44.48,42.66,2,52.73,48.13,40.89,4.9,3,71.97,-7.24,0
+1320,Database Management Systems,Normalization,68.3,76.02,2,29.21,45.47,70.05,5.97,1,69.46,24.58,1
+1283,Machine Learning,Supervised Learning,57.67,52.78,2,21.35,82.98,63.29,5.69,1,58.87,-19.7,1
+1345,Machine Learning,Decision Trees,49.64,49.12,1,42.05,65.7,49.45,7.24,2,38.11,-16.25,0
+1255,Database Management Systems,SQL Queries,18.85,13.93,4,31.58,1.76,9.56,5.05,1,40.92,7.79,0
+1041,Machine Learning,Supervised Learning,59.25,65.36,2,58.35,72.33,59.67,5.81,3,80.07,-12.67,1
+1039,Data Structures,Searching,33.69,25.7,3,43.77,41.28,29.88,2.6,3,43.0,-11.41,0
+1293,Machine Learning,Supervised Learning,71.58,80.52,1,32.83,78.23,76.12,4.75,2,55.16,-2.11,1
+1353,Database Management Systems,Indexing,1.43,2.99,2,35.97,32.86,6.33,3.27,1,58.24,-26.53,0
+1171,Data Structures,Linked Lists,52.37,53.28,2,30.75,62.97,56.52,5.49,1,79.24,-6.45,0
+1380,Database Management Systems,ER Model,76.49,64.8,1,42.85,62.27,76.65,4.16,2,80.6,14.38,1
+1095,Machine Learning,Model Evaluation,54.76,69.08,1,50.33,35.43,51.05,5.07,2,65.18,15.61,0
+1356,Computer Networks,Routing Protocols,62.68,55.19,1,55.18,68.67,51.83,5.29,2,44.87,-16.84,0
+1065,Data Structures,Arrays,64.66,69.79,1,39.54,48.26,67.62,4.03,3,72.61,19.35,1
+1292,Operating Systems,Virtual Memory,30.7,29.32,1,35.69,38.04,40.46,2.89,1,50.45,2.41,0
+1137,Artificial Intelligence,Knowledge Representation,26.68,24.86,1,46.46,38.94,29.7,5.03,2,51.07,-9.25,0
+1170,Database Management Systems,Indexing,34.71,30.79,2,51.02,50.04,40.78,2.57,2,48.21,-9.26,0
+1154,Artificial Intelligence,Game Playing,42.61,41.02,1,29.29,45.85,48.11,3.25,1,61.36,2.26,0
+1182,Computer Networks,Network Security,34.08,32.02,1,56.21,24.86,32.33,2.59,3,50.85,7.47,0
+1027,Computer Networks,Network Security,12.96,23.22,2,37.97,34.65,23.25,5.22,2,56.43,-11.4,0
+1296,Database Management Systems,Indexing,69.51,72.64,2,36.51,82.75,67.29,5.17,2,85.44,-15.46,1
+1386,Artificial Intelligence,Knowledge Representation,67.76,73.15,2,48.84,62.85,74.44,5.65,3,51.56,11.59,1
+1289,Machine Learning,Decision Trees,33.05,18.98,4,33.71,12.93,28.49,3.38,2,60.89,15.56,0

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — {{ title or 'Error' }}{% endblock %}
+
+{% block content %}
+<div class="container py-5 text-center" style="max-width: 600px;">
+    <div class="card card-modern p-5 text-center shadow-sm">
+        <div class="d-inline-flex p-3 rounded-circle {% if code == 403 %}bg-warning-subtle text-warning{% else %}bg-danger-subtle text-danger{% endif %} mb-3 mx-auto">
+            <i class="bi {% if code == 403 %}bi-lock-fill{% elif code == 404 %}bi-question-circle-fill{% else %}bi-exclamation-triangle-fill{% endif %} fs-1"></i>
+        </div>
+
+        <h1 class="display-4 fw-bold text-dark mb-2">{{ code or 'Notice' }}</h1>
+        <h4 class="fw-bold text-dark mb-3">{{ title or 'Something went wrong' }}</h4>
+        <p class="text-secondary mb-4">{{ message or 'An unexpected error occurred while processing your request.' }}</p>
+
+        <div class="d-flex justify-content-center gap-3">
+            <a href="{{ url_for('dashboard') }}" class="btn btn-primary rounded-pill px-4">
+                <i class="bi bi-house-fill me-1"></i>Go to Dashboard
+            </a>
+            <a href="javascript:history.back()" class="btn btn-outline-secondary rounded-pill px-4">
+                Go Back
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block auth_content %}
+<div class="container py-5 text-center" style="max-width: 600px;">
+    <div class="card card-modern p-5 text-center shadow-sm">
+        <div class="d-inline-flex p-3 rounded-circle bg-danger-subtle text-danger mb-3 mx-auto">
+            <i class="bi bi-exclamation-triangle-fill fs-1"></i>
+        </div>
+
+        <h1 class="display-4 fw-bold text-dark mb-2">{{ code or 'Notice' }}</h1>
+        <h4 class="fw-bold text-dark mb-3">{{ title or 'Something went wrong' }}</h4>
+        <p class="text-secondary mb-4">{{ message or 'An unexpected error occurred while processing your request.' }}</p>
+
+        <div class="d-flex justify-content-center gap-3">
+            <a href="{{ url_for('login') }}" class="btn btn-primary rounded-pill px-4">
+                Return to Login
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

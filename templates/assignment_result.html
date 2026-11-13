@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — Assessment Result{% endblock %}
+
+{% block content %}
+<div class="container py-4" style="max-width: 860px;">
+    <!-- Result Summary Card -->
+    <div class="card card-modern p-4 p-md-5 text-center mb-4 border-0 shadow-sm">
+        <div class="d-inline-flex p-3 rounded-circle {% if attempt.score >= 70 %}bg-success-subtle text-success{% elif attempt.score >= 40 %}bg-warning-subtle text-warning{% else %}bg-danger-subtle text-danger{% endif %} mb-3 mx-auto">
+            <i class="bi {% if attempt.score >= 70 %}bi-trophy-fill{% elif attempt.score >= 40 %}bi-lightbulb-fill{% else %}bi-exclamation-triangle-fill{% endif %} fs-1"></i>
+        </div>
+
+        <h2 class="fw-bold text-dark mb-1">{{ attempt.assignment_title }}</h2>
+        <p class="text-secondary small mb-4">{{ attempt.subject_name }} &bull; {{ attempt.module_name }}</p>
+
+        <div class="row g-3 justify-content-center mb-4">
+            <div class="col-6 col-sm-3">
+                <div class="p-3 bg-light rounded-3 border">
+                    <div class="small text-muted text-uppercase fw-semibold">Score</div>
+                    <div class="fs-3 fw-bold text-primary">{{ attempt.score }}%</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="p-3 bg-light rounded-3 border">
+                    <div class="small text-muted text-uppercase fw-semibold">Accuracy</div>
+                    <div class="fs-3 fw-bold text-info">{{ attempt.accuracy }}%</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="p-3 bg-light rounded-3 border">
+                    <div class="small text-muted text-uppercase fw-semibold">Correct</div>
+                    <div class="fs-3 fw-bold text-success">{{ attempt.correct_answers }} / {{ attempt.correct_answers + attempt.incorrect_answers }}</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="p-3 bg-light rounded-3 border">
+                    <div class="small text-muted text-uppercase fw-semibold">Time Taken</div>
+                    <div class="fs-3 fw-bold text-secondary">{{ attempt.time_spent_minutes }} min</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ML Topic Mastery Update Alert -->
+        <div class="alert alert-info border-0 rounded-4 text-start p-3 mb-0">
+            <div class="d-flex align-items-center gap-2 mb-1">
+                <i class="bi bi-cpu-fill fs-5 text-primary"></i>
+                <strong class="text-dark">ML Topic Mastery State Updated:</strong>
+                <span class="badge {% if attempt.mastery == 'STRONG' %}badge-mastery-strong{% elif attempt.mastery == 'MODERATE' %}badge-mastery-mod{% else %}badge-mastery-weak{% endif %}">
+                    {{ attempt.mastery }}
+                </span>
+            </div>
+            <p class="small text-secondary mb-0">
+                The machine learning model processed your assessment accuracy, time spent, difficulty, and past performance. Your adaptive weekly study schedule and recommendations have been recalculated automatically.
+            </p>
+        </div>
+    </div>
+
+    <!-- Question-by-Question Review -->
+    <h5 class="fw-bold text-dark mb-3"><i class="bi bi-card-checklist text-primary me-2"></i>Detailed Question Review</h5>
+    
+    {% for a in answers %}
+    <div class="card card-modern p-4 mb-3 border-0 shadow-sm">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="badge bg-light text-secondary border">Question {{ loop.index }}</span>
+            {% if a.is_correct %}
+                <span class="badge bg-success-subtle text-success fw-bold px-3 py-1 rounded-pill">
+                    <i class="bi bi-check-circle-fill me-1"></i>Correct
+                </span>
+            {% else %}
+                <span class="badge bg-danger-subtle text-danger fw-bold px-3 py-1 rounded-pill">
+                    <i class="bi bi-x-circle-fill me-1"></i>Incorrect
+                </span>
+            {% endif %}
+        </div>
+
+        <h6 class="fw-bold text-dark mb-3">{{ a.question_text }}</h6>
+
+        <div class="small text-secondary mb-2">
+            <strong>Your answer:</strong> 
+            <span class="{% if a.is_correct %}text-success fw-bold{% else %}text-danger fw-bold{% endif %}">
+                Option {{ a.selected_option or 'None' }}
+            </span>
+            {% if not a.is_correct %}
+                &bull; <strong class="text-dark">Correct answer:</strong> <span class="text-success fw-bold">Option {{ a.correct_option }}</span>
+            {% endif %}
+        </div>
+
+        <div class="p-2 bg-light rounded border small text-muted">
+            <i class="bi bi-lightbulb me-1 text-warning"></i>Concept: <strong>{{ a.concept }}</strong> ({{ a.difficulty }} difficulty)
+        </div>
+    </div>
+    {% endfor %}
+
+    <!-- Navigation actions -->
+    <div class="d-flex justify-content-between pt-3 border-top">
+        <a href="{{ url_for('dashboard') }}" class="btn btn-primary rounded-pill px-4 fw-semibold">
+            <i class="bi bi-house-fill me-1"></i>Return to Dashboard
+        </a>
+        <a href="{{ url_for('recommendations') }}" class="btn btn-outline-primary rounded-pill px-4 fw-semibold">
+            View Updated AI Recommendations <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+    </div>
+</div>
+{% endblock %}

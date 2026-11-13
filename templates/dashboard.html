@@ -1,0 +1,278 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — Student Dashboard{% endblock %}
+
+{% block content %}
+<!-- Top Welcome Banner -->
+<div class="top-banner mb-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
+        <div>
+            <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="badge bg-light text-primary fw-bold px-3 py-1 rounded-pill">Semester {{ student.current_semester }}</span>
+                <span class="badge bg-white bg-opacity-25 text-white px-3 py-1 rounded-pill">{{ pref.learning_style }} Style</span>
+            </div>
+            <h1 class="greeting-text">{{ student_greeting }}</h1>
+            <p class="mb-0 text-white-50 fs-6">Ready to continue learning? Your adaptive study plan is active.</p>
+        </div>
+        <div class="bg-white bg-opacity-10 p-3 rounded-4 backdrop-blur text-end" style="min-width: 220px;">
+            <div class="small text-white-50 text-uppercase fw-semibold">Target Milestone</div>
+            <div class="fw-bold fs-5 text-white mb-1">{{ pref.learning_goal }}</div>
+            <div class="small text-warning fw-semibold">
+                <i class="bi bi-clock-history me-1"></i>{{ days_remaining }} days remaining ({{ pref.target_date }})
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 4 Performance Metric Cards -->
+<div class="row g-3 mb-4">
+    <div class="col-6 col-lg-3">
+        <div class="card-modern metric-card">
+            <div>
+                <span class="metric-label">Average Performance</span>
+                <div class="metric-value text-primary">{{ attempt_stats.avg_score or '0.0' }}%</div>
+            </div>
+            <div class="metric-sub">
+                <i class="bi bi-bullseye text-primary me-1"></i>{{ attempt_stats.avg_accuracy or '0.0' }}% avg. accuracy
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-lg-3">
+        <div class="card-modern metric-card">
+            <div>
+                <span class="metric-label">Study Time</span>
+                <div class="metric-value text-info">{{ study_hours_data.total_hours or '0.0' }} <span class="fs-5 fw-normal text-muted">hrs</span></div>
+            </div>
+            <div class="metric-sub">
+                <i class="bi bi-clock text-info me-1"></i>{{ pref.hours_per_week }}h/week goal
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-lg-3">
+        <div class="card-modern metric-card">
+            <div>
+                <span class="metric-label">Lectures Completed</span>
+                <div class="metric-value text-success">{{ lecture_stats.completed_lectures or 0 }}</div>
+            </div>
+            <div class="metric-sub">
+                <i class="bi bi-play-circle-fill text-success me-1"></i>Verified video study
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-lg-3">
+        <div class="card-modern metric-card">
+            <div>
+                <span class="metric-label">Adaptive Assessments</span>
+                <div class="metric-value text-warning">{{ attempt_stats.total_attempts or 0 }}</div>
+            </div>
+            <div class="metric-sub">
+                <i class="bi bi-journal-check text-warning me-1"></i>Historical attempts
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recommendations & To-Do Sections -->
+<div class="row g-4 mb-4">
+    <!-- Today's Priority Recommendations -->
+    <div class="col-lg-7">
+        <div class="card-modern">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <div>
+                    <h5 class="fw-bold mb-1"><i class="bi bi-stars text-warning me-2"></i>Today's AI Focus Recommendation</h5>
+                    <p class="text-muted small mb-0">Prioritized by the ML topic mastery engine</p>
+                </div>
+                <a href="{{ url_for('recommendations') }}" class="btn btn-outline-primary btn-sm rounded-pill px-3">View All</a>
+            </div>
+
+            {% if recommendations %}
+                {% for rec in recommendations %}
+                <div class="p-3 mb-2 rounded-3 border bg-light d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-3">
+                    <div>
+                        <div class="d-flex align-items-center gap-2 mb-1">
+                            <span class="badge {% if rec.priority == 'HIGH' %}badge-priority-high{% elif rec.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+                                {{ rec.priority }} PRIORITY
+                            </span>
+                            <span class="fw-bold text-dark">{{ rec.subject_name }} &rarr; {{ rec.topic_name }}</span>
+                        </div>
+                        <p class="text-secondary small mb-1">{{ rec.activity }}</p>
+                        <div class="text-muted" style="font-size: 0.78rem;">
+                            <i class="bi bi-info-circle me-1"></i>{{ rec.reason }}
+                        </div>
+                    </div>
+                    <div class="text-sm-end text-nowrap">
+                        <span class="badge bg-white text-dark border px-3 py-2 rounded-pill fw-semibold">{{ rec.duration }} mins</span>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="text-center py-4 text-muted">
+                    <i class="bi bi-check-circle fs-3 text-success d-block mb-2"></i>
+                    <p class="mb-0">No urgent topic weaknesses detected. Keep studying your active subjects!</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Today's To-Do List -->
+    <div class="col-lg-5">
+        <div class="card-modern">
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <div>
+                    <h5 class="fw-bold mb-1"><i class="bi bi-calendar-check text-primary me-2"></i>Today's To-Do</h5>
+                    <p class="text-muted small mb-0">Daily study plan checklist</p>
+                </div>
+                <a href="{{ url_for('todo') }}" class="btn btn-outline-primary btn-sm rounded-pill px-3">Manage</a>
+            </div>
+
+            {% if tasks %}
+                <div class="list-group list-group-flush">
+                    {% for task in tasks %}
+                    <div class="list-group-item px-0 py-2 d-flex align-items-center justify-content-between border-0 border-bottom">
+                        <div class="d-flex align-items-center gap-2 text-truncate me-2">
+                            <form action="{{ url_for('complete_todo', task_id=task.id) }}" method="POST" class="m-0">
+                                <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+                                <button type="submit" class="btn btn-link p-0 text-secondary" title="Mark Complete">
+                                    <i class="bi bi-circle fs-5"></i>
+                                </button>
+                            </form>
+                            <div class="text-truncate">
+                                <div class="fw-semibold text-dark text-truncate" style="font-size: 0.9rem;">{{ task.title }}</div>
+                                <small class="text-muted">{{ task.duration }} mins &bull; Due {{ task.due_date }}</small>
+                            </div>
+                        </div>
+                        <span class="badge {% if task.priority == 'HIGH' %}badge-priority-high{% elif task.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+                            {{ task.priority }}
+                        </span>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="text-center py-4 text-muted">
+                    <p class="mb-2">No pending study tasks for today.</p>
+                    <a href="{{ url_for('generate_study_plan') }}" class="btn btn-sm btn-primary rounded-pill">
+                        <i class="bi bi-arrow-repeat me-1"></i>Generate Tasks
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Topic Mastery Status -->
+<div class="card-modern mb-4">
+    <h5 class="fw-bold mb-3"><i class="bi bi-pie-chart-fill text-primary me-2"></i>Topic Mastery Overview (ML Evaluated)</h5>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="p-3 rounded-3 bg-success bg-opacity-10 border border-success border-opacity-25">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span class="fw-bold text-success">STRONG MASTERY</span>
+                    <span class="badge bg-success rounded-pill">{{ strong_topics|length }}</span>
+                </div>
+                <div class="small text-secondary">
+                    {% for t in strong_topics[:4] %}
+                        <span class="badge bg-white text-dark border me-1 mb-1">{{ t.topic_name }}</span>
+                    {% else %}
+                        <span class="text-muted">No strong topics recorded yet.</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-3 rounded-3 bg-warning bg-opacity-10 border border-warning border-opacity-25">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span class="fw-bold text-warning-emphasis">MODERATE MASTERY</span>
+                    <span class="badge bg-warning rounded-pill">{{ moderate_topics|length }}</span>
+                </div>
+                <div class="small text-secondary">
+                    {% for t in moderate_topics[:4] %}
+                        <span class="badge bg-white text-dark border me-1 mb-1">{{ t.topic_name }}</span>
+                    {% else %}
+                        <span class="text-muted">No moderate topics recorded.</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-3 rounded-3 bg-danger bg-opacity-10 border border-danger border-opacity-25">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span class="fw-bold text-danger">WEAK / FOCUS REQUIRED</span>
+                    <span class="badge bg-danger rounded-pill">{{ weak_topics|length }}</span>
+                </div>
+                <div class="small text-secondary">
+                    {% for t in weak_topics[:4] %}
+                        <span class="badge bg-white text-danger border border-danger me-1 mb-1">{{ t.topic_name }}</span>
+                    {% else %}
+                        <span class="text-muted">Great job! No weak topics detected.</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 4 Chart.js Visualizations (Section 37) -->
+<div class="row g-4 mb-4">
+    <!-- Chart 1: Performance Trend -->
+    <div class="col-lg-6">
+        <div class="card-modern">
+            <h6 class="fw-bold text-dark mb-3"><i class="bi bi-graph-up text-primary me-2"></i>Performance Trend (Recent Attempts)</h6>
+            <div style="height: 250px;">
+                <canvas id="performanceTrendChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart 2: Subject Performance -->
+    <div class="col-lg-6">
+        <div class="card-modern">
+            <h6 class="fw-bold text-dark mb-3"><i class="bi bi-bar-chart-fill text-indigo me-2"></i>Subject-Wise Performance (%)</h6>
+            <div style="height: 250px;">
+                <canvas id="subjectPerformanceChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart 3: Topic Mastery Breakdown -->
+    <div class="col-lg-6">
+        <div class="card-modern">
+            <h6 class="fw-bold text-dark mb-3"><i class="bi bi-pie-chart text-success me-2"></i>ML Topic Mastery Distribution</h6>
+            <div style="height: 250px;">
+                <canvas id="topicMasteryChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart 4: Weekly Study Hours -->
+    <div class="col-lg-6">
+        <div class="card-modern">
+            <h6 class="fw-bold text-dark mb-3"><i class="bi bi-clock-fill text-cyan me-2"></i>Weekly Study Distribution</h6>
+            <div style="height: 250px;">
+                <canvas id="weeklyStudyHoursChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const dashboardData = {
+        trend: {{ recent_attempts|tojson }},
+        subjects: {{ subject_perf|tojson }},
+        mastery: {
+            strong: {{ strong_topics|length }},
+            moderate: {{ moderate_topics|length }},
+            weak: {{ weak_topics|length }}
+        }
+    };
+    initDashboardCharts(dashboardData);
+});
+</script>
+{% endblock %}

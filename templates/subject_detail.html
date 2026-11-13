@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — {{ subject.name }}{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <a href="{{ url_for('subjects') }}" class="btn btn-outline-secondary btn-sm rounded-pill mb-3">
+        <i class="bi bi-arrow-left me-1"></i>Back to My Subjects
+    </a>
+    <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <div>
+            <div class="d-flex align-items-center gap-2 mb-1">
+                <h1 class="h2 fw-bold text-dark mb-0">{{ subject.name }}</h1>
+                {% if subject.code %}
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill">{{ subject.code }}</span>
+                {% endif %}
+            </div>
+            <p class="text-secondary small mb-0">{{ subject.description }}</p>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-light text-dark border px-3 py-2 rounded-pill fw-semibold shadow-sm">
+                <i class="bi bi-collection-play me-1 text-primary"></i>{{ modules|length }} Modules
+            </span>
+        </div>
+    </div>
+</div>
+
+<!-- Curriculum Modules & Topic-Wise Lectures -->
+<div class="row g-4">
+    {% for m in modules %}
+    <div class="col-12">
+        <div class="card card-modern shadow-sm border-0 overflow-hidden">
+            <div class="card-header bg-white border-bottom p-4">
+                <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+                    <div>
+                        <div class="d-flex align-items-center gap-2 mb-1">
+                            <span class="badge bg-primary px-3 py-1 rounded-pill fw-bold">Module {{ m.sequence_no }}</span>
+                            <h4 class="fw-bold text-dark mb-0">{{ m.name }}</h4>
+                        </div>
+                        <p class="text-muted small mb-0">{{ m.description }}</p>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="text-end d-none d-md-block">
+                            <small class="text-muted d-block fw-semibold">{{ m.completed_topics }} / {{ m.total_topics }} Topics Completed</small>
+                            <div class="progress-bar-custom mt-1" style="width: 140px;">
+                                <div class="progress-bar-fill" style="width: {{ m.watch_progress }}%;"></div>
+                            </div>
+                        </div>
+
+                        {% if m.assignment_id %}
+                            {% if m.assignment_unlocked %}
+                                <a href="{{ url_for('assignment', assignment_id=m.assignment_id) }}" class="btn btn-outline-success btn-sm rounded-pill fw-semibold px-3 shadow-sm">
+                                    <i class="bi bi-unlock-fill me-1"></i>Take Assessment
+                                </a>
+                            {% else %}
+                                <span class="badge bg-secondary-subtle text-secondary px-3 py-2 rounded-pill" title="Watch at least one topic lecture to unlock assessment">
+                                    <i class="bi bi-lock-fill me-1"></i>Assessment Locked 🔒
+                                </span>
+                            {% endif %}
+                        {% endif %}
+
+                        <a href="{{ url_for('module', module_id=m.id) }}" class="btn btn-light btn-sm rounded-pill px-3 border">
+                            <i class="bi bi-folder2-open me-1"></i>Full Module
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bifurcated Topic-Wise Lectures Table -->
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width: 60px;" class="ps-4">#</th>
+                            <th>Topic & Lecture Title</th>
+                            <th style="width: 130px;">Duration</th>
+                            <th style="width: 180px;">Watch Progress</th>
+                            <th style="width: 140px;" class="text-end pe-4">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for top in m.topics %}
+                        <tr>
+                            <td class="ps-4 fw-bold text-muted">{{ loop.index }}</td>
+                            <td>
+                                <div class="fw-semibold text-dark">{{ top.topic_name }}</div>
+                                <div class="small text-muted">
+                                    <i class="bi bi-youtube text-danger me-1"></i>{{ top.lecture_title or top.topic_name }}
+                                </div>
+                            </td>
+                            <td>
+                                <span class="badge bg-light text-secondary border px-2 py-1 rounded-pill">
+                                    <i class="bi bi-clock me-1"></i>{{ (top.duration_seconds // 60) if top.duration_seconds else 10 }} mins
+                                </span>
+                            </td>
+                            <td>
+                                {% if top.watch_status == 'COMPLETED' %}
+                                    <span class="badge bg-success-subtle text-success fw-bold px-3 py-1 rounded-pill">
+                                        <i class="bi bi-check-circle-fill me-1"></i>Completed
+                                    </span>
+                                {% elif top.watch_status == 'IN_PROGRESS' %}
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="progress-bar-custom" style="width: 80px;">
+                                            <div class="progress-bar-fill" style="width: {{ top.watch_progress }}%;"></div>
+                                        </div>
+                                        <small class="text-muted fw-semibold">{{ top.watch_progress }}%</small>
+                                    </div>
+                                {% else %}
+                                    <span class="badge bg-light text-secondary border px-2 py-1 rounded-pill">Not Started</span>
+                                {% endif %}
+                            </td>
+                            <td class="text-end pe-4">
+                                {% if top.lecture_id %}
+                                    <a href="{{ url_for('lecture', lecture_id=top.lecture_id) }}" class="btn btn-primary btn-sm rounded-pill px-3 shadow-sm">
+                                        <i class="bi bi-play-fill me-1"></i>Watch
+                                    </a>
+                                {% else %}
+                                    <button class="btn btn-light btn-sm rounded-pill px-3" disabled>No video</button>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="5" class="text-center text-muted py-3">No topics listed under this module yet.</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-12">
+        <div class="card card-modern p-5 text-center text-muted">
+            <i class="bi bi-journal-x fs-1 mb-2"></i>
+            <h5>No curriculum modules recorded for this subject yet.</h5>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

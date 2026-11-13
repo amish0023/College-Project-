@@ -1,0 +1,95 @@
+{
+  "best_model": "Logistic Regression",
+  "best_f1": 0.9653,
+  "total_records": 1600,
+  "train_samples": 1280,
+  "test_samples": 320,
+  "features": [
+    "quiz_score",
+    "accuracy",
+    "attempts",
+    "time_spent",
+    "previous_score",
+    "assignment_score",
+    "study_hours",
+    "difficulty",
+    "lecture_completion",
+    "improvement"
+  ],
+  "target_classes": {
+    "0": "WEAK",
+    "1": "MODERATE",
+    "2": "STRONG"
+  },
+  "models": {
+    "Decision Tree": {
+      "accuracy": 0.9344,
+      "precision": 0.9358,
+      "recall": 0.9344,
+      "f1": 0.9347,
+      "confusion_matrix": [
+        [
+          197,
+          12,
+          0
+        ],
+        [
+          8,
+          96,
+          0
+        ],
+        [
+          0,
+          1,
+          6
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.9594,
+      "precision": 0.9615,
+      "recall": 0.9594,
+      "f1": 0.9598,
+      "confusion_matrix": [
+        [
+          199,
+          10,
+          0
+        ],
+        [
+          2,
+          101,
+          1
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9656,
+      "precision": 0.9662,
+      "recall": 0.9656,
+      "f1": 0.9653,
+      "confusion_matrix": [
+        [
+          204,
+          5,
+          0
+        ],
+        [
+          4,
+          100,
+          0
+        ],
+        [
+          0,
+          2,
+          5
+        ]
+      ]
+    }
+  }
+}

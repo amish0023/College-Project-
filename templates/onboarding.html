@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — Learning Preferences & Goals{% endblock %}
+
+{% block content %}
+<div class="container py-4" style="max-width: 820px;">
+    <div class="mb-4 text-center">
+        <h1 class="h2 fw-bold text-dark mb-1">Set Your Learning Goals & Preferences</h1>
+        <p class="text-secondary small">The AI planner tailors your adaptive weekly schedule using these parameters.</p>
+    </div>
+
+    <div class="card card-modern shadow-sm border-0 p-4 p-md-5">
+        <form method="POST" action="{{ url_for('onboarding') }}">
+            <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+
+            <!-- 1. Learning Goal -->
+            <div class="mb-4">
+                <label class="form-label fw-bold text-dark">Primary Academic Learning Goal</label>
+                <input type="text" name="learning_goal" class="form-control form-control-lg" placeholder="e.g. Master Machine Learning and Algorithms for Placements" value="{{ pref.learning_goal if pref else '' }}" required>
+                <div class="form-text">What specific outcome or mastery milestone are you working toward?</div>
+            </div>
+
+            <!-- 2. Target Date -->
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark">Target Completion Date</label>
+                    <input type="date" name="target_date" class="form-control" value="{{ pref.target_date if pref else '' }}" required>
+                    <div class="form-text">When do you want to complete this learning milestone?</div>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark">Available Study Hours Per Week</label>
+                    <div class="input-group">
+                        <input type="number" name="hours_per_week" class="form-control" min="2" max="60" value="{{ pref.hours_per_week if pref else 10 }}" required>
+                        <span class="input-group-text">hours / week</span>
+                    </div>
+                    <div class="form-text">Realistic weekly study budget for the adaptive scheduler.</div>
+                </div>
+            </div>
+
+            <!-- 3. Preferred Days -->
+            <div class="mb-4">
+                <label class="form-label fw-bold text-dark d-block">Preferred Study Days</label>
+                {% set selected_days = (pref.preferred_days if pref else 'Monday,Wednesday,Friday,Saturday').split(',') %}
+                <div class="d-flex flex-wrap gap-2">
+                    {% for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] %}
+                    <div class="form-check form-check-inline bg-light p-2 px-3 rounded-pill border m-0">
+                        <input class="form-check-input" type="checkbox" name="preferred_days" value="{{ day }}" id="day_{{ day }}" {% if day in selected_days %}checked{% endif %}>
+                        <label class="form-check-label fw-semibold small" for="day_{{ day }}">{{ day }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- 4. Session Duration & Learning Style -->
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark">Preferred Session Duration</label>
+                    <select class="form-select" name="session_duration">
+                        <option value="30" {% if pref and pref.session_duration == 30 %}selected{% endif %}>30 Minutes (Bite-sized)</option>
+                        <option value="45" {% if not pref or pref.session_duration == 45 %}selected{% endif %}>45 Minutes (Recommended)</option>
+                        <option value="60" {% if pref and pref.session_duration == 60 %}selected{% endif %}>60 Minutes (Deep focus)</option>
+                        <option value="90" {% if pref and pref.session_duration == 90 %}selected{% endif %}>90 Minutes (Intensive block)</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark">Learning Style</label>
+                    <select class="form-select" name="learning_style">
+                        <option value="Video + Notes" {% if pref and pref.learning_style == 'Video + Notes' %}selected{% endif %}>Video + Notes (Concept-focused)</option>
+                        <option value="Video + Practice" {% if pref and pref.learning_style == 'Video + Practice' %}selected{% endif %}>Video + Practice (Application-focused)</option>
+                        <option value="Practice First" {% if pref and pref.learning_style == 'Practice First' %}selected{% endif %}>Practice First (Hands-on quiz first)</option>
+                        <option value="Balanced" {% if not pref or pref.learning_style == 'Balanced' %}selected{% endif %}>Balanced (Theory + Video + MCQs)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="pt-3 border-top d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary px-4 py-2 rounded-pill fw-semibold shadow-sm">
+                    Generate Adaptive Plan & Go to Dashboard <i class="bi bi-arrow-right ms-2"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — AI Recommendations{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h1 class="h2 fw-bold text-dark mb-1">AI Learning Priorities & Recommendations</h1>
+    <p class="text-secondary small mb-0">Explainable AI diagnoses based on your individual performance, weak topic detection, and subject priorities.</p>
+</div>
+
+<div class="row g-4">
+    {% for rec in recommendations %}
+    <div class="col-lg-6">
+        <div class="card card-modern h-100 p-4 border-0 shadow-sm d-flex flex-column justify-content-between">
+            <div>
+                <!-- Header -->
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                    <span class="badge {% if rec.priority == 'HIGH' %}badge-priority-high{% elif rec.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+                        {{ rec.priority }} PRIORITY (Score: {{ rec.priority_score }})
+                    </span>
+                    <span class="badge bg-white text-secondary border px-3 py-1 rounded-pill fw-semibold">
+                        <i class="bi bi-clock me-1"></i>{{ rec.duration }} minutes
+                    </span>
+                </div>
+
+                <h4 class="fw-bold text-dark mb-1">{{ rec.subject }}</h4>
+                <h6 class="text-primary fw-semibold mb-3">&rarr; {{ rec.topic }}</h6>
+
+                <!-- Explainable AI: Why this topic needs attention -->
+                <div class="p-3 bg-light rounded-3 border mb-3">
+                    <div class="small fw-bold text-dark mb-1 text-uppercase">
+                        <i class="bi bi-search me-1 text-primary"></i>Why this topic needs attention
+                    </div>
+                    {% if rec.explanation_details %}
+                        <ul class="small text-secondary mb-0 ps-3">
+                            {% for r in rec.explanation_details %}
+                                <li>{{ r }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p class="small text-secondary mb-0">{{ rec.reason }}</p>
+                    {% endif %}
+                </div>
+
+                <!-- Recommended Action -->
+                <div class="p-3 rounded-3 bg-primary bg-opacity-10 border border-primary border-opacity-25 mb-3">
+                    <div class="small fw-bold text-primary mb-1 text-uppercase">
+                        <i class="bi bi-lightbulb-fill me-1"></i>Recommended Action
+                    </div>
+                    <p class="small text-dark mb-0 fw-semibold">{{ rec.action }}</p>
+                </div>
+            </div>
+
+            <!-- Activity Details & Action -->
+            <div class="pt-3 border-top d-flex align-items-center justify-content-between">
+                <small class="text-muted"><i class="bi bi-card-checklist me-1"></i>{{ rec.activity }}</small>
+                {% if rec.module_id %}
+                    <a href="{{ url_for('module', module_id=rec.module_id) }}" class="btn btn-outline-primary btn-sm rounded-pill px-3">
+                        Study Topic
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-12 text-center py-5">
+        <div class="card card-modern p-5 text-center">
+            <i class="bi bi-check2-circle fs-1 text-success d-block mb-3"></i>
+            <h4 class="fw-bold text-dark">All Topics in Strong Standing</h4>
+            <p class="text-muted">You have no critical weak topics detected at this time. Maintain your current study pace!</p>
+            <a href="{{ url_for('study_plan') }}" class="btn btn-primary rounded-pill px-4 mx-auto">
+                View Weekly Study Plan
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,1892 @@
+{
+  "518": {
+    "topic_id": 518,
+    "topic_name": "Definition of compiler and interpreter and differences",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "521": {
+    "topic_id": 521,
+    "topic_name": "Finite automata and Thompson construction",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "522": {
+    "topic_id": 522,
+    "topic_name": "Bootstrapping and LEX lexical analyzer generator",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "520": {
+    "topic_id": 520,
+    "topic_name": "Role of lexical analyzer and regular expressions",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "519": {
+    "topic_id": 519,
+    "topic_name": "Phases of a compiler and translation passes",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "PT9iWM80PDU",
+    "video_title": "Lec-2: Phases of Compiler with examples | Compiler Design",
+    "author": "Gate Smashers"
+  },
+  "524": {
+    "topic_id": 524,
+    "topic_name": "Elimination of left recursion and left factoring",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "PFey5FpKlFM",
+    "video_title": "Elimination of Left Recursion \u2013 Solved Problems",
+    "author": "Neso Academy"
+  },
+  "523": {
+    "topic_id": 523,
+    "topic_name": "Context free grammar parse trees and ambiguity",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "nUVmsW68K0Y",
+    "video_title": "Lec-48: Derivation Tree \ud83c\udf32Parse Tree \ud83c\udf32 with example in TOC & Compiler design",
+    "author": "Gate Smashers"
+  },
+  "525": {
+    "topic_id": 525,
+    "topic_name": "Dangling-else ambiguity and predictive LL(1) parsing",
+    "subject_name": "Compiler Design",
+    "module_name": "Introduction to Compilers",
+    "video_id": "WTxdKQmsfho",
+    "video_title": "Lec-8: LL(1) Parsing Table | Check Whether a Grammar is LL(1) or Not",
+    "author": "Gate Smashers"
+  },
+  "429": {
+    "topic_id": 429,
+    "topic_name": "Bottom-Up Parsing and Handles",
+    "subject_name": "Compiler Design",
+    "module_name": "Bottom-Up Parsing",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "430": {
+    "topic_id": 430,
+    "topic_name": "Handle Pruning and Shift-Reduce Parsing",
+    "subject_name": "Compiler Design",
+    "module_name": "Bottom-Up Parsing",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "431": {
+    "topic_id": 431,
+    "topic_name": "LR Grammars and Simple LR Parsers",
+    "subject_name": "Compiler Design",
+    "module_name": "Bottom-Up Parsing",
+    "video_id": "J4ZME5KOB-s",
+    "video_title": "Lec-11: LR(0) Parsing Table | Check Whether a Grammar is LR(0) or not | Bottom-Up Parser",
+    "author": "Gate Smashers"
+  },
+  "433": {
+    "topic_id": 433,
+    "topic_name": "Conflicts in Shift-Reduce Parsing",
+    "subject_name": "Compiler Design",
+    "module_name": "Bottom-Up Parsing",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "432": {
+    "topic_id": 432,
+    "topic_name": "Canonical LR and LALR Parsers",
+    "subject_name": "Compiler Design",
+    "module_name": "Bottom-Up Parsing",
+    "video_id": "sMxqUQc_jHQ",
+    "video_title": "Lec-13: CLR Parsing Table | LR(1) Canonical Items",
+    "author": "Gate Smashers"
+  },
+  "434": {
+    "topic_id": 434,
+    "topic_name": "Error Recovery in Parsing",
+    "subject_name": "Compiler Design",
+    "module_name": "Bottom-Up Parsing",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "435": {
+    "topic_id": 435,
+    "topic_name": "YACC Automatic Parser Generator",
+    "subject_name": "Compiler Design",
+    "module_name": "Bottom-Up Parsing",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "436": {
+    "topic_id": 436,
+    "topic_name": "Syntax Directed Definition",
+    "subject_name": "Compiler Design",
+    "module_name": "Syntax Directed Translation",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "438": {
+    "topic_id": 438,
+    "topic_name": "S-Attributed and L-Attributed Definitions",
+    "subject_name": "Compiler Design",
+    "module_name": "Syntax Directed Translation",
+    "video_id": "w03voSY4REs",
+    "video_title": "Lec-20: S-Attributed vs L-Attributed SDT | Types of SDT",
+    "author": "Gate Smashers"
+  },
+  "439": {
+    "topic_id": 439,
+    "topic_name": "Translation Schemes",
+    "subject_name": "Compiler Design",
+    "module_name": "Syntax Directed Translation",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "437": {
+    "topic_id": 437,
+    "topic_name": "Construction of Syntax Trees",
+    "subject_name": "Compiler Design",
+    "module_name": "Syntax Directed Translation",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "441": {
+    "topic_id": 441,
+    "topic_name": "Polish Notation and Three Address Code",
+    "subject_name": "Compiler Design",
+    "module_name": "Syntax Directed Translation",
+    "video_id": "tJUYVGDn0JE",
+    "video_title": "Lec-23: What is 3-Address Code in Compiler",
+    "author": "Gate Smashers"
+  },
+  "445": {
+    "topic_id": 445,
+    "topic_name": "Static and Dynamic Checking of Types",
+    "subject_name": "Compiler Design",
+    "module_name": "Type Checking",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "442": {
+    "topic_id": 442,
+    "topic_name": "Translation of Statements and Boolean Expressions",
+    "subject_name": "Compiler Design",
+    "module_name": "Syntax Directed Translation",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "440": {
+    "topic_id": 440,
+    "topic_name": "Intermediate Code Generation and AST",
+    "subject_name": "Compiler Design",
+    "module_name": "Syntax Directed Translation",
+    "video_id": "j-bLeUysUiE",
+    "video_title": "Lec-22: Intermediate Code Generation with example",
+    "author": "Gate Smashers"
+  },
+  "444": {
+    "topic_id": 444,
+    "topic_name": "Type Expressions and Type Systems",
+    "subject_name": "Compiler Design",
+    "module_name": "Type Checking",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "443": {
+    "topic_id": 443,
+    "topic_name": "Definition of Type Checking",
+    "subject_name": "Compiler Design",
+    "module_name": "Type Checking",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "448": {
+    "topic_id": 448,
+    "topic_name": "Runtime Environments and Storage Organization",
+    "subject_name": "Compiler Design",
+    "module_name": "Type Checking",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "447": {
+    "topic_id": 447,
+    "topic_name": "Type Conversions and Overloading",
+    "subject_name": "Compiler Design",
+    "module_name": "Type Checking",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "446": {
+    "topic_id": 446,
+    "topic_name": "Specification of a Simple Type Checker",
+    "subject_name": "Compiler Design",
+    "module_name": "Type Checking",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "450": {
+    "topic_id": 450,
+    "topic_name": "Organization of Code Optimizer",
+    "subject_name": "Compiler Design",
+    "module_name": "Code Optimization",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "451": {
+    "topic_id": 451,
+    "topic_name": "Basic Blocks and Flow Graphs",
+    "subject_name": "Compiler Design",
+    "module_name": "Code Optimization",
+    "video_id": "tkSsh91ehUA",
+    "video_title": "Lec-29: What is Basic Block & Flow Graph in Compiler | Partition Algorithm in Basic Block",
+    "author": "Gate Smashers"
+  },
+  "452": {
+    "topic_id": 452,
+    "topic_name": "Optimization of Basic Blocks",
+    "subject_name": "Compiler Design",
+    "module_name": "Code Optimization",
+    "video_id": "tkSsh91ehUA",
+    "video_title": "Lec-29: What is Basic Block & Flow Graph in Compiler | Partition Algorithm in Basic Block",
+    "author": "Gate Smashers"
+  },
+  "449": {
+    "topic_id": 449,
+    "topic_name": "Symbol Tables and Dynamic Storage Allocation",
+    "subject_name": "Compiler Design",
+    "module_name": "Type Checking",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "455": {
+    "topic_id": 455,
+    "topic_name": "Global Data Flow Analysis",
+    "subject_name": "Compiler Design",
+    "module_name": "Code Optimization",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "453": {
+    "topic_id": 453,
+    "topic_name": "Principal Sources of Optimization",
+    "subject_name": "Compiler Design",
+    "module_name": "Code Optimization",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "356": {
+    "topic_id": 356,
+    "topic_name": "Characteristics of Intelligent Agents",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Introduction to Artificial Intelligence",
+    "video_id": "BkedAnQfJ_U",
+    "video_title": "Lec-28: Introduction to Intelligent Agents and their types with Example in Artificial Intelligence",
+    "author": "Gate Smashers"
+  },
+  "355": {
+    "topic_id": 355,
+    "topic_name": "Definition and Future of Artificial Intelligence",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Introduction to Artificial Intelligence",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "454": {
+    "topic_id": 454,
+    "topic_name": "DAG Representation of Basic Blocks",
+    "subject_name": "Compiler Design",
+    "module_name": "Code Optimization",
+    "video_id": "XUsw5igq4DM",
+    "video_title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+    "author": "Gate Smashers"
+  },
+  "358": {
+    "topic_id": 358,
+    "topic_name": "Problem Solving Methods and Search Strategies",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "357": {
+    "topic_id": 357,
+    "topic_name": "Typical Intelligent Agents and Problem Solving Approach",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Introduction to Artificial Intelligence",
+    "video_id": "BkedAnQfJ_U",
+    "video_title": "Lec-28: Introduction to Intelligent Agents and their types with Example in Artificial Intelligence",
+    "author": "Gate Smashers"
+  },
+  "360": {
+    "topic_id": 360,
+    "topic_name": "Informed Search and Heuristics",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "359": {
+    "topic_id": 359,
+    "topic_name": "Uninformed Search Algorithms",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "gZpUcsB9TFc",
+    "video_title": "Lec-5: Uninformed Vs Informed Search in Artificial Intelligence with Example",
+    "author": "Gate Smashers"
+  },
+  "363": {
+    "topic_id": 363,
+    "topic_name": "Constraint Propagation and Backtracking Search",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "udOfKqeLVSg",
+    "video_title": "Lec-40: How Constraint Satisfaction Algorithm Works | Explained with Interesting Example | AI",
+    "author": "Gate Smashers"
+  },
+  "364": {
+    "topic_id": 364,
+    "topic_name": "Game Playing and Alpha Beta Pruning",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "dEs_kbvu_0s",
+    "video_title": "Lec-25: Alpha Beta Pruning in Hindi with Example | Artificial Intelligence",
+    "author": "Gate Smashers"
+  },
+  "362": {
+    "topic_id": 362,
+    "topic_name": "Constraint Satisfaction Problems",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "AgyCSmDVk5s",
+    "video_title": "Lec-39: What is Constraint Satisfaction | Constraint Satisfaction Problem (CSP) in AI with Example",
+    "author": "Gate Smashers"
+  },
+  "361": {
+    "topic_id": 361,
+    "topic_name": "Local Search Algorithms and Optimization",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "3SiWtAnUROs",
+    "video_title": "Lec-19: Hill Climbing Algorithm in Artificial Intelligence with Real Life Examples| Heuristic Search",
+    "author": "Gate Smashers"
+  },
+  "365": {
+    "topic_id": 365,
+    "topic_name": "Stochastic Games and Optimal Decisions",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Problem Solving Methods",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "366": {
+    "topic_id": 366,
+    "topic_name": "First Order Predicate Logic",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Knowledge Representation",
+    "video_id": "Aw3EOSr64j0",
+    "video_title": "Lec-45: How to write First order/Predicate logic | Artificial Intelligence",
+    "author": "Gate Smashers"
+  },
+  "367": {
+    "topic_id": 367,
+    "topic_name": "Prolog Programming and Unification",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Knowledge Representation",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "368": {
+    "topic_id": 368,
+    "topic_name": "Forward Chaining and Backward Chaining",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Knowledge Representation",
+    "video_id": "62ssjzQdzIs",
+    "video_title": "Artificial Intelligence : Forward & Backward Chaining Easiest Explanation Ever! (HINDI)",
+    "author": "5 Minutes Engineering"
+  },
+  "369": {
+    "topic_id": 369,
+    "topic_name": "Resolution and Knowledge Representation",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Knowledge Representation",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "372": {
+    "topic_id": 372,
+    "topic_name": "Reasoning with Default Information",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Knowledge Representation",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "373": {
+    "topic_id": 373,
+    "topic_name": "Architecture for Intelligent Agents",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Software Agents",
+    "video_id": "BkedAnQfJ_U",
+    "video_title": "Lec-28: Introduction to Intelligent Agents and their types with Example in Artificial Intelligence",
+    "author": "Gate Smashers"
+  },
+  "370": {
+    "topic_id": 370,
+    "topic_name": "Ontological Engineering and Categories",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Knowledge Representation",
+    "video_id": "mEGgrv7DC7w",
+    "video_title": "Why AI Agents Need Ontologies | Ontology vs Knowledge Graph Explained | Rakesh Gohel",
+    "author": "Rakesh Gohel"
+  },
+  "371": {
+    "topic_id": 371,
+    "topic_name": "Reasoning Systems for Categories",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Knowledge Representation",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "374": {
+    "topic_id": 374,
+    "topic_name": "Agent Communication",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Software Agents",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "375": {
+    "topic_id": 375,
+    "topic_name": "Negotiation Bargaining and Argumentation",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Software Agents",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "376": {
+    "topic_id": 376,
+    "topic_name": "Trust and Reputation in Multi-Agent Systems",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Software Agents",
+    "video_id": "tbRD2Hfy__8",
+    "video_title": "4.3 Trust and Reputation in multi-agent systems in Artificial Intelligence with Example",
+    "author": "KnowledgeGATE Bytes"
+  },
+  "379": {
+    "topic_id": 379,
+    "topic_name": "Uncertainty and Probability in AI",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Learning Processes",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "378": {
+    "topic_id": 378,
+    "topic_name": "Identifying the Type of Learning Process",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Learning Processes",
+    "video_id": "4dwsSz_fNSQ",
+    "video_title": "Lec-37: Supervised, Unsupervised and Reinforcement Learning in Artificial Intelligence in Hindi",
+    "author": "Gate Smashers"
+  },
+  "377": {
+    "topic_id": 377,
+    "topic_name": "Supervised Unsupervised and Reinforcement Learning",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Learning Processes",
+    "video_id": "4dwsSz_fNSQ",
+    "video_title": "Lec-37: Supervised, Unsupervised and Reinforcement Learning in Artificial Intelligence in Hindi",
+    "author": "Gate Smashers"
+  },
+  "380": {
+    "topic_id": 380,
+    "topic_name": "Linear Regression and Support Vector Machine",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Learning Processes",
+    "video_id": "KYBVWA9Bx_o",
+    "video_title": "SVM Made EASY! Support Vector Machine Explained with Intuition & Math",
+    "author": "Knowledge Shelf"
+  },
+  "381": {
+    "topic_id": 381,
+    "topic_name": "Decision Trees and Random Forest",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "Learning Processes",
+    "video_id": "DXqxXe3rep0",
+    "video_title": "Lec-18: Random Forest \ud83c\udf33 in Machine Learning \ud83e\uddd1\u200d\ud83d\udcbb\ud83d\udc69\u200d\ud83d\udcbb",
+    "author": "Gate Smashers"
+  },
+  "382": {
+    "topic_id": 382,
+    "topic_name": "Language Models and Information Retrieval",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "AI Applications",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "383": {
+    "topic_id": 383,
+    "topic_name": "Information Extraction and NLP",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "AI Applications",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "384": {
+    "topic_id": 384,
+    "topic_name": "Machine Translation and Speech Recognition",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "AI Applications",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "385": {
+    "topic_id": 385,
+    "topic_name": "Robot Hardware Perception and Planning",
+    "subject_name": "Artificial Intelligence",
+    "module_name": "AI Applications",
+    "video_id": "uB3i-qV6VdM",
+    "video_title": "Lec-1: Artificial Intelligence Syllabus Discussion and Analysis  for NTA UGC NET",
+    "author": "Gate Smashers"
+  },
+  "386": {
+    "topic_id": 386,
+    "topic_name": "Types of Digital Data and Introduction to Big Data",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Introduction to Big Data and Hadoop",
+    "video_id": "s8V8nT26yKo",
+    "video_title": "Big Data Characteristics | 5V's in Big Data | Introduction to Big Data | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "387": {
+    "topic_id": 387,
+    "topic_name": "Big Data Analytics Overview",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Introduction to Big Data and Hadoop",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "388": {
+    "topic_id": 388,
+    "topic_name": "History of Apache Hadoop",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Introduction to Big Data and Hadoop",
+    "video_id": "mafw2-CVYnA",
+    "video_title": "Apache Hadoop Tutorial | Hadoop Tutorial For Beginners | Big Data Hadoop | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "389": {
+    "topic_id": 389,
+    "topic_name": "Analysing Data with Unix Tools and Hadoop",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Introduction to Big Data and Hadoop",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "390": {
+    "topic_id": 390,
+    "topic_name": "Hadoop Streaming and Echo System",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Introduction to Big Data and Hadoop",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "393": {
+    "topic_id": 393,
+    "topic_name": "Command Line Interface and Hadoop File System",
+    "subject_name": "Big Data Analysis",
+    "module_name": "HDFS: Hadoop Distributed File System",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "391": {
+    "topic_id": 391,
+    "topic_name": "IBM Big Data Strategy",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Introduction to Big Data and Hadoop",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "392": {
+    "topic_id": 392,
+    "topic_name": "Design of HDFS and HDFS Concepts",
+    "subject_name": "Big Data Analysis",
+    "module_name": "HDFS: Hadoop Distributed File System",
+    "video_id": "m9v9lky3zcE",
+    "video_title": "Hadoop Architecture | HDFS Architecture | HDFS Tutorial | Hadoop Tutorial | Edureka",
+    "author": "edureka!"
+  },
+  "394": {
+    "topic_id": 394,
+    "topic_name": "Data Flow and Data Ingest with Flume and Scoop",
+    "subject_name": "Big Data Analysis",
+    "module_name": "HDFS: Hadoop Distributed File System",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "396": {
+    "topic_id": 396,
+    "topic_name": "Compression Serialization and Avro",
+    "subject_name": "Big Data Analysis",
+    "module_name": "HDFS: Hadoop Distributed File System",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "395": {
+    "topic_id": 395,
+    "topic_name": "Hadoop Archives and Hadoop IO",
+    "subject_name": "Big Data Analysis",
+    "module_name": "HDFS: Hadoop Distributed File System",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "399": {
+    "topic_id": 399,
+    "topic_name": "Failures and Job Scheduling",
+    "subject_name": "Big Data Analysis",
+    "module_name": "MapReduce",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "398": {
+    "topic_id": 398,
+    "topic_name": "Anatomy of a MapReduce Job Run",
+    "subject_name": "Big Data Analysis",
+    "module_name": "MapReduce",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "397": {
+    "topic_id": 397,
+    "topic_name": "File-Based Data Structures",
+    "subject_name": "Big Data Analysis",
+    "module_name": "HDFS: Hadoop Distributed File System",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "400": {
+    "topic_id": 400,
+    "topic_name": "Shuffle and Sort Phase",
+    "subject_name": "Big Data Analysis",
+    "module_name": "MapReduce",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "402": {
+    "topic_id": 402,
+    "topic_name": "MapReduce Types and Formats",
+    "subject_name": "Big Data Analysis",
+    "module_name": "MapReduce",
+    "video_id": "SqvAaB3vK8U",
+    "video_title": "MapReduce Tutorial | What is MapReduce | Hadoop MapReduce Tutorial | Edureka",
+    "author": "edureka!"
+  },
+  "401": {
+    "topic_id": 401,
+    "topic_name": "Task Execution in MapReduce",
+    "subject_name": "Big Data Analysis",
+    "module_name": "MapReduce",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "406": {
+    "topic_id": 406,
+    "topic_name": "Hive Shell Services and Metastore",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Hadoop Ecosystem",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "408": {
+    "topic_id": 408,
+    "topic_name": "HBase Concepts and RDBMS Comparison",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Hadoop Ecosystem",
+    "video_id": "MzDvnUq6LbA",
+    "video_title": "Hadoop Tutorial for Beginners | Hadoop vs RDBMS | Hadoop vs MySql | Hadoop vs Oracle | Edureka",
+    "author": "edureka!"
+  },
+  "405": {
+    "topic_id": 405,
+    "topic_name": "Pig Latin and Data Processing Operators",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Hadoop Ecosystem",
+    "video_id": "Yw4hcSR-DGU",
+    "video_title": "Apache Pig Tutorial 1 | Understanding Pig Latin | Pig Latin Explained | Hadoop Tutorial",
+    "author": "edureka!"
+  },
+  "404": {
+    "topic_id": 404,
+    "topic_name": "Introduction to Pig and Execution Modes",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Hadoop Ecosystem",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "407": {
+    "topic_id": 407,
+    "topic_name": "HiveQL Tables and Querying Data",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Hadoop Ecosystem",
+    "video_id": "S0i4NX1vlCU",
+    "video_title": "Hive Tutorial for Beginners | Hive Architecture | Hadoop Hive Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "403": {
+    "topic_id": 403,
+    "topic_name": "MapReduce Features",
+    "subject_name": "Big Data Analysis",
+    "module_name": "MapReduce",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "409": {
+    "topic_id": 409,
+    "topic_name": "BigSQL Introduction",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Hadoop Ecosystem",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "411": {
+    "topic_id": 411,
+    "topic_name": "Multiple Linear Regression",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Predictive Analytics",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "410": {
+    "topic_id": 410,
+    "topic_name": "Simple Linear Regression",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Predictive Analytics",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "413": {
+    "topic_id": 413,
+    "topic_name": "Visualizations and Visual Data Analysis",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Predictive Analytics",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "412": {
+    "topic_id": 412,
+    "topic_name": "Interpretation of Regression Coefficients",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Predictive Analytics",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "414": {
+    "topic_id": 414,
+    "topic_name": "Interaction Techniques and Applications",
+    "subject_name": "Big Data Analysis",
+    "module_name": "Predictive Analytics",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "416": {
+    "topic_id": 416,
+    "topic_name": "Key-Value and Document Data Models",
+    "subject_name": "Big Data Analysis",
+    "module_name": "NoSQL",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "417": {
+    "topic_id": 417,
+    "topic_name": "Graph Databases and Schemaless Databases",
+    "subject_name": "Big Data Analysis",
+    "module_name": "NoSQL",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "418": {
+    "topic_id": 418,
+    "topic_name": "Materialized Views and Distribution Models",
+    "subject_name": "Big Data Analysis",
+    "module_name": "NoSQL",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "419": {
+    "topic_id": 419,
+    "topic_name": "Sharding and Replication",
+    "subject_name": "Big Data Analysis",
+    "module_name": "NoSQL",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "415": {
+    "topic_id": 415,
+    "topic_name": "Introduction to NoSQL and Aggregate Data Models",
+    "subject_name": "Big Data Analysis",
+    "module_name": "NoSQL",
+    "video_id": "7arnJLH2nIc",
+    "video_title": "How NoSQL Databases Work | Introduction To NoSQL Databases | Big Data & Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "420": {
+    "topic_id": 420,
+    "topic_name": "MapReduce Partitioning and Combining",
+    "subject_name": "Big Data Analysis",
+    "module_name": "NoSQL",
+    "video_id": "zez2Tv-bcXY",
+    "video_title": "Big Data Tutorial For Beginners | What Is Big Data | Big Data Tutorial | Hadoop Training | Edureka",
+    "author": "edureka!"
+  },
+  "456": {
+    "topic_id": 456,
+    "topic_name": "Overview of NLP",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Introduction to Natural Language Processing",
+    "video_id": "nRz1F7uNAjY",
+    "video_title": "Clinical NLP in brief",
+    "author": "AS Learning"
+  },
+  "457": {
+    "topic_id": 457,
+    "topic_name": "Text Representation and Pre-processing",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Introduction to Natural Language Processing",
+    "video_id": "oyhpIWa9w1Y",
+    "video_title": "Medical natural language processing",
+    "author": "Google Cloud Tech"
+  },
+  "460": {
+    "topic_id": 460,
+    "topic_name": "Introduction to Corpus Creation",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Corpus Creation and Annotation",
+    "video_id": "a67GXhq-2QY",
+    "video_title": "Sampling ADE\u2019s: A Guide for Corpus Creation I Healthcare NLP Summit 2021",
+    "author": "John Snow Labs \u2013 Healthcare AI Company"
+  },
+  "461": {
+    "topic_id": 461,
+    "topic_name": "Data Sources for Healthcare NLP",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Corpus Creation and Annotation",
+    "video_id": "oyhpIWa9w1Y",
+    "video_title": "Medical natural language processing",
+    "author": "Google Cloud Tech"
+  },
+  "462": {
+    "topic_id": 462,
+    "topic_name": "Annotation Tools and Techniques",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Corpus Creation and Annotation",
+    "video_id": "2nlBPKqLe8E",
+    "video_title": "Unlocking the Future of Healthcare: What is Medical Data Annotation?",
+    "author": "Annotation Box"
+  },
+  "458": {
+    "topic_id": 458,
+    "topic_name": "Applications of NLP in Healthcare",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Introduction to Natural Language Processing",
+    "video_id": "hnT77NKjbC8",
+    "video_title": "Simple and Practical NLP Applications in Healthcare",
+    "author": "John Snow Labs \u2013 Healthcare AI Company"
+  },
+  "459": {
+    "topic_id": 459,
+    "topic_name": "Challenges in NLP for Healthcare",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Introduction to Natural Language Processing",
+    "video_id": "oyhpIWa9w1Y",
+    "video_title": "Medical natural language processing",
+    "author": "Google Cloud Tech"
+  },
+  "463": {
+    "topic_id": 463,
+    "topic_name": "Quality Assurance and Evaluation",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Corpus Creation and Annotation",
+    "video_id": "oyhpIWa9w1Y",
+    "video_title": "Medical natural language processing",
+    "author": "Google Cloud Tech"
+  },
+  "464": {
+    "topic_id": 464,
+    "topic_name": "Named Entity Recognition for Healthcare",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Information Extraction for Healthcare",
+    "video_id": "2Vf-pkimw64",
+    "video_title": "Natural Language Processing for Healthcare explained | named entity recognition #01",
+    "author": "Dev and Doc: AI for Healthcare "
+  },
+  "466": {
+    "topic_id": 466,
+    "topic_name": "Drug-Disease Interactions and ADR",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Information Extraction for Healthcare",
+    "video_id": "3tBhF_shGs0",
+    "video_title": "Adverse Drug Reaction (Part 01) | Introduction and Classification of Adverse Drug Reaction",
+    "author": "Solution- Pharmacy"
+  },
+  "465": {
+    "topic_id": 465,
+    "topic_name": "Relation Extraction for Biomedical Events",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Information Extraction for Healthcare",
+    "video_id": "CVp00HTIKN8",
+    "video_title": "Connecting the Dots in Clinical Document Understanding & Information Extraction I Health NLP Summit",
+    "author": "John Snow Labs \u2013 Healthcare AI Company"
+  },
+  "467": {
+    "topic_id": 467,
+    "topic_name": "Entity Linking and Resolution",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Information Extraction for Healthcare",
+    "video_id": "nRz1F7uNAjY",
+    "video_title": "Clinical NLP in brief",
+    "author": "AS Learning"
+  },
+  "469": {
+    "topic_id": 469,
+    "topic_name": "Binary and Multi-Class Classification",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Classification for Healthcare",
+    "video_id": "3lwicUTEgHs",
+    "video_title": "Multiclass Classification One vs All (One vs Rest) One vs One Machine Learning by Dr. Mahesh Huddar",
+    "author": "Mahesh Huddar"
+  },
+  "468": {
+    "topic_id": 468,
+    "topic_name": "Knowledge Graph Creation for Healthcare",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Information Extraction for Healthcare",
+    "video_id": "QLHfWOLoCBs",
+    "video_title": "Transforming Health Information Technology with a Knowledge Graph \u2013 Christopher Wixon",
+    "author": "Neo4j"
+  },
+  "470": {
+    "topic_id": 470,
+    "topic_name": "Feature Selection and Extraction",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Classification for Healthcare",
+    "video_id": "_3ffd37I5MI",
+    "video_title": "AI in Healthcare Full Course: Diagnosis, GenAI & More",
+    "author": "Great Learning"
+  },
+  "472": {
+    "topic_id": 472,
+    "topic_name": "Deep Learning Models for Healthcare Classification",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Classification for Healthcare",
+    "video_id": "Rzin9df5hgU",
+    "video_title": "Deep Learning for Medical Image Classification | AI in Healthcare Explained | Biomedical",
+    "author": "Biomedical"
+  },
+  "471": {
+    "topic_id": 471,
+    "topic_name": "Sentiment Analysis for Healthcare Reviews",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Classification for Healthcare",
+    "video_id": "hnT77NKjbC8",
+    "video_title": "Simple and Practical NLP Applications in Healthcare",
+    "author": "John Snow Labs \u2013 Healthcare AI Company"
+  },
+  "475": {
+    "topic_id": 475,
+    "topic_name": "Discharge Summaries Generation",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Summarization and Generation",
+    "video_id": "06hOAGgLHHc",
+    "video_title": "How to Make Discharge Summary #shorts  #houseofficer #doctor",
+    "author": "Dr Sparta"
+  },
+  "473": {
+    "topic_id": 473,
+    "topic_name": "Automatic Summarization of Healthcare Documents",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Summarization and Generation",
+    "video_id": "P6CmiyEb1Qk",
+    "video_title": "NLP in Medicine  Revolutionizing Health",
+    "author": "Education&HealthTV"
+  },
+  "474": {
+    "topic_id": 474,
+    "topic_name": "Text Generation for Patient Reports",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Summarization and Generation",
+    "video_id": "oyhpIWa9w1Y",
+    "video_title": "Medical natural language processing",
+    "author": "Google Cloud Tech"
+  },
+  "476": {
+    "topic_id": 476,
+    "topic_name": "Evaluation Metrics for Text Summarization",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "Text Summarization and Generation",
+    "video_id": "v1jVFNp9Gu0",
+    "video_title": "Text summarization for the clinical data",
+    "author": "John Snow Labs \u2013 Healthcare AI Company"
+  },
+  "479": {
+    "topic_id": 479,
+    "topic_name": "Healthcare Chatbots and Virtual Assistants",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "NLP Applications for Healthcare",
+    "video_id": "Vhry8h4XmFs",
+    "video_title": "Healthcare AI Powered Chatbots and Virtual Assistants",
+    "author": "Healthcare IT Today"
+  },
+  "477": {
+    "topic_id": 477,
+    "topic_name": "Clinical Decision Support Systems",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "NLP Applications for Healthcare",
+    "video_id": "tkK31fvuEIo",
+    "video_title": "Clinical Decision Support Systems Explained | How CDSS Supports Clinical & Medical Decisions",
+    "author": "\u0627\u0644\u062f\u0643\u062a\u0648\u0631 \u064a\u0627\u0633\u0631 \u0627\u0644\u062f\u0631\u0634\u0627\u0628\u064a"
+  },
+  "478": {
+    "topic_id": 478,
+    "topic_name": "Electronic Health Record Analysis",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "NLP Applications for Healthcare",
+    "video_id": "ob4Xn5_15XE",
+    "video_title": "NLP for EHR | Transforming Electronic Health Records with AI",
+    "author": "Maruti Techlabs"
+  },
+  "481": {
+    "topic_id": 481,
+    "topic_name": "Definition and History of Virtual Reality",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Introduction to Virtual Reality",
+    "video_id": "RGDvEI9hr7w",
+    "video_title": "Neural Gesture Pipelines Are Getting Crazy Accurate",
+    "author": "Brainy Byte"
+  },
+  "482": {
+    "topic_id": 482,
+    "topic_name": "Components of VR: Hardware and Software",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Introduction to Virtual Reality",
+    "video_id": "-yfjlUyUmM4",
+    "video_title": "Components of AR & VR Explained | Augmented Reality vs Virtual Reality Basics | Wisdom Roots",
+    "author": "Wisdom Roots"
+  },
+  "480": {
+    "topic_id": 480,
+    "topic_name": "NLP-Based Drug Discovery and Pharmacovigilance",
+    "subject_name": "NLP for Health Related Text",
+    "module_name": "NLP Applications for Healthcare",
+    "video_id": "g9dEumycubM",
+    "video_title": "Language based Pre-training for Drug Discovery | Healthcare NLP Summit 2021",
+    "author": "John Snow Labs \u2013 Healthcare AI Company"
+  },
+  "483": {
+    "topic_id": 483,
+    "topic_name": "VR Platforms Tools and Frameworks",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Introduction to Virtual Reality",
+    "video_id": "HhtTtvBF5bI",
+    "video_title": "How to Make a VR Game in Unity - PART 1",
+    "author": "Valem Tutorials"
+  },
+  "484": {
+    "topic_id": 484,
+    "topic_name": "Types of Virtual Reality: Immersive Non-Immersive AR",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Introduction to Virtual Reality",
+    "video_id": "Oi2x5BpF2Ro",
+    "video_title": "No VR Headset Needed! \ud83e\udd2f This Metaverse Experience Feels INSANELY Real! \ud83d\ude80\ud83c\udf0a",
+    "author": "dlexwi"
+  },
+  "485": {
+    "topic_id": 485,
+    "topic_name": "Applications of VR in Gaming Medicine Education",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Introduction to Virtual Reality",
+    "video_id": "FyHrIW2FdTg",
+    "video_title": "What is Virtual Reality Explained with Example in Hindi",
+    "author": "5 Minutes Engineering"
+  },
+  "486": {
+    "topic_id": 486,
+    "topic_name": "Challenges and Limitations in VR",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Introduction to Virtual Reality",
+    "video_id": "Oi2x5BpF2Ro",
+    "video_title": "No VR Headset Needed! \ud83e\udd2f This Metaverse Experience Feels INSANELY Real! \ud83d\ude80\ud83c\udf0a",
+    "author": "dlexwi"
+  },
+  "487": {
+    "topic_id": 487,
+    "topic_name": "VR Devices: Headsets Motion Tracking Controllers",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Hardware and Software Systems",
+    "video_id": "6ODOGa3VuTI",
+    "video_title": "Virtual Reality (VR) Best Gaming Setup in 2022",
+    "author": "Mr Techball"
+  },
+  "489": {
+    "topic_id": 489,
+    "topic_name": "Stereoscopic Displays and 3D Rendering",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Hardware and Software Systems",
+    "video_id": "TRiv0I3ybKA",
+    "video_title": "Spatial Computing: Day 003 - Virtual Reality ( VR ) Overview",
+    "author": "Sudarshan Senthilvel"
+  },
+  "488": {
+    "topic_id": 488,
+    "topic_name": "Haptic Feedback and Display Technologies",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Hardware and Software Systems",
+    "video_id": "fZi4FDz-aYA",
+    "video_title": "Haptic Feedback Redefined#phone #iphone #mobile #technology #innovation",
+    "author": "Nextshape Technology"
+  },
+  "490": {
+    "topic_id": 490,
+    "topic_name": "VR Platforms: Unity Unreal Engine Vuforia",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Hardware and Software Systems",
+    "video_id": "MuQPRYPHTCM",
+    "video_title": "Space Adventure Augmented Reality Application using Unity. + Vuforia",
+    "author": "Jayesh Rathod | Unity3D C# Tech Lead "
+  },
+  "491": {
+    "topic_id": 491,
+    "topic_name": "Sensors and Motion Capture Systems",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Hardware and Software Systems",
+    "video_id": "STMcWUtQr1Y",
+    "video_title": "The Virtual Reality Cave - Computerphile",
+    "author": "Computerphile"
+  },
+  "493": {
+    "topic_id": 493,
+    "topic_name": "Input Devices: Controllers Gloves Eye-Tracking",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "3D Interaction in Virtual Reality",
+    "video_id": "SuvNMyj9uPI",
+    "video_title": "This Is What VR Should Feel Like \ud83d\udc4b Full Hand Control Gloves",
+    "author": "UDCAP"
+  },
+  "492": {
+    "topic_id": 492,
+    "topic_name": "Real-Time Rendering and Frame Rate",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Hardware and Software Systems",
+    "video_id": "Lg-Sp5_9rAY",
+    "video_title": "Best Graphics for VR in Unity - HDRP Tutorial",
+    "author": "Valem Tutorials"
+  },
+  "495": {
+    "topic_id": 495,
+    "topic_name": "Walking Flying and Teleportation",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "3D Interaction in Virtual Reality",
+    "video_id": "ON6rYK2DTMY",
+    "video_title": "Oculus Go teleport around Point cloud",
+    "author": "Henrik Ljungberg"
+  },
+  "494": {
+    "topic_id": 494,
+    "topic_name": "Navigation in Virtual Spaces",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "3D Interaction in Virtual Reality",
+    "video_id": "uJBAl2drrLw",
+    "video_title": "Lecture 14: Navigation and Wayfinding in AR/VR",
+    "author": "IIT KANPUR-NPTEL"
+  },
+  "496": {
+    "topic_id": 496,
+    "topic_name": "Gesture Recognition and Body Movement",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "3D Interaction in Virtual Reality",
+    "video_id": "ECfC9lv9XnM",
+    "video_title": "I Control 3D Objects With My HANDS! (Gesture Control AR)",
+    "author": "RawTruthRF"
+  },
+  "497": {
+    "topic_id": 497,
+    "topic_name": "Interaction Techniques: Pointing Grabbing Manipulating",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "3D Interaction in Virtual Reality",
+    "video_id": "RGDvEI9hr7w",
+    "video_title": "Neural Gesture Pipelines Are Getting Crazy Accurate",
+    "author": "Brainy Byte"
+  },
+  "500": {
+    "topic_id": 500,
+    "topic_name": "Principles of VR Environment Design",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Environment Design and UX",
+    "video_id": "FyHrIW2FdTg",
+    "video_title": "What is Virtual Reality Explained with Example in Hindi",
+    "author": "5 Minutes Engineering"
+  },
+  "498": {
+    "topic_id": 498,
+    "topic_name": "Feedback Mechanisms: Visual Auditory Haptic",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "3D Interaction in Virtual Reality",
+    "video_id": "HxqnDww2Fjo",
+    "video_title": "Haptic Feedback - Unity XR Toolkit Tutorial",
+    "author": "Valem Tutorials"
+  },
+  "499": {
+    "topic_id": 499,
+    "topic_name": "Designing 3D User Interfaces",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "3D Interaction in Virtual Reality",
+    "video_id": "QcnIR3imx-g",
+    "video_title": "VR App Interaction using FIGMA | Louvre Paris | UX Design |",
+    "author": "Go Geeks"
+  },
+  "502": {
+    "topic_id": 502,
+    "topic_name": "Designing Virtual Worlds: Spatial Layout Lighting",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Environment Design and UX",
+    "video_id": "7dK95Q2kQpg",
+    "video_title": "Designing Virtual Worlds  with Richard Bartle",
+    "author": "IGDA Sweden"
+  },
+  "501": {
+    "topic_id": 501,
+    "topic_name": "Immersion Presence and Interaction",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Environment Design and UX",
+    "video_id": "STMcWUtQr1Y",
+    "video_title": "The Virtual Reality Cave - Computerphile",
+    "author": "Computerphile"
+  },
+  "503": {
+    "topic_id": 503,
+    "topic_name": "Texture Mapping and Sound Design for VR",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Environment Design and UX",
+    "video_id": "RGDvEI9hr7w",
+    "video_title": "Neural Gesture Pipelines Are Getting Crazy Accurate",
+    "author": "Brainy Byte"
+  },
+  "505": {
+    "topic_id": 505,
+    "topic_name": "User-Centered Design and Usability in VR",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Environment Design and UX",
+    "video_id": "QBUzh-4Re7Y",
+    "video_title": "A Dose of Reality: Overcoming Usability Challenges in VR Head-Mounted Displays",
+    "author": "ACM SIGCHI"
+  },
+  "504": {
+    "topic_id": 504,
+    "topic_name": "Creating Realistic VR Environments",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "VR Environment Design and UX",
+    "video_id": "Oi2x5BpF2Ro",
+    "video_title": "No VR Headset Needed! \ud83e\udd2f This Metaverse Experience Feels INSANELY Real! \ud83d\ude80\ud83c\udf0a",
+    "author": "dlexwi"
+  },
+  "506": {
+    "topic_id": 506,
+    "topic_name": "VR in Gaming: Immersive Experiences",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Applications of Virtual Reality",
+    "video_id": "E53OOsF52wo",
+    "video_title": "Insane VR Graphics | Next-Gen Virtual Reality Experience in 3D | #Shorts #viral #virtualreality",
+    "author": "Oddx Zone"
+  },
+  "507": {
+    "topic_id": 507,
+    "topic_name": "VR in Healthcare: Therapy and Surgery Simulation",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Applications of Virtual Reality",
+    "video_id": "Zf0RWTPH_Yw",
+    "video_title": "VR Revolutionizing Medical Field: Surgery Training and Rehabilitation",
+    "author": "SGK English"
+  },
+  "508": {
+    "topic_id": 508,
+    "topic_name": "VR in Education: Virtual Classrooms",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Applications of Virtual Reality",
+    "video_id": "Eg9BBS8sOoc",
+    "video_title": "Virtual Reality in Education | Transform Classrooms with fotonVR Lab",
+    "author": "fotonVR"
+  },
+  "509": {
+    "topic_id": 509,
+    "topic_name": "VR for Architectural Design and Virtual Tours",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Applications of Virtual Reality",
+    "video_id": "rshuRUgdrSg",
+    "video_title": "Architectural Visualization with VR / Virtual tour #realestateinvesting #constructiontech #lumion",
+    "author": "Mapalytics"
+  },
+  "510": {
+    "topic_id": 510,
+    "topic_name": "Social VR: Virtual Social Interactions",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Applications of Virtual Reality",
+    "video_id": "C9dcCtXtyRo",
+    "video_title": "How virtual reality ACTUALLY works? Tech Explained | Immersive Experience",
+    "author": "SCALER"
+  },
+  "512": {
+    "topic_id": 512,
+    "topic_name": "Introduction to VR Development Tools",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Developing VR Applications",
+    "video_id": "gGYtahQjmWQ",
+    "video_title": "Introduction to VR in Unity - PART 1 : VR SETUP",
+    "author": "Valem"
+  },
+  "511": {
+    "topic_id": 511,
+    "topic_name": "Future Trends: AR MR and AI Integration",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Applications of Virtual Reality",
+    "video_id": "_MT0YXcOe5E",
+    "video_title": "What's the difference between AR, VR and MR? | Cybernet Manufacturing",
+    "author": "Cybernet Manufacturing"
+  },
+  "513": {
+    "topic_id": 513,
+    "topic_name": "Unity3D and Unreal Engine Setup",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Developing VR Applications",
+    "video_id": "QXNkGJl0ECg",
+    "video_title": "Your First VR App Using Unreal Engine (UE4)",
+    "author": "FusedVR"
+  },
+  "515": {
+    "topic_id": 515,
+    "topic_name": "Integrating 3D Models Textures and Sound",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Developing VR Applications",
+    "video_id": "WuvyfPT7xJM",
+    "video_title": "VR sculpture - the girl",
+    "author": "Jama Jurabaev"
+  },
+  "514": {
+    "topic_id": 514,
+    "topic_name": "Creating Basic VR Scenes and Interactions",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Developing VR Applications",
+    "video_id": "HhtTtvBF5bI",
+    "video_title": "How to Make a VR Game in Unity - PART 1",
+    "author": "Valem Tutorials"
+  },
+  "516": {
+    "topic_id": 516,
+    "topic_name": "Implementing Interaction Techniques in VR",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Developing VR Applications",
+    "video_id": "RGDvEI9hr7w",
+    "video_title": "Neural Gesture Pipelines Are Getting Crazy Accurate",
+    "author": "Brainy Byte"
+  },
+  "517": {
+    "topic_id": 517,
+    "topic_name": "Debugging and Performance Optimization",
+    "subject_name": "Introduction to Virtual Reality and 3D Interaction",
+    "module_name": "Developing VR Applications",
+    "video_id": "Jgf3F--VoPg",
+    "video_title": "How to Optimize a VR Scene - Ultimate Unity VR Performance Guide Part 2",
+    "author": "Valem Tutorials"
+  },
+  "309": {
+    "topic_id": 309,
+    "topic_name": "Types of Databases and DBMS Environment",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "311": {
+    "topic_id": 311,
+    "topic_name": "Data Abstraction and Data Independence",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "upUSGUSK5k0",
+    "video_title": "Lec-7: What is Data Independence | Logical vs. Physical Independence | DBMS",
+    "author": "Gate Smashers"
+  },
+  "310": {
+    "topic_id": 310,
+    "topic_name": "Limitations of File Processing Systems",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "ZtVw2iuFI2w",
+    "video_title": "Lec-3: File  System vs DBMS | Disadvantages of File System | DBMS Advantages",
+    "author": "Gate Smashers"
+  },
+  "308": {
+    "topic_id": 308,
+    "topic_name": "Database Systems Significance and Advantages",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "YcYF-kxE0Sw",
+    "video_title": "Advantages & Disadvantages of DBMS",
+    "author": "Neso Academy"
+  },
+  "313": {
+    "topic_id": 313,
+    "topic_name": "Formal Relational Query Languages",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "4YilEjkNPrQ",
+    "video_title": "Lec-50: Introduction to Relational Algebra | Database Management System",
+    "author": "Gate Smashers"
+  },
+  "312": {
+    "topic_id": 312,
+    "topic_name": "DBMS Architecture and Functions",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "314": {
+    "topic_id": 314,
+    "topic_name": "Relational Algebra and Tuple Relational Calculus",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "SnsrohgiPo0",
+    "video_title": "Lec-58: Tuple Calculus in DBMS with examples",
+    "author": "Gate Smashers"
+  },
+  "316": {
+    "topic_id": 316,
+    "topic_name": "File Organization and Record Organization",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "317": {
+    "topic_id": 317,
+    "topic_name": "Data Dictionary Storage",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "319": {
+    "topic_id": 319,
+    "topic_name": "B+ Tree Index Files and Extensions",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "DqcZLulVJ0M",
+    "video_title": "5.29 B+ Tree Insertion | B+ Tree Creation example | Data Structure Tutorials",
+    "author": "Jenny's Lectures CS IT"
+  },
+  "315": {
+    "topic_id": 315,
+    "topic_name": "Domain Relational Calculus",
+    "subject_name": "Database Management Systems",
+    "module_name": "Introduction to Database Systems",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "318": {
+    "topic_id": 318,
+    "topic_name": "Basic Concepts of Indexing and Ordered Indices",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "E--yzX05_k8",
+    "video_title": "Lec-107: Why Indexing is used | Indexing Beginning | DBMS",
+    "author": "Gate Smashers"
+  },
+  "320": {
+    "topic_id": 320,
+    "topic_name": "Multiple Key Access",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "321": {
+    "topic_id": 321,
+    "topic_name": "Static and Dynamic Hashing",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "W5q0xgxmRd8",
+    "video_title": "L-6.1: What is hashing with example | Hashing in data structure",
+    "author": "Gate Smashers"
+  },
+  "322": {
+    "topic_id": 322,
+    "topic_name": "Comparison of Indexing and Hashing",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "E--yzX05_k8",
+    "video_title": "Lec-107: Why Indexing is used | Indexing Beginning | DBMS",
+    "author": "Gate Smashers"
+  },
+  "323": {
+    "topic_id": 323,
+    "topic_name": "Bitmap Index and Index Definition in SQL",
+    "subject_name": "Database Management Systems",
+    "module_name": "File Organization, Indexing and Hashing",
+    "video_id": "E--yzX05_k8",
+    "video_title": "Lec-107: Why Indexing is used | Indexing Beginning | DBMS",
+    "author": "Gate Smashers"
+  },
+  "324": {
+    "topic_id": 324,
+    "topic_name": "Evolution of Data Models",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "Kfd4w8HV-68",
+    "video_title": "When A Teacher does #javrunchallenge\ud83d\ude09 #javrun\ud83d\ude00 #shorts #shortvideo #youtubeshorts #neerajchopra",
+    "author": "Gate Smashers"
+  },
+  "325": {
+    "topic_id": 325,
+    "topic_name": "Entity Relationship Model and ER Diagrams",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "gbVev8RuZLg",
+    "video_title": "Lec-16: Introduction to ER model | ER Model \u0915\u094d\u092f\u093e \u0939\u0948",
+    "author": "Gate Smashers"
+  },
+  "327": {
+    "topic_id": 327,
+    "topic_name": "Relational Model and Logical View of Data",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "328": {
+    "topic_id": 328,
+    "topic_name": "Keys and Integrity Rules",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "Y-k1DDmIOTA",
+    "video_title": "Primary \ud83d\udd11 vs Candidate \ud83d\udd11#dbms #shorts #gatesmashers #shortvideo #interview #interviewtips",
+    "author": "Gate Smashers"
+  },
+  "326": {
+    "topic_id": 326,
+    "topic_name": "Extended Entity Relationship Model",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "330": {
+    "topic_id": 330,
+    "topic_name": "Database Normalization: 1NF 2NF 3NF BCNF 4NF 5NF",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "EGEwkad_llA",
+    "video_title": "Lec-33: All Normal Forms with Real life examples | 1NF 2NF 3NF BCNF 4NF 5NF | All in One",
+    "author": "Gate Smashers"
+  },
+  "329": {
+    "topic_id": 329,
+    "topic_name": "Relational Set Operators",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "b0zitqncxP8",
+    "video_title": "Lec-55: Union Operation in Relational Algebra | Database Management System",
+    "author": "Gate Smashers"
+  },
+  "331": {
+    "topic_id": 331,
+    "topic_name": "Denormalization and Database Design",
+    "subject_name": "Database Management Systems",
+    "module_name": "Data Models and Relational Database Design",
+    "video_id": "4B1KjOP-A58",
+    "video_title": "Lec10: Database Partitioning | How it is Done in System Design",
+    "author": "Gate Smashers"
+  },
+  "332": {
+    "topic_id": 332,
+    "topic_name": "Transaction Concept and Transaction Model",
+    "subject_name": "Database Management Systems",
+    "module_name": "Query Processing and Optimization",
+    "video_id": "t5hsV9lC1rU",
+    "video_title": "Lec-87: Introduction to Transaction Concurrency in HINDI | Database Management System",
+    "author": "Gate Smashers"
+  },
+  "333": {
+    "topic_id": 333,
+    "topic_name": "Transaction Isolation Levels and Implementations",
+    "subject_name": "Database Management Systems",
+    "module_name": "Query Processing and Optimization",
+    "video_id": "t5hsV9lC1rU",
+    "video_title": "Lec-87: Introduction to Transaction Concurrency in HINDI | Database Management System",
+    "author": "Gate Smashers"
+  },
+  "334": {
+    "topic_id": 334,
+    "topic_name": "Concurrency Controls and Lock Based Protocols",
+    "subject_name": "Database Management Systems",
+    "module_name": "Query Processing and Optimization",
+    "video_id": "94C0V7f2zm4",
+    "video_title": "Lec-100:Shared Exclusive Locking Protocol with Example | Concurrency Control | DBMS | Part-1",
+    "author": "Gate Smashers"
+  },
+  "337": {
+    "topic_id": 337,
+    "topic_name": "Recovery System and Failure Classification",
+    "subject_name": "Database Management Systems",
+    "module_name": "Query Processing and Optimization",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "335": {
+    "topic_id": 335,
+    "topic_name": "Deadlock Handling and Time-stamp Based Protocols",
+    "subject_name": "Database Management Systems",
+    "module_name": "Query Processing and Optimization",
+    "video_id": "27NtGV1vNoY",
+    "video_title": "Lec-105: Basic Timestamp Ordering Protocol with Example in Hindi | Concurrency Control | DBMS",
+    "author": "Gate Smashers"
+  },
+  "336": {
+    "topic_id": 336,
+    "topic_name": "Validation Based Protocols",
+    "subject_name": "Database Management Systems",
+    "module_name": "Query Processing and Optimization",
+    "video_id": "94C0V7f2zm4",
+    "video_title": "Lec-100:Shared Exclusive Locking Protocol with Example | Concurrency Control | DBMS | Part-1",
+    "author": "Gate Smashers"
+  },
+  "338": {
+    "topic_id": 338,
+    "topic_name": "Log Based Recovery and Advanced Recovery Techniques",
+    "subject_name": "Database Management Systems",
+    "module_name": "Query Processing and Optimization",
+    "video_id": "47LvbDGD4cc",
+    "video_title": "Lec-119: Immediate Database Modification in DBMS | Log Based Recovery Methods",
+    "author": "Gate Smashers"
+  },
+  "339": {
+    "topic_id": 339,
+    "topic_name": "Graph Representation and Strongly Connected Components",
+    "subject_name": "Database Management Systems",
+    "module_name": "Transaction Management",
+    "video_id": "5eKDQmTzX2A",
+    "video_title": "Introduction to Graph Theory | Basics of Graph Theory | Imp for GATE and UGC NET",
+    "author": "Gate Smashers"
+  },
+  "340": {
+    "topic_id": 340,
+    "topic_name": "Traversal Methods: DFS and BFS",
+    "subject_name": "Database Management Systems",
+    "module_name": "Transaction Management",
+    "video_id": "N2P7w22tN9c",
+    "video_title": "L-4.15: BFS & DFS | Breadth First Search | Depth First Search | Graph Traversing | DAA",
+    "author": "Gate Smashers"
+  },
+  "342": {
+    "topic_id": 342,
+    "topic_name": "Backtracking: Knapsack Problem",
+    "subject_name": "Database Management Systems",
+    "module_name": "Transaction Management",
+    "video_id": "i8NqAEsZn54",
+    "video_title": "L-5.3: 0/1 Knapsack Problem |Dynamic Programming |Recursive Equation |Recursion Tree Time Complexity",
+    "author": "Gate Smashers"
+  },
+  "343": {
+    "topic_id": 343,
+    "topic_name": "Branch and Bound: LC Searching and Bounding",
+    "subject_name": "Database Management Systems",
+    "module_name": "Transaction Management",
+    "video_id": "XZbrmetb9VE",
+    "video_title": "Lec-41: Branch & Bound Algorithm with Example | Easiest Explanation of B&B with example",
+    "author": "Gate Smashers"
+  },
+  "341": {
+    "topic_id": 341,
+    "topic_name": "Backtracking: 8-Queen Problem",
+    "subject_name": "Database Management Systems",
+    "module_name": "Transaction Management",
+    "video_id": "P-NuaEaHeqg",
+    "video_title": "N Queens Problem using Backtracking \ud83d\udd25",
+    "author": "Perfect Computer Engineer"
+  },
+  "344": {
+    "topic_id": 344,
+    "topic_name": "LC Branch and Bound Applications",
+    "subject_name": "Database Management Systems",
+    "module_name": "Transaction Management",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "345": {
+    "topic_id": 345,
+    "topic_name": "0/1 Knapsack and Travelling Salesman Problem",
+    "subject_name": "Database Management Systems",
+    "module_name": "Transaction Management",
+    "video_id": "3QiSyc7KyC4",
+    "video_title": "L-5.4: Traveling Salesman Problem | Dynamic Programming",
+    "author": "Gate Smashers"
+  },
+  "346": {
+    "topic_id": 346,
+    "topic_name": "Introduction to SQL and SQL Data Definition",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "323H_mOOWQ4",
+    "video_title": "Lec-59: Introduction to Structured Query Language | All Points regarding its Features and Syllabus",
+    "author": "Gate Smashers"
+  },
+  "348": {
+    "topic_id": 348,
+    "topic_name": "Set Operations and Null Values",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "347": {
+    "topic_id": 347,
+    "topic_name": "Basic Structure of SQL Queries",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "323H_mOOWQ4",
+    "video_title": "Lec-59: Introduction to Structured Query Language | All Points regarding its Features and Syllabus",
+    "author": "Gate Smashers"
+  },
+  "350": {
+    "topic_id": 350,
+    "topic_name": "Modifications of Databases",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "349": {
+    "topic_id": 349,
+    "topic_name": "Aggregate Functions and Nested Sub-queries",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "Yr4pHPZCshA",
+    "video_title": "Lec-79: SQL Aggregate Functions - SUM, AVG(n), COUNT, MIN, MAX Functions | DBMS",
+    "author": "Gate Smashers"
+  },
+  "351": {
+    "topic_id": 351,
+    "topic_name": "Join Expressions and Views",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "zYH-e6tUYbw",
+    "video_title": "Lec-43: Introduction to Joins and its types | Need of Joins with example | DBMS",
+    "author": "Gate Smashers"
+  },
+  "352": {
+    "topic_id": 352,
+    "topic_name": "Integrity Constraints and Schema Changes",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "YTJdBA9wZro",
+    "video_title": "Lec-8: Integrity Constraints in Database with Examples",
+    "author": "Gate Smashers"
+  },
+  "353": {
+    "topic_id": 353,
+    "topic_name": "Authorization and Advanced SQL",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "kBdlM6hNDAE",
+    "video_title": "Lec-1: DBMS Syllabus for GATE, UGCNET, NIELIT, DSSSB etc.| Full DBMS for College/University Students",
+    "author": "Gate Smashers"
+  },
+  "354": {
+    "topic_id": 354,
+    "topic_name": "Dynamic SQL Embedded SQL Functions Procedures Triggers",
+    "subject_name": "Database Management Systems",
+    "module_name": "SQL and Advanced SQL",
+    "video_id": "v-XBdh7Xupc",
+    "video_title": "Lec-136: Procedures in PL-SQL | Local Procedure vs Stored Procedure",
+    "author": "Gate Smashers"
+  }
+}

@@ -1,0 +1,1484 @@
+{
+  "Compiler Design": [
+    {
+      "topic_id": 518,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Definition of compiler and interpreter and differences"
+    },
+    {
+      "topic_id": 519,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Phases of a compiler and translation passes"
+    },
+    {
+      "topic_id": 520,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Role of lexical analyzer and regular expressions"
+    },
+    {
+      "topic_id": 521,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Finite automata and Thompson construction"
+    },
+    {
+      "topic_id": 522,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Bootstrapping and LEX lexical analyzer generator"
+    },
+    {
+      "topic_id": 523,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Context free grammar parse trees and ambiguity"
+    },
+    {
+      "topic_id": 524,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Elimination of left recursion and left factoring"
+    },
+    {
+      "topic_id": 525,
+      "module_id": 182,
+      "module_name": "Introduction to Compilers",
+      "sequence_no": 1,
+      "topic_name": "Dangling-else ambiguity and predictive LL(1) parsing"
+    },
+    {
+      "topic_id": 429,
+      "module_id": 166,
+      "module_name": "Bottom-Up Parsing",
+      "sequence_no": 2,
+      "topic_name": "Bottom-Up Parsing and Handles"
+    },
+    {
+      "topic_id": 430,
+      "module_id": 166,
+      "module_name": "Bottom-Up Parsing",
+      "sequence_no": 2,
+      "topic_name": "Handle Pruning and Shift-Reduce Parsing"
+    },
+    {
+      "topic_id": 431,
+      "module_id": 166,
+      "module_name": "Bottom-Up Parsing",
+      "sequence_no": 2,
+      "topic_name": "LR Grammars and Simple LR Parsers"
+    },
+    {
+      "topic_id": 432,
+      "module_id": 166,
+      "module_name": "Bottom-Up Parsing",
+      "sequence_no": 2,
+      "topic_name": "Canonical LR and LALR Parsers"
+    },
+    {
+      "topic_id": 433,
+      "module_id": 166,
+      "module_name": "Bottom-Up Parsing",
+      "sequence_no": 2,
+      "topic_name": "Conflicts in Shift-Reduce Parsing"
+    },
+    {
+      "topic_id": 434,
+      "module_id": 166,
+      "module_name": "Bottom-Up Parsing",
+      "sequence_no": 2,
+      "topic_name": "Error Recovery in Parsing"
+    },
+    {
+      "topic_id": 435,
+      "module_id": 166,
+      "module_name": "Bottom-Up Parsing",
+      "sequence_no": 2,
+      "topic_name": "YACC Automatic Parser Generator"
+    },
+    {
+      "topic_id": 436,
+      "module_id": 167,
+      "module_name": "Syntax Directed Translation",
+      "sequence_no": 3,
+      "topic_name": "Syntax Directed Definition"
+    },
+    {
+      "topic_id": 437,
+      "module_id": 167,
+      "module_name": "Syntax Directed Translation",
+      "sequence_no": 3,
+      "topic_name": "Construction of Syntax Trees"
+    },
+    {
+      "topic_id": 438,
+      "module_id": 167,
+      "module_name": "Syntax Directed Translation",
+      "sequence_no": 3,
+      "topic_name": "S-Attributed and L-Attributed Definitions"
+    },
+    {
+      "topic_id": 439,
+      "module_id": 167,
+      "module_name": "Syntax Directed Translation",
+      "sequence_no": 3,
+      "topic_name": "Translation Schemes"
+    },
+    {
+      "topic_id": 440,
+      "module_id": 167,
+      "module_name": "Syntax Directed Translation",
+      "sequence_no": 3,
+      "topic_name": "Intermediate Code Generation and AST"
+    },
+    {
+      "topic_id": 441,
+      "module_id": 167,
+      "module_name": "Syntax Directed Translation",
+      "sequence_no": 3,
+      "topic_name": "Polish Notation and Three Address Code"
+    },
+    {
+      "topic_id": 442,
+      "module_id": 167,
+      "module_name": "Syntax Directed Translation",
+      "sequence_no": 3,
+      "topic_name": "Translation of Statements and Boolean Expressions"
+    },
+    {
+      "topic_id": 443,
+      "module_id": 168,
+      "module_name": "Type Checking",
+      "sequence_no": 4,
+      "topic_name": "Definition of Type Checking"
+    },
+    {
+      "topic_id": 444,
+      "module_id": 168,
+      "module_name": "Type Checking",
+      "sequence_no": 4,
+      "topic_name": "Type Expressions and Type Systems"
+    },
+    {
+      "topic_id": 445,
+      "module_id": 168,
+      "module_name": "Type Checking",
+      "sequence_no": 4,
+      "topic_name": "Static and Dynamic Checking of Types"
+    },
+    {
+      "topic_id": 446,
+      "module_id": 168,
+      "module_name": "Type Checking",
+      "sequence_no": 4,
+      "topic_name": "Specification of a Simple Type Checker"
+    },
+    {
+      "topic_id": 447,
+      "module_id": 168,
+      "module_name": "Type Checking",
+      "sequence_no": 4,
+      "topic_name": "Type Conversions and Overloading"
+    },
+    {
+      "topic_id": 448,
+      "module_id": 168,
+      "module_name": "Type Checking",
+      "sequence_no": 4,
+      "topic_name": "Runtime Environments and Storage Organization"
+    },
+    {
+      "topic_id": 449,
+      "module_id": 168,
+      "module_name": "Type Checking",
+      "sequence_no": 4,
+      "topic_name": "Symbol Tables and Dynamic Storage Allocation"
+    },
+    {
+      "topic_id": 450,
+      "module_id": 169,
+      "module_name": "Code Optimization",
+      "sequence_no": 5,
+      "topic_name": "Organization of Code Optimizer"
+    },
+    {
+      "topic_id": 451,
+      "module_id": 169,
+      "module_name": "Code Optimization",
+      "sequence_no": 5,
+      "topic_name": "Basic Blocks and Flow Graphs"
+    },
+    {
+      "topic_id": 452,
+      "module_id": 169,
+      "module_name": "Code Optimization",
+      "sequence_no": 5,
+      "topic_name": "Optimization of Basic Blocks"
+    },
+    {
+      "topic_id": 453,
+      "module_id": 169,
+      "module_name": "Code Optimization",
+      "sequence_no": 5,
+      "topic_name": "Principal Sources of Optimization"
+    },
+    {
+      "topic_id": 454,
+      "module_id": 169,
+      "module_name": "Code Optimization",
+      "sequence_no": 5,
+      "topic_name": "DAG Representation of Basic Blocks"
+    },
+    {
+      "topic_id": 455,
+      "module_id": 169,
+      "module_name": "Code Optimization",
+      "sequence_no": 5,
+      "topic_name": "Global Data Flow Analysis"
+    }
+  ],
+  "Artificial Intelligence": [
+    {
+      "topic_id": 355,
+      "module_id": 153,
+      "module_name": "Introduction to Artificial Intelligence",
+      "sequence_no": 1,
+      "topic_name": "Definition and Future of Artificial Intelligence"
+    },
+    {
+      "topic_id": 356,
+      "module_id": 153,
+      "module_name": "Introduction to Artificial Intelligence",
+      "sequence_no": 1,
+      "topic_name": "Characteristics of Intelligent Agents"
+    },
+    {
+      "topic_id": 357,
+      "module_id": 153,
+      "module_name": "Introduction to Artificial Intelligence",
+      "sequence_no": 1,
+      "topic_name": "Typical Intelligent Agents and Problem Solving Approach"
+    },
+    {
+      "topic_id": 358,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Problem Solving Methods and Search Strategies"
+    },
+    {
+      "topic_id": 359,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Uninformed Search Algorithms"
+    },
+    {
+      "topic_id": 360,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Informed Search and Heuristics"
+    },
+    {
+      "topic_id": 361,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Local Search Algorithms and Optimization"
+    },
+    {
+      "topic_id": 362,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Constraint Satisfaction Problems"
+    },
+    {
+      "topic_id": 363,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Constraint Propagation and Backtracking Search"
+    },
+    {
+      "topic_id": 364,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Game Playing and Alpha Beta Pruning"
+    },
+    {
+      "topic_id": 365,
+      "module_id": 154,
+      "module_name": "Problem Solving Methods",
+      "sequence_no": 2,
+      "topic_name": "Stochastic Games and Optimal Decisions"
+    },
+    {
+      "topic_id": 366,
+      "module_id": 155,
+      "module_name": "Knowledge Representation",
+      "sequence_no": 3,
+      "topic_name": "First Order Predicate Logic"
+    },
+    {
+      "topic_id": 367,
+      "module_id": 155,
+      "module_name": "Knowledge Representation",
+      "sequence_no": 3,
+      "topic_name": "Prolog Programming and Unification"
+    },
+    {
+      "topic_id": 368,
+      "module_id": 155,
+      "module_name": "Knowledge Representation",
+      "sequence_no": 3,
+      "topic_name": "Forward Chaining and Backward Chaining"
+    },
+    {
+      "topic_id": 369,
+      "module_id": 155,
+      "module_name": "Knowledge Representation",
+      "sequence_no": 3,
+      "topic_name": "Resolution and Knowledge Representation"
+    },
+    {
+      "topic_id": 370,
+      "module_id": 155,
+      "module_name": "Knowledge Representation",
+      "sequence_no": 3,
+      "topic_name": "Ontological Engineering and Categories"
+    },
+    {
+      "topic_id": 371,
+      "module_id": 155,
+      "module_name": "Knowledge Representation",
+      "sequence_no": 3,
+      "topic_name": "Reasoning Systems for Categories"
+    },
+    {
+      "topic_id": 372,
+      "module_id": 155,
+      "module_name": "Knowledge Representation",
+      "sequence_no": 3,
+      "topic_name": "Reasoning with Default Information"
+    },
+    {
+      "topic_id": 373,
+      "module_id": 156,
+      "module_name": "Software Agents",
+      "sequence_no": 4,
+      "topic_name": "Architecture for Intelligent Agents"
+    },
+    {
+      "topic_id": 374,
+      "module_id": 156,
+      "module_name": "Software Agents",
+      "sequence_no": 4,
+      "topic_name": "Agent Communication"
+    },
+    {
+      "topic_id": 375,
+      "module_id": 156,
+      "module_name": "Software Agents",
+      "sequence_no": 4,
+      "topic_name": "Negotiation Bargaining and Argumentation"
+    },
+    {
+      "topic_id": 376,
+      "module_id": 156,
+      "module_name": "Software Agents",
+      "sequence_no": 4,
+      "topic_name": "Trust and Reputation in Multi-Agent Systems"
+    },
+    {
+      "topic_id": 377,
+      "module_id": 157,
+      "module_name": "Learning Processes",
+      "sequence_no": 5,
+      "topic_name": "Supervised Unsupervised and Reinforcement Learning"
+    },
+    {
+      "topic_id": 378,
+      "module_id": 157,
+      "module_name": "Learning Processes",
+      "sequence_no": 5,
+      "topic_name": "Identifying the Type of Learning Process"
+    },
+    {
+      "topic_id": 379,
+      "module_id": 157,
+      "module_name": "Learning Processes",
+      "sequence_no": 5,
+      "topic_name": "Uncertainty and Probability in AI"
+    },
+    {
+      "topic_id": 380,
+      "module_id": 157,
+      "module_name": "Learning Processes",
+      "sequence_no": 5,
+      "topic_name": "Linear Regression and Support Vector Machine"
+    },
+    {
+      "topic_id": 381,
+      "module_id": 157,
+      "module_name": "Learning Processes",
+      "sequence_no": 5,
+      "topic_name": "Decision Trees and Random Forest"
+    },
+    {
+      "topic_id": 382,
+      "module_id": 158,
+      "module_name": "AI Applications",
+      "sequence_no": 6,
+      "topic_name": "Language Models and Information Retrieval"
+    },
+    {
+      "topic_id": 383,
+      "module_id": 158,
+      "module_name": "AI Applications",
+      "sequence_no": 6,
+      "topic_name": "Information Extraction and NLP"
+    },
+    {
+      "topic_id": 384,
+      "module_id": 158,
+      "module_name": "AI Applications",
+      "sequence_no": 6,
+      "topic_name": "Machine Translation and Speech Recognition"
+    },
+    {
+      "topic_id": 385,
+      "module_id": 158,
+      "module_name": "AI Applications",
+      "sequence_no": 6,
+      "topic_name": "Robot Hardware Perception and Planning"
+    }
+  ],
+  "Big Data Analysis": [
+    {
+      "topic_id": 386,
+      "module_id": 159,
+      "module_name": "Introduction to Big Data and Hadoop",
+      "sequence_no": 1,
+      "topic_name": "Types of Digital Data and Introduction to Big Data"
+    },
+    {
+      "topic_id": 387,
+      "module_id": 159,
+      "module_name": "Introduction to Big Data and Hadoop",
+      "sequence_no": 1,
+      "topic_name": "Big Data Analytics Overview"
+    },
+    {
+      "topic_id": 388,
+      "module_id": 159,
+      "module_name": "Introduction to Big Data and Hadoop",
+      "sequence_no": 1,
+      "topic_name": "History of Apache Hadoop"
+    },
+    {
+      "topic_id": 389,
+      "module_id": 159,
+      "module_name": "Introduction to Big Data and Hadoop",
+      "sequence_no": 1,
+      "topic_name": "Analysing Data with Unix Tools and Hadoop"
+    },
+    {
+      "topic_id": 390,
+      "module_id": 159,
+      "module_name": "Introduction to Big Data and Hadoop",
+      "sequence_no": 1,
+      "topic_name": "Hadoop Streaming and Echo System"
+    },
+    {
+      "topic_id": 391,
+      "module_id": 159,
+      "module_name": "Introduction to Big Data and Hadoop",
+      "sequence_no": 1,
+      "topic_name": "IBM Big Data Strategy"
+    },
+    {
+      "topic_id": 392,
+      "module_id": 160,
+      "module_name": "HDFS: Hadoop Distributed File System",
+      "sequence_no": 2,
+      "topic_name": "Design of HDFS and HDFS Concepts"
+    },
+    {
+      "topic_id": 393,
+      "module_id": 160,
+      "module_name": "HDFS: Hadoop Distributed File System",
+      "sequence_no": 2,
+      "topic_name": "Command Line Interface and Hadoop File System"
+    },
+    {
+      "topic_id": 394,
+      "module_id": 160,
+      "module_name": "HDFS: Hadoop Distributed File System",
+      "sequence_no": 2,
+      "topic_name": "Data Flow and Data Ingest with Flume and Scoop"
+    },
+    {
+      "topic_id": 395,
+      "module_id": 160,
+      "module_name": "HDFS: Hadoop Distributed File System",
+      "sequence_no": 2,
+      "topic_name": "Hadoop Archives and Hadoop IO"
+    },
+    {
+      "topic_id": 396,
+      "module_id": 160,
+      "module_name": "HDFS: Hadoop Distributed File System",
+      "sequence_no": 2,
+      "topic_name": "Compression Serialization and Avro"
+    },
+    {
+      "topic_id": 397,
+      "module_id": 160,
+      "module_name": "HDFS: Hadoop Distributed File System",
+      "sequence_no": 2,
+      "topic_name": "File-Based Data Structures"
+    },
+    {
+      "topic_id": 398,
+      "module_id": 161,
+      "module_name": "MapReduce",
+      "sequence_no": 3,
+      "topic_name": "Anatomy of a MapReduce Job Run"
+    },
+    {
+      "topic_id": 399,
+      "module_id": 161,
+      "module_name": "MapReduce",
+      "sequence_no": 3,
+      "topic_name": "Failures and Job Scheduling"
+    },
+    {
+      "topic_id": 400,
+      "module_id": 161,
+      "module_name": "MapReduce",
+      "sequence_no": 3,
+      "topic_name": "Shuffle and Sort Phase"
+    },
+    {
+      "topic_id": 401,
+      "module_id": 161,
+      "module_name": "MapReduce",
+      "sequence_no": 3,
+      "topic_name": "Task Execution in MapReduce"
+    },
+    {
+      "topic_id": 402,
+      "module_id": 161,
+      "module_name": "MapReduce",
+      "sequence_no": 3,
+      "topic_name": "MapReduce Types and Formats"
+    },
+    {
+      "topic_id": 403,
+      "module_id": 161,
+      "module_name": "MapReduce",
+      "sequence_no": 3,
+      "topic_name": "MapReduce Features"
+    },
+    {
+      "topic_id": 404,
+      "module_id": 162,
+      "module_name": "Hadoop Ecosystem",
+      "sequence_no": 4,
+      "topic_name": "Introduction to Pig and Execution Modes"
+    },
+    {
+      "topic_id": 405,
+      "module_id": 162,
+      "module_name": "Hadoop Ecosystem",
+      "sequence_no": 4,
+      "topic_name": "Pig Latin and Data Processing Operators"
+    },
+    {
+      "topic_id": 406,
+      "module_id": 162,
+      "module_name": "Hadoop Ecosystem",
+      "sequence_no": 4,
+      "topic_name": "Hive Shell Services and Metastore"
+    },
+    {
+      "topic_id": 407,
+      "module_id": 162,
+      "module_name": "Hadoop Ecosystem",
+      "sequence_no": 4,
+      "topic_name": "HiveQL Tables and Querying Data"
+    },
+    {
+      "topic_id": 408,
+      "module_id": 162,
+      "module_name": "Hadoop Ecosystem",
+      "sequence_no": 4,
+      "topic_name": "HBase Concepts and RDBMS Comparison"
+    },
+    {
+      "topic_id": 409,
+      "module_id": 162,
+      "module_name": "Hadoop Ecosystem",
+      "sequence_no": 4,
+      "topic_name": "BigSQL Introduction"
+    },
+    {
+      "topic_id": 410,
+      "module_id": 163,
+      "module_name": "Predictive Analytics",
+      "sequence_no": 5,
+      "topic_name": "Simple Linear Regression"
+    },
+    {
+      "topic_id": 411,
+      "module_id": 163,
+      "module_name": "Predictive Analytics",
+      "sequence_no": 5,
+      "topic_name": "Multiple Linear Regression"
+    },
+    {
+      "topic_id": 412,
+      "module_id": 163,
+      "module_name": "Predictive Analytics",
+      "sequence_no": 5,
+      "topic_name": "Interpretation of Regression Coefficients"
+    },
+    {
+      "topic_id": 413,
+      "module_id": 163,
+      "module_name": "Predictive Analytics",
+      "sequence_no": 5,
+      "topic_name": "Visualizations and Visual Data Analysis"
+    },
+    {
+      "topic_id": 414,
+      "module_id": 163,
+      "module_name": "Predictive Analytics",
+      "sequence_no": 5,
+      "topic_name": "Interaction Techniques and Applications"
+    },
+    {
+      "topic_id": 415,
+      "module_id": 164,
+      "module_name": "NoSQL",
+      "sequence_no": 6,
+      "topic_name": "Introduction to NoSQL and Aggregate Data Models"
+    },
+    {
+      "topic_id": 416,
+      "module_id": 164,
+      "module_name": "NoSQL",
+      "sequence_no": 6,
+      "topic_name": "Key-Value and Document Data Models"
+    },
+    {
+      "topic_id": 417,
+      "module_id": 164,
+      "module_name": "NoSQL",
+      "sequence_no": 6,
+      "topic_name": "Graph Databases and Schemaless Databases"
+    },
+    {
+      "topic_id": 418,
+      "module_id": 164,
+      "module_name": "NoSQL",
+      "sequence_no": 6,
+      "topic_name": "Materialized Views and Distribution Models"
+    },
+    {
+      "topic_id": 419,
+      "module_id": 164,
+      "module_name": "NoSQL",
+      "sequence_no": 6,
+      "topic_name": "Sharding and Replication"
+    },
+    {
+      "topic_id": 420,
+      "module_id": 164,
+      "module_name": "NoSQL",
+      "sequence_no": 6,
+      "topic_name": "MapReduce Partitioning and Combining"
+    }
+  ],
+  "NLP for Health Related Text": [
+    {
+      "topic_id": 456,
+      "module_id": 170,
+      "module_name": "Introduction to Natural Language Processing",
+      "sequence_no": 1,
+      "topic_name": "Overview of NLP"
+    },
+    {
+      "topic_id": 457,
+      "module_id": 170,
+      "module_name": "Introduction to Natural Language Processing",
+      "sequence_no": 1,
+      "topic_name": "Text Representation and Pre-processing"
+    },
+    {
+      "topic_id": 458,
+      "module_id": 170,
+      "module_name": "Introduction to Natural Language Processing",
+      "sequence_no": 1,
+      "topic_name": "Applications of NLP in Healthcare"
+    },
+    {
+      "topic_id": 459,
+      "module_id": 170,
+      "module_name": "Introduction to Natural Language Processing",
+      "sequence_no": 1,
+      "topic_name": "Challenges in NLP for Healthcare"
+    },
+    {
+      "topic_id": 460,
+      "module_id": 171,
+      "module_name": "Corpus Creation and Annotation",
+      "sequence_no": 2,
+      "topic_name": "Introduction to Corpus Creation"
+    },
+    {
+      "topic_id": 461,
+      "module_id": 171,
+      "module_name": "Corpus Creation and Annotation",
+      "sequence_no": 2,
+      "topic_name": "Data Sources for Healthcare NLP"
+    },
+    {
+      "topic_id": 462,
+      "module_id": 171,
+      "module_name": "Corpus Creation and Annotation",
+      "sequence_no": 2,
+      "topic_name": "Annotation Tools and Techniques"
+    },
+    {
+      "topic_id": 463,
+      "module_id": 171,
+      "module_name": "Corpus Creation and Annotation",
+      "sequence_no": 2,
+      "topic_name": "Quality Assurance and Evaluation"
+    },
+    {
+      "topic_id": 464,
+      "module_id": 172,
+      "module_name": "Information Extraction for Healthcare",
+      "sequence_no": 3,
+      "topic_name": "Named Entity Recognition for Healthcare"
+    },
+    {
+      "topic_id": 465,
+      "module_id": 172,
+      "module_name": "Information Extraction for Healthcare",
+      "sequence_no": 3,
+      "topic_name": "Relation Extraction for Biomedical Events"
+    },
+    {
+      "topic_id": 466,
+      "module_id": 172,
+      "module_name": "Information Extraction for Healthcare",
+      "sequence_no": 3,
+      "topic_name": "Drug-Disease Interactions and ADR"
+    },
+    {
+      "topic_id": 467,
+      "module_id": 172,
+      "module_name": "Information Extraction for Healthcare",
+      "sequence_no": 3,
+      "topic_name": "Entity Linking and Resolution"
+    },
+    {
+      "topic_id": 468,
+      "module_id": 172,
+      "module_name": "Information Extraction for Healthcare",
+      "sequence_no": 3,
+      "topic_name": "Knowledge Graph Creation for Healthcare"
+    },
+    {
+      "topic_id": 469,
+      "module_id": 173,
+      "module_name": "Text Classification for Healthcare",
+      "sequence_no": 4,
+      "topic_name": "Binary and Multi-Class Classification"
+    },
+    {
+      "topic_id": 470,
+      "module_id": 173,
+      "module_name": "Text Classification for Healthcare",
+      "sequence_no": 4,
+      "topic_name": "Feature Selection and Extraction"
+    },
+    {
+      "topic_id": 471,
+      "module_id": 173,
+      "module_name": "Text Classification for Healthcare",
+      "sequence_no": 4,
+      "topic_name": "Sentiment Analysis for Healthcare Reviews"
+    },
+    {
+      "topic_id": 472,
+      "module_id": 173,
+      "module_name": "Text Classification for Healthcare",
+      "sequence_no": 4,
+      "topic_name": "Deep Learning Models for Healthcare Classification"
+    },
+    {
+      "topic_id": 473,
+      "module_id": 174,
+      "module_name": "Text Summarization and Generation",
+      "sequence_no": 5,
+      "topic_name": "Automatic Summarization of Healthcare Documents"
+    },
+    {
+      "topic_id": 474,
+      "module_id": 174,
+      "module_name": "Text Summarization and Generation",
+      "sequence_no": 5,
+      "topic_name": "Text Generation for Patient Reports"
+    },
+    {
+      "topic_id": 475,
+      "module_id": 174,
+      "module_name": "Text Summarization and Generation",
+      "sequence_no": 5,
+      "topic_name": "Discharge Summaries Generation"
+    },
+    {
+      "topic_id": 476,
+      "module_id": 174,
+      "module_name": "Text Summarization and Generation",
+      "sequence_no": 5,
+      "topic_name": "Evaluation Metrics for Text Summarization"
+    },
+    {
+      "topic_id": 477,
+      "module_id": 175,
+      "module_name": "NLP Applications for Healthcare",
+      "sequence_no": 6,
+      "topic_name": "Clinical Decision Support Systems"
+    },
+    {
+      "topic_id": 478,
+      "module_id": 175,
+      "module_name": "NLP Applications for Healthcare",
+      "sequence_no": 6,
+      "topic_name": "Electronic Health Record Analysis"
+    },
+    {
+      "topic_id": 479,
+      "module_id": 175,
+      "module_name": "NLP Applications for Healthcare",
+      "sequence_no": 6,
+      "topic_name": "Healthcare Chatbots and Virtual Assistants"
+    },
+    {
+      "topic_id": 480,
+      "module_id": 175,
+      "module_name": "NLP Applications for Healthcare",
+      "sequence_no": 6,
+      "topic_name": "NLP-Based Drug Discovery and Pharmacovigilance"
+    }
+  ],
+  "Introduction to Virtual Reality and 3D Interaction": [
+    {
+      "topic_id": 481,
+      "module_id": 176,
+      "module_name": "Introduction to Virtual Reality",
+      "sequence_no": 1,
+      "topic_name": "Definition and History of Virtual Reality"
+    },
+    {
+      "topic_id": 482,
+      "module_id": 176,
+      "module_name": "Introduction to Virtual Reality",
+      "sequence_no": 1,
+      "topic_name": "Components of VR: Hardware and Software"
+    },
+    {
+      "topic_id": 483,
+      "module_id": 176,
+      "module_name": "Introduction to Virtual Reality",
+      "sequence_no": 1,
+      "topic_name": "VR Platforms Tools and Frameworks"
+    },
+    {
+      "topic_id": 484,
+      "module_id": 176,
+      "module_name": "Introduction to Virtual Reality",
+      "sequence_no": 1,
+      "topic_name": "Types of Virtual Reality: Immersive Non-Immersive AR"
+    },
+    {
+      "topic_id": 485,
+      "module_id": 176,
+      "module_name": "Introduction to Virtual Reality",
+      "sequence_no": 1,
+      "topic_name": "Applications of VR in Gaming Medicine Education"
+    },
+    {
+      "topic_id": 486,
+      "module_id": 176,
+      "module_name": "Introduction to Virtual Reality",
+      "sequence_no": 1,
+      "topic_name": "Challenges and Limitations in VR"
+    },
+    {
+      "topic_id": 487,
+      "module_id": 177,
+      "module_name": "VR Hardware and Software Systems",
+      "sequence_no": 2,
+      "topic_name": "VR Devices: Headsets Motion Tracking Controllers"
+    },
+    {
+      "topic_id": 488,
+      "module_id": 177,
+      "module_name": "VR Hardware and Software Systems",
+      "sequence_no": 2,
+      "topic_name": "Haptic Feedback and Display Technologies"
+    },
+    {
+      "topic_id": 489,
+      "module_id": 177,
+      "module_name": "VR Hardware and Software Systems",
+      "sequence_no": 2,
+      "topic_name": "Stereoscopic Displays and 3D Rendering"
+    },
+    {
+      "topic_id": 490,
+      "module_id": 177,
+      "module_name": "VR Hardware and Software Systems",
+      "sequence_no": 2,
+      "topic_name": "VR Platforms: Unity Unreal Engine Vuforia"
+    },
+    {
+      "topic_id": 491,
+      "module_id": 177,
+      "module_name": "VR Hardware and Software Systems",
+      "sequence_no": 2,
+      "topic_name": "Sensors and Motion Capture Systems"
+    },
+    {
+      "topic_id": 492,
+      "module_id": 177,
+      "module_name": "VR Hardware and Software Systems",
+      "sequence_no": 2,
+      "topic_name": "Real-Time Rendering and Frame Rate"
+    },
+    {
+      "topic_id": 493,
+      "module_id": 178,
+      "module_name": "3D Interaction in Virtual Reality",
+      "sequence_no": 3,
+      "topic_name": "Input Devices: Controllers Gloves Eye-Tracking"
+    },
+    {
+      "topic_id": 494,
+      "module_id": 178,
+      "module_name": "3D Interaction in Virtual Reality",
+      "sequence_no": 3,
+      "topic_name": "Navigation in Virtual Spaces"
+    },
+    {
+      "topic_id": 495,
+      "module_id": 178,
+      "module_name": "3D Interaction in Virtual Reality",
+      "sequence_no": 3,
+      "topic_name": "Walking Flying and Teleportation"
+    },
+    {
+      "topic_id": 496,
+      "module_id": 178,
+      "module_name": "3D Interaction in Virtual Reality",
+      "sequence_no": 3,
+      "topic_name": "Gesture Recognition and Body Movement"
+    },
+    {
+      "topic_id": 497,
+      "module_id": 178,
+      "module_name": "3D Interaction in Virtual Reality",
+      "sequence_no": 3,
+      "topic_name": "Interaction Techniques: Pointing Grabbing Manipulating"
+    },
+    {
+      "topic_id": 498,
+      "module_id": 178,
+      "module_name": "3D Interaction in Virtual Reality",
+      "sequence_no": 3,
+      "topic_name": "Feedback Mechanisms: Visual Auditory Haptic"
+    },
+    {
+      "topic_id": 499,
+      "module_id": 178,
+      "module_name": "3D Interaction in Virtual Reality",
+      "sequence_no": 3,
+      "topic_name": "Designing 3D User Interfaces"
+    },
+    {
+      "topic_id": 500,
+      "module_id": 179,
+      "module_name": "VR Environment Design and UX",
+      "sequence_no": 4,
+      "topic_name": "Principles of VR Environment Design"
+    },
+    {
+      "topic_id": 501,
+      "module_id": 179,
+      "module_name": "VR Environment Design and UX",
+      "sequence_no": 4,
+      "topic_name": "Immersion Presence and Interaction"
+    },
+    {
+      "topic_id": 502,
+      "module_id": 179,
+      "module_name": "VR Environment Design and UX",
+      "sequence_no": 4,
+      "topic_name": "Designing Virtual Worlds: Spatial Layout Lighting"
+    },
+    {
+      "topic_id": 503,
+      "module_id": 179,
+      "module_name": "VR Environment Design and UX",
+      "sequence_no": 4,
+      "topic_name": "Texture Mapping and Sound Design for VR"
+    },
+    {
+      "topic_id": 504,
+      "module_id": 179,
+      "module_name": "VR Environment Design and UX",
+      "sequence_no": 4,
+      "topic_name": "Creating Realistic VR Environments"
+    },
+    {
+      "topic_id": 505,
+      "module_id": 179,
+      "module_name": "VR Environment Design and UX",
+      "sequence_no": 4,
+      "topic_name": "User-Centered Design and Usability in VR"
+    },
+    {
+      "topic_id": 506,
+      "module_id": 180,
+      "module_name": "Applications of Virtual Reality",
+      "sequence_no": 5,
+      "topic_name": "VR in Gaming: Immersive Experiences"
+    },
+    {
+      "topic_id": 507,
+      "module_id": 180,
+      "module_name": "Applications of Virtual Reality",
+      "sequence_no": 5,
+      "topic_name": "VR in Healthcare: Therapy and Surgery Simulation"
+    },
+    {
+      "topic_id": 508,
+      "module_id": 180,
+      "module_name": "Applications of Virtual Reality",
+      "sequence_no": 5,
+      "topic_name": "VR in Education: Virtual Classrooms"
+    },
+    {
+      "topic_id": 509,
+      "module_id": 180,
+      "module_name": "Applications of Virtual Reality",
+      "sequence_no": 5,
+      "topic_name": "VR for Architectural Design and Virtual Tours"
+    },
+    {
+      "topic_id": 510,
+      "module_id": 180,
+      "module_name": "Applications of Virtual Reality",
+      "sequence_no": 5,
+      "topic_name": "Social VR: Virtual Social Interactions"
+    },
+    {
+      "topic_id": 511,
+      "module_id": 180,
+      "module_name": "Applications of Virtual Reality",
+      "sequence_no": 5,
+      "topic_name": "Future Trends: AR MR and AI Integration"
+    },
+    {
+      "topic_id": 512,
+      "module_id": 181,
+      "module_name": "Developing VR Applications",
+      "sequence_no": 6,
+      "topic_name": "Introduction to VR Development Tools"
+    },
+    {
+      "topic_id": 513,
+      "module_id": 181,
+      "module_name": "Developing VR Applications",
+      "sequence_no": 6,
+      "topic_name": "Unity3D and Unreal Engine Setup"
+    },
+    {
+      "topic_id": 514,
+      "module_id": 181,
+      "module_name": "Developing VR Applications",
+      "sequence_no": 6,
+      "topic_name": "Creating Basic VR Scenes and Interactions"
+    },
+    {
+      "topic_id": 515,
+      "module_id": 181,
+      "module_name": "Developing VR Applications",
+      "sequence_no": 6,
+      "topic_name": "Integrating 3D Models Textures and Sound"
+    },
+    {
+      "topic_id": 516,
+      "module_id": 181,
+      "module_name": "Developing VR Applications",
+      "sequence_no": 6,
+      "topic_name": "Implementing Interaction Techniques in VR"
+    },
+    {
+      "topic_id": 517,
+      "module_id": 181,
+      "module_name": "Developing VR Applications",
+      "sequence_no": 6,
+      "topic_name": "Debugging and Performance Optimization"
+    }
+  ],
+  "Database Management Systems": [
+    {
+      "topic_id": 308,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "Database Systems Significance and Advantages"
+    },
+    {
+      "topic_id": 309,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "Types of Databases and DBMS Environment"
+    },
+    {
+      "topic_id": 310,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "Limitations of File Processing Systems"
+    },
+    {
+      "topic_id": 311,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "Data Abstraction and Data Independence"
+    },
+    {
+      "topic_id": 312,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "DBMS Architecture and Functions"
+    },
+    {
+      "topic_id": 313,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "Formal Relational Query Languages"
+    },
+    {
+      "topic_id": 314,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "Relational Algebra and Tuple Relational Calculus"
+    },
+    {
+      "topic_id": 315,
+      "module_id": 147,
+      "module_name": "Introduction to Database Systems",
+      "sequence_no": 1,
+      "topic_name": "Domain Relational Calculus"
+    },
+    {
+      "topic_id": 316,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "File Organization and Record Organization"
+    },
+    {
+      "topic_id": 317,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "Data Dictionary Storage"
+    },
+    {
+      "topic_id": 318,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "Basic Concepts of Indexing and Ordered Indices"
+    },
+    {
+      "topic_id": 319,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "B+ Tree Index Files and Extensions"
+    },
+    {
+      "topic_id": 320,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "Multiple Key Access"
+    },
+    {
+      "topic_id": 321,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "Static and Dynamic Hashing"
+    },
+    {
+      "topic_id": 322,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "Comparison of Indexing and Hashing"
+    },
+    {
+      "topic_id": 323,
+      "module_id": 148,
+      "module_name": "File Organization, Indexing and Hashing",
+      "sequence_no": 2,
+      "topic_name": "Bitmap Index and Index Definition in SQL"
+    },
+    {
+      "topic_id": 324,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Evolution of Data Models"
+    },
+    {
+      "topic_id": 325,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Entity Relationship Model and ER Diagrams"
+    },
+    {
+      "topic_id": 326,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Extended Entity Relationship Model"
+    },
+    {
+      "topic_id": 327,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Relational Model and Logical View of Data"
+    },
+    {
+      "topic_id": 328,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Keys and Integrity Rules"
+    },
+    {
+      "topic_id": 329,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Relational Set Operators"
+    },
+    {
+      "topic_id": 330,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Database Normalization: 1NF 2NF 3NF BCNF 4NF 5NF"
+    },
+    {
+      "topic_id": 331,
+      "module_id": 149,
+      "module_name": "Data Models and Relational Database Design",
+      "sequence_no": 3,
+      "topic_name": "Denormalization and Database Design"
+    },
+    {
+      "topic_id": 332,
+      "module_id": 150,
+      "module_name": "Query Processing and Optimization",
+      "sequence_no": 4,
+      "topic_name": "Transaction Concept and Transaction Model"
+    },
+    {
+      "topic_id": 333,
+      "module_id": 150,
+      "module_name": "Query Processing and Optimization",
+      "sequence_no": 4,
+      "topic_name": "Transaction Isolation Levels and Implementations"
+    },
+    {
+      "topic_id": 334,
+      "module_id": 150,
+      "module_name": "Query Processing and Optimization",
+      "sequence_no": 4,
+      "topic_name": "Concurrency Controls and Lock Based Protocols"
+    },
+    {
+      "topic_id": 335,
+      "module_id": 150,
+      "module_name": "Query Processing and Optimization",
+      "sequence_no": 4,
+      "topic_name": "Deadlock Handling and Time-stamp Based Protocols"
+    },
+    {
+      "topic_id": 336,
+      "module_id": 150,
+      "module_name": "Query Processing and Optimization",
+      "sequence_no": 4,
+      "topic_name": "Validation Based Protocols"
+    },
+    {
+      "topic_id": 337,
+      "module_id": 150,
+      "module_name": "Query Processing and Optimization",
+      "sequence_no": 4,
+      "topic_name": "Recovery System and Failure Classification"
+    },
+    {
+      "topic_id": 338,
+      "module_id": 150,
+      "module_name": "Query Processing and Optimization",
+      "sequence_no": 4,
+      "topic_name": "Log Based Recovery and Advanced Recovery Techniques"
+    },
+    {
+      "topic_id": 339,
+      "module_id": 151,
+      "module_name": "Transaction Management",
+      "sequence_no": 5,
+      "topic_name": "Graph Representation and Strongly Connected Components"
+    },
+    {
+      "topic_id": 340,
+      "module_id": 151,
+      "module_name": "Transaction Management",
+      "sequence_no": 5,
+      "topic_name": "Traversal Methods: DFS and BFS"
+    },
+    {
+      "topic_id": 341,
+      "module_id": 151,
+      "module_name": "Transaction Management",
+      "sequence_no": 5,
+      "topic_name": "Backtracking: 8-Queen Problem"
+    },
+    {
+      "topic_id": 342,
+      "module_id": 151,
+      "module_name": "Transaction Management",
+      "sequence_no": 5,
+      "topic_name": "Backtracking: Knapsack Problem"
+    },
+    {
+      "topic_id": 343,
+      "module_id": 151,
+      "module_name": "Transaction Management",
+      "sequence_no": 5,
+      "topic_name": "Branch and Bound: LC Searching and Bounding"
+    },
+    {
+      "topic_id": 344,
+      "module_id": 151,
+      "module_name": "Transaction Management",
+      "sequence_no": 5,
+      "topic_name": "LC Branch and Bound Applications"
+    },
+    {
+      "topic_id": 345,
+      "module_id": 151,
+      "module_name": "Transaction Management",
+      "sequence_no": 5,
+      "topic_name": "0/1 Knapsack and Travelling Salesman Problem"
+    },
+    {
+      "topic_id": 346,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Introduction to SQL and SQL Data Definition"
+    },
+    {
+      "topic_id": 347,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Basic Structure of SQL Queries"
+    },
+    {
+      "topic_id": 348,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Set Operations and Null Values"
+    },
+    {
+      "topic_id": 349,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Aggregate Functions and Nested Sub-queries"
+    },
+    {
+      "topic_id": 350,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Modifications of Databases"
+    },
+    {
+      "topic_id": 351,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Join Expressions and Views"
+    },
+    {
+      "topic_id": 352,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Integrity Constraints and Schema Changes"
+    },
+    {
+      "topic_id": 353,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Authorization and Advanced SQL"
+    },
+    {
+      "topic_id": 354,
+      "module_id": 152,
+      "module_name": "SQL and Advanced SQL",
+      "sequence_no": 6,
+      "topic_name": "Dynamic SQL Embedded SQL Functions Procedures Triggers"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — To-Do List{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+    <div>
+        <h1 class="h2 fw-bold text-dark mb-1">Study To-Do List</h1>
+        <p class="text-secondary small mb-0">Manage both AI-generated adaptive tasks and personal custom study items.</p>
+    </div>
+    <button class="btn btn-primary rounded-pill px-4 fw-semibold" data-bs-toggle="modal" data-bs-target="#addTaskModal">
+        <i class="bi bi-plus-lg me-1"></i>Add Custom Task
+    </button>
+</div>
+
+<div class="row g-4">
+    <!-- Tasks Column -->
+    <div class="col-lg-8">
+        <div class="card card-modern p-4">
+            <h5 class="fw-bold text-dark mb-3">All Active & Completed Tasks</h5>
+
+            {% for task in tasks %}
+            <div class="task-row {% if task.status == 'COMPLETED' %}completed bg-light{% endif %}">
+                <div class="d-flex align-items-center gap-3 text-truncate me-2">
+                    <form action="{{ url_for('complete_todo', task_id=task.id) }}" method="POST" class="m-0">
+                        <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+                        <button type="submit" class="btn btn-link p-0 text-secondary" {% if task.status == 'COMPLETED' %}disabled{% endif %}>
+                            <i class="bi {% if task.status == 'COMPLETED' %}bi-check-circle-fill text-success{% else %}bi-circle text-muted{% endif %} fs-4"></i>
+                        </button>
+                    </form>
+                    <div class="text-truncate">
+                        <div class="fw-bold text-dark text-truncate">{{ task.title }}</div>
+                        <small class="text-muted">
+                            <span class="badge bg-light text-secondary border me-1">{{ task.source }}</span>
+                            Due: {{ task.due_date }} &bull; {{ task.duration }} mins
+                            {% if task.description %} &bull; {{ task.description }}{% endif %}
+                        </small>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                    <span class="badge {% if task.priority == 'HIGH' %}badge-priority-high{% elif task.priority == 'MEDIUM' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+                        {{ task.priority }}
+                    </span>
+                    <form action="{{ url_for('delete_todo', task_id=task.id) }}" method="POST" class="m-0">
+                        <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+                        <button type="submit" class="btn btn-outline-danger btn-sm p-1 px-2 border-0" title="Delete Task" onclick="return confirm('Delete this task?');">
+                            <i class="bi bi-trash3"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            {% else %}
+            <div class="text-center py-5 text-muted">
+                <i class="bi bi-list-check fs-1 text-muted d-block mb-2"></i>
+                <p>Your to-do list is empty. Add a task or generate an adaptive plan.</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Quick Tips / Sources Info -->
+    <div class="col-lg-4">
+        <div class="card card-modern p-4">
+            <h6 class="fw-bold text-dark mb-2">Task Sources</h6>
+            <p class="small text-muted mb-3">Tasks in this list originate from multiple sources across your study path:</p>
+            
+            <div class="d-flex flex-column gap-2 small">
+                <div class="p-2 rounded bg-light border">
+                    <strong class="text-primary">AI:</strong> Dynamically scheduled study sessions for detected weak topics.
+                </div>
+                <div class="p-2 rounded bg-light border">
+                    <strong class="text-success">LECTURE:</strong> Video watch & note-taking items.
+                </div>
+                <div class="p-2 rounded bg-light border">
+                    <strong class="text-warning-emphasis">ASSIGNMENT:</strong> Adaptive quiz attempts and revisions.
+                </div>
+                <div class="p-2 rounded bg-light border">
+                    <strong class="text-secondary">MANUAL:</strong> Custom study reminders added by you.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Add Custom Task -->
+<div class="modal fade" id="addTaskModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content border-0 shadow-lg rounded-4">
+            <div class="modal-header border-bottom">
+                <h5 class="modal-title fw-bold">Add Custom Study Task</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form action="{{ url_for('add_todo') }}" method="POST">
+                <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+                <div class="modal-body p-4">
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small">Task Title</label>
+                        <input type="text" name="title" class="form-control" placeholder="e.g. Practice 10 Tree Traversal LeetCode problems" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small">Description / Notes</label>
+                        <textarea name="description" class="form-control" rows="2" placeholder="Optional details..."></textarea>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-6">
+                            <label class="form-label fw-semibold small">Priority</label>
+                            <select name="priority" class="form-select">
+                                <option value="HIGH">🔴 High</option>
+                                <option value="MEDIUM" selected>🟡 Medium</option>
+                                <option value="LOW">🟢 Low</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label fw-semibold small">Duration (minutes)</label>
+                            <input type="number" name="duration" class="form-control" value="45" min="10" max="240">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold small">Due Date</label>
+                        <input type="date" name="due_date" class="form-control" value="{{ today }}" required>
+                    </div>
+                </div>
+                <div class="modal-footer border-top">
+                    <button type="button" class="btn btn-outline-secondary rounded-pill px-3" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary rounded-pill px-4">Add Task</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

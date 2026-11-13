@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — Student Profile{% endblock %}
+
+{% block content %}
+<div class="container py-2" style="max-width: 920px;">
+    <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+        <div>
+            <h1 class="h2 fw-bold text-dark mb-1">Student Profile & Settings</h1>
+            <p class="text-secondary small mb-0">Manage your academic credentials, learning targets, and semester configuration.</p>
+        </div>
+        <a href="{{ url_for('change_semester') }}" class="btn btn-outline-danger rounded-pill px-4 fw-semibold">
+            <i class="bi bi-arrow-repeat me-1"></i>Change Semester
+        </a>
+    </div>
+
+    <!-- Student Credentials Card -->
+    <div class="card card-modern p-4 mb-4">
+        <h5 class="fw-bold text-dark mb-3"><i class="bi bi-person-badge text-primary me-2"></i>Account Details</h5>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label class="small text-muted text-uppercase fw-semibold">Full Name</label>
+                <div class="fw-bold fs-5 text-dark">{{ student.full_name }}</div>
+            </div>
+            <div class="col-md-6">
+                <label class="small text-muted text-uppercase fw-semibold">Email Address</label>
+                <div class="fw-bold fs-5 text-dark">{{ student.email }}</div>
+            </div>
+            <div class="col-md-6">
+                <label class="small text-muted text-uppercase fw-semibold">Roll Number</label>
+                <div class="fw-semibold text-dark">{{ student.roll_number or 'Not provided' }}</div>
+            </div>
+            <div class="col-md-6">
+                <label class="small text-muted text-uppercase fw-semibold">Current Semester</label>
+                <div>
+                    <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill fw-bold fs-6">
+                        Semester {{ student.current_semester }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Currently Enrolled Subjects -->
+    <div class="card card-modern p-4 mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="fw-bold text-dark mb-0"><i class="bi bi-book text-primary me-2"></i>Active Enrolled Subjects</h5>
+            <a href="{{ url_for('select_subjects') }}" class="btn btn-outline-primary btn-sm rounded-pill px-3">
+                Customize
+            </a>
+        </div>
+        <div class="d-flex flex-wrap gap-2">
+            {% for s in subjects %}
+                <span class="badge bg-light text-dark border p-2 px-3 rounded-pill fw-semibold">
+                    {{ s.name }} &bull; 
+                    <span class="{% if s.priority == 'HIGH' %}text-danger{% elif s.priority == 'MEDIUM' %}text-warning{% else %}text-success{% endif %}">
+                        {{ s.priority }}
+                    </span>
+                </span>
+            {% else %}
+                <span class="text-muted small">No subjects active.</span>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Preferences Edit Form -->
+    <div class="card card-modern p-4">
+        <h5 class="fw-bold text-dark mb-3"><i class="bi bi-sliders text-primary me-2"></i>Edit Learning Preferences</h5>
+        <form method="POST" action="{{ url_for('profile_update') }}">
+            <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+
+            <div class="mb-3">
+                <label class="form-label fw-bold text-dark small">Primary Learning Goal</label>
+                <input type="text" name="learning_goal" class="form-control" value="{{ pref.learning_goal if pref else '' }}" required>
+            </div>
+
+            <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark small">Target Date</label>
+                    <input type="date" name="target_date" class="form-control" value="{{ pref.target_date if pref else '' }}" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark small">Weekly Study Hours</label>
+                    <input type="number" name="hours_per_week" class="form-control" min="2" max="60" value="{{ pref.hours_per_week if pref else 10 }}" required>
+                </div>
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark small">Session Duration</label>
+                    <select name="session_duration" class="form-select">
+                        <option value="30" {% if pref and pref.session_duration == 30 %}selected{% endif %}>30 Minutes</option>
+                        <option value="45" {% if not pref or pref.session_duration == 45 %}selected{% endif %}>45 Minutes</option>
+                        <option value="60" {% if pref and pref.session_duration == 60 %}selected{% endif %}>60 Minutes</option>
+                        <option value="90" {% if pref and pref.session_duration == 90 %}selected{% endif %}>90 Minutes</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold text-dark small">Learning Style</label>
+                    <select name="learning_style" class="form-select">
+                        <option value="Video + Notes" {% if pref and pref.learning_style == 'Video + Notes' %}selected{% endif %}>Video + Notes</option>
+                        <option value="Video + Practice" {% if pref and pref.learning_style == 'Video + Practice' %}selected{% endif %}>Video + Practice</option>
+                        <option value="Practice First" {% if pref and pref.learning_style == 'Practice First' %}selected{% endif %}>Practice First</option>
+                        <option value="Balanced" {% if not pref or pref.learning_style == 'Balanced' %}selected{% endif %}>Balanced</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fw-bold text-dark small d-block">Preferred Study Days</label>
+                {% set selected_days = (pref.preferred_days if pref else 'Monday,Wednesday,Friday').split(',') %}
+                <div class="d-flex flex-wrap gap-2">
+                    {% for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] %}
+                    <div class="form-check form-check-inline bg-light p-2 px-3 rounded-pill border m-0">
+                        <input class="form-check-input" type="checkbox" name="preferred_days" value="{{ day }}" id="prof_day_{{ day }}" {% if day in selected_days %}checked{% endif %}>
+                        <label class="form-check-label fw-semibold small" for="prof_day_{{ day }}">{{ day }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary rounded-pill px-4 fw-semibold">
+                Save Changes
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}

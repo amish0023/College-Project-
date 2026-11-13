@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — {{ assignment.title }}{% endblock %}
+
+{% block content %}
+<div class="container py-4" style="max-width: 860px;">
+    <!-- Assessment Header -->
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3 mb-4">
+        <div>
+            <div class="d-flex align-items-center gap-2 mb-1">
+                <span class="badge bg-primary-subtle text-primary fw-bold">{{ assignment.subject_name }}</span>
+                <span class="badge bg-light text-secondary border">{{ assignment.module_name }}</span>
+                <span class="badge bg-info-subtle text-info fw-bold">Mastery: {{ mastery }}</span>
+            </div>
+            <h1 class="h3 fw-bold text-dark mb-0">{{ assignment.title }}</h1>
+        </div>
+
+        <!-- Timer -->
+        <div class="bg-white p-2 px-3 rounded-pill border shadow-sm d-flex align-items-center gap-2">
+            <i class="bi bi-stopwatch-fill text-warning fs-5"></i>
+            <span id="quiz-timer" class="fw-bold text-dark fs-6">00:00</span>
+        </div>
+    </div>
+
+    <!-- Assessment Form -->
+    <form id="quiz-form" method="POST" action="{{ url_for('submit_assignment', assignment_id=assignment.id) }}">
+        <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+        <input type="hidden" id="time_spent_minutes" name="time_spent_minutes" value="1">
+
+        {% for q in questions %}
+        <div class="card card-modern p-4 mb-4 border-0 shadow-sm">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge bg-light text-secondary border fw-bold">Question {{ loop.index }} of {{ questions|length }}</span>
+                <span class="badge {% if q.difficulty == 'Hard' %}badge-priority-high{% elif q.difficulty == 'Medium' %}badge-priority-med{% else %}badge-priority-low{% endif %}">
+                    {{ q.difficulty }} Level
+                </span>
+            </div>
+
+            <h5 class="fw-bold text-dark mb-4">{{ q.question_text }}</h5>
+
+            <div class="d-flex flex-column gap-2">
+                <!-- Option A -->
+                <label class="p-3 rounded-3 border bg-light d-flex align-items-center gap-3 cursor-pointer">
+                    <input class="form-check-input fs-5 m-0" type="radio" name="q_{{ q.id }}" value="A" required>
+                    <span class="text-dark">{{ q.option_a }}</span>
+                </label>
+
+                <!-- Option B -->
+                <label class="p-3 rounded-3 border bg-light d-flex align-items-center gap-3 cursor-pointer">
+                    <input class="form-check-input fs-5 m-0" type="radio" name="q_{{ q.id }}" value="B">
+                    <span class="text-dark">{{ q.option_b }}</span>
+                </label>
+
+                <!-- Option C -->
+                <label class="p-3 rounded-3 border bg-light d-flex align-items-center gap-3 cursor-pointer">
+                    <input class="form-check-input fs-5 m-0" type="radio" name="q_{{ q.id }}" value="C">
+                    <span class="text-dark">{{ q.option_c }}</span>
+                </label>
+
+                <!-- Option D -->
+                <label class="p-3 rounded-3 border bg-light d-flex align-items-center gap-3 cursor-pointer">
+                    <input class="form-check-input fs-5 m-0" type="radio" name="q_{{ q.id }}" value="D">
+                    <span class="text-dark">{{ q.option_d }}</span>
+                </label>
+            </div>
+        </div>
+        {% endfor %}
+
+        <div class="d-flex justify-content-between align-items-center pt-3 border-top mb-5">
+            <a href="{{ url_for('dashboard') }}" class="btn btn-outline-secondary rounded-pill px-4" onclick="return confirm('Abandon assessment? Progress will not be saved.');">
+                Cancel
+            </a>
+            <button type="submit" class="btn btn-primary rounded-pill px-5 py-2 fw-semibold shadow-sm">
+                Submit Assessment <i class="bi bi-arrow-right ms-2"></i>
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    let secondsElapsed = 0;
+    const timerEl = document.getElementById('quiz-timer');
+    const timeSpentInput = document.getElementById('time_spent_minutes');
+    
+    setInterval(() => {
+        secondsElapsed++;
+        const mins = Math.floor(secondsElapsed / 60);
+        const secs = secondsElapsed % 60;
+        timerEl.innerText = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        timeSpentInput.value = Math.max(1, Math.round(secondsElapsed / 60));
+    }, 1000);
+});
+</script>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block title %}Personalised Learning — Choose Your Semester{% endblock %}
+
+{% block content %}
+<div class="container py-4" style="max-width: 1080px;">
+    <div class="text-center mb-5">
+        <h1 class="display-6 fw-bold text-dark mb-2">Choose Your Semester</h1>
+        <p class="text-secondary lead fs-6">Select your current semester to personalize your learning experience.</p>
+    </div>
+
+    <form method="POST" action="{{ url_for('select_semester') }}">
+        <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+
+        <div class="row g-4 mb-4">
+            {% for sem in semesters %}
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 sem-card p-3 rounded-4 shadow-sm text-center d-flex flex-column justify-content-between {% if current_sem == sem.semester_number %}border-primary bg-light{% endif %}">
+                    <div>
+                        <div class="d-inline-flex p-3 rounded-circle bg-primary-subtle text-primary mb-3">
+                            <span class="fs-4 fw-bold">{{ sem.semester_number }}</span>
+                        </div>
+                        <h5 class="fw-bold text-dark mb-2">{{ sem.name }}</h5>
+                        <p class="text-muted small mb-3">{{ sem.description }}</p>
+                    </div>
+
+                    <div>
+                        <button type="submit" name="semester" value="{{ sem.semester_number }}" class="btn {% if current_sem == sem.semester_number %}btn-primary{% else %}btn-outline-primary{% endif %} w-100 py-2 rounded-pill fw-semibold">
+                            {% if current_sem == sem.semester_number %}Selected <i class="bi bi-check2"></i>{% else %}Select{% endif %}
+                        </button>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </form>
+</div>
+{% endblock %}
